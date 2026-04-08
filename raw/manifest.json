@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "description": "Tracks source articles ingested into raw/articles/ and their corresponding wiki pages.",
+  "last_sync": null,
+  "source_repo": "MicrosoftDocs/azure-docs-pr",
+  "source_paths": [
+    "articles/networking/",
+    "articles/virtual-network/",
+    "articles/expressroute/",
+    "articles/vpn-gateway/",
+    "articles/firewall/",
+    "articles/application-gateway/",
+    "articles/load-balancer/",
+    "articles/nat-gateway/",
+    "articles/bastion/",
+    "articles/private-link/",
+    "articles/ddos-protection/",
+    "articles/dns/",
+    "articles/network-watcher/"
+  ],
+  "articles": []
+}
