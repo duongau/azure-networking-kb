@@ -1,9 +1,8 @@
 # Azure Networking KB — Squad Roster
 
 | Name | Role | Charter |
-|---|---|
-|---|
-| Atlas | Compiler — ingests raw/ and writes wiki/ | [charter](agents/atlas/charter.md) |
+|---|---|---|
+| **Atlas** ⭐ | **Squad lead** + Compiler — ingests raw/ and writes wiki/ | [charter](agents/atlas/charter.md) |
 | Lore | Librarian — health-checks wiki/ | [charter](agents/lore/charter.md) |
 | Scribe | Silent memory manager — logs decisions | [charter](agents/scribe/charter.md) |
 

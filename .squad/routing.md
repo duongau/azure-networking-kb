@@ -11,7 +11,7 @@
 | Write health-report.md | Lore |
 | Flag stale wiki pages | Lore |
 | Log decisions | Scribe |
-| Triage incoming issues | Flight (coordinator) |
+| Triage incoming issues | Atlas (squad lead) |
 
 ## Escalation
 

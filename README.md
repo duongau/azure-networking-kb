@@ -93,7 +93,7 @@ Open the folder in VS Code and select the **Squad** agent in Copilot Chat.
 
 ### 3. Compile the wiki
 
-Ask Flight (the squad coordinator) to compile:
+Ask Atlas (the squad lead) to compile:
 
 ```
 Atlas, compile all services in raw/articles/networking/ into wiki/services/
