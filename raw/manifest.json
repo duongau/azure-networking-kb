@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "description": "Tracks source articles ingested into raw/articles/ and their corresponding wiki pages.",
-  "last_sync": null,
+  "last_sync": "2026-04-07T18:02:55Z",
   "source_repo": "MicrosoftDocs/azure-docs-pr",
   "source_paths": [
     "articles/networking/",
@@ -18,5 +18,2806 @@
     "articles/dns/",
     "articles/network-watcher/"
   ],
-  "articles": []
+  "articles": [
+    {
+      "path": "raw/articles/articles/nat-gateway/manage-nat-gateway-v2.md",
+      "source_path": "articles/nat-gateway/manage-nat-gateway-v2.md",
+      "service": "nat-gateway",
+      "ms_date": "03/06/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/manage-nat-gateway.md",
+      "source_path": "articles/nat-gateway/manage-nat-gateway.md",
+      "service": "nat-gateway",
+      "ms_date": "09/17/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/monitor-nat-gateway-flow-logs.md",
+      "source_path": "articles/nat-gateway/monitor-nat-gateway-flow-logs.md",
+      "service": "nat-gateway",
+      "ms_date": "11/04/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/monitor-nat-gateway-reference.md",
+      "source_path": "articles/nat-gateway/monitor-nat-gateway-reference.md",
+      "service": "nat-gateway",
+      "ms_date": "12/02/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/monitor-nat-gateway.md",
+      "source_path": "articles/nat-gateway/monitor-nat-gateway.md",
+      "service": "nat-gateway",
+      "ms_date": "08/12/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/nat-gateway-design.md",
+      "source_path": "articles/nat-gateway/nat-gateway-design.md",
+      "service": "nat-gateway",
+      "ms_date": "11/04/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/nat-gateway-flow-logs.md",
+      "source_path": "articles/nat-gateway/nat-gateway-flow-logs.md",
+      "service": "nat-gateway",
+      "ms_date": "11/04/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/nat-gateway-resource.md",
+      "source_path": "articles/nat-gateway/nat-gateway-resource.md",
+      "service": "nat-gateway",
+      "ms_date": "11/04/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/nat-gateway-snat.md",
+      "source_path": "articles/nat-gateway/nat-gateway-snat.md",
+      "service": "nat-gateway",
+      "ms_date": "04/29/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/nat-gateway-v2-migrate.md",
+      "source_path": "articles/nat-gateway/nat-gateway-v2-migrate.md",
+      "service": "nat-gateway",
+      "ms_date": "01/13/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/nat-metrics.md",
+      "source_path": "articles/nat-gateway/nat-metrics.md",
+      "service": "nat-gateway",
+      "ms_date": "09/09/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/nat-overview.md",
+      "source_path": "articles/nat-gateway/nat-overview.md",
+      "service": "nat-gateway",
+      "ms_date": "11/04/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/nat-sku.md",
+      "source_path": "articles/nat-gateway/nat-sku.md",
+      "service": "nat-gateway",
+      "ms_date": "11/04/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/quickstart-create-nat-gateway-v2-templates.md",
+      "source_path": "articles/nat-gateway/quickstart-create-nat-gateway-v2-templates.md",
+      "service": "nat-gateway",
+      "ms_date": "09/24/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/quickstart-create-nat-gateway-v2.md",
+      "source_path": "articles/nat-gateway/quickstart-create-nat-gateway-v2.md",
+      "service": "nat-gateway",
+      "ms_date": "11/06/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/quickstart-create-nat-gateway.md",
+      "source_path": "articles/nat-gateway/quickstart-create-nat-gateway.md",
+      "service": "nat-gateway",
+      "ms_date": "04/30/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/region-move-nat-gateway.md",
+      "source_path": "articles/nat-gateway/region-move-nat-gateway.md",
+      "service": "nat-gateway",
+      "ms_date": "09/12/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/resource-health.md",
+      "source_path": "articles/nat-gateway/resource-health.md",
+      "service": "nat-gateway",
+      "ms_date": "08/12/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/troubleshoot-nat-and-azure-services.md",
+      "source_path": "articles/nat-gateway/troubleshoot-nat-and-azure-services.md",
+      "service": "nat-gateway",
+      "ms_date": "09/09/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/troubleshoot-nat-connectivity.md",
+      "source_path": "articles/nat-gateway/troubleshoot-nat-connectivity.md",
+      "service": "nat-gateway",
+      "ms_date": "09/08/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/troubleshoot-nat.md",
+      "source_path": "articles/nat-gateway/troubleshoot-nat.md",
+      "service": "nat-gateway",
+      "ms_date": "11/04/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/tutorial-hub-spoke-nat-firewall.md",
+      "source_path": "articles/nat-gateway/tutorial-hub-spoke-nat-firewall.md",
+      "service": "nat-gateway",
+      "ms_date": "09/11/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/tutorial-hub-spoke-route-nat.md",
+      "source_path": "articles/nat-gateway/tutorial-hub-spoke-route-nat.md",
+      "service": "nat-gateway",
+      "ms_date": "09/10/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/tutorial-migrate-ilip-nat.md",
+      "source_path": "articles/nat-gateway/tutorial-migrate-ilip-nat.md",
+      "service": "nat-gateway",
+      "ms_date": "09/12/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/tutorial-migrate-outbound-nat.md",
+      "source_path": "articles/nat-gateway/tutorial-migrate-outbound-nat.md",
+      "service": "nat-gateway",
+      "ms_date": "02/13/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/tutorial-nat-gateway-load-balancer-internal-portal.md",
+      "source_path": "articles/nat-gateway/tutorial-nat-gateway-load-balancer-internal-portal.md",
+      "service": "nat-gateway",
+      "ms_date": "09/11/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/nat-gateway/tutorial-nat-gateway-load-balancer-public-portal.md",
+      "source_path": "articles/nat-gateway/tutorial-nat-gateway-load-balancer-public-portal.md",
+      "service": "nat-gateway",
+      "ms_date": "09/11/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/accelerated-networking-how-it-works.md",
+      "source_path": "articles/virtual-network/accelerated-networking-how-it-works.md",
+      "service": "virtual-network",
+      "ms_date": "04/18/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/accelerated-networking-mana-existing-sizes.md",
+      "source_path": "articles/virtual-network/accelerated-networking-mana-existing-sizes.md",
+      "service": "virtual-network",
+      "ms_date": "02/02/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/accelerated-networking-mana-linux.md",
+      "source_path": "articles/virtual-network/accelerated-networking-mana-linux.md",
+      "service": "virtual-network",
+      "ms_date": "02/02/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/accelerated-networking-mana-network-virtual-appliance-opt-out.md",
+      "source_path": "articles/virtual-network/accelerated-networking-mana-network-virtual-appliance-opt-out.md",
+      "service": "virtual-network",
+      "ms_date": "03/17/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/accelerated-networking-mana-overview.md",
+      "source_path": "articles/virtual-network/accelerated-networking-mana-overview.md",
+      "service": "virtual-network",
+      "ms_date": "09/04/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/accelerated-networking-mana-windows.md",
+      "source_path": "articles/virtual-network/accelerated-networking-mana-windows.md",
+      "service": "virtual-network",
+      "ms_date": "07/10/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/accelerated-networking-overview.md",
+      "source_path": "articles/virtual-network/accelerated-networking-overview.md",
+      "service": "virtual-network",
+      "ms_date": "02/05/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/application-security-groups.md",
+      "source_path": "articles/virtual-network/application-security-groups.md",
+      "service": "virtual-network",
+      "ms_date": "07/25/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/concepts-and-best-practices.md",
+      "source_path": "articles/virtual-network/concepts-and-best-practices.md",
+      "service": "virtual-network",
+      "ms_date": "07/28/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/container-networking-overview.md",
+      "source_path": "articles/virtual-network/container-networking-overview.md",
+      "service": "virtual-network",
+      "ms_date": "03/25/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/create-peering-different-subscriptions-service-principal.md",
+      "source_path": "articles/virtual-network/create-peering-different-subscriptions-service-principal.md",
+      "service": "virtual-network",
+      "ms_date": "11/04/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/create-peering-different-subscriptions.md",
+      "source_path": "articles/virtual-network/create-peering-different-subscriptions.md",
+      "service": "virtual-network",
+      "ms_date": "07/29/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/create-ptr-for-smtp-service.md",
+      "source_path": "articles/virtual-network/create-ptr-for-smtp-service.md",
+      "service": "virtual-network",
+      "ms_date": "10/31/2018",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/create-virtual-machine-accelerated-networking.md",
+      "source_path": "articles/virtual-network/create-virtual-machine-accelerated-networking.md",
+      "service": "virtual-network",
+      "ms_date": "02/19/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/deploy-container-networking-docker-linux.md",
+      "source_path": "articles/virtual-network/deploy-container-networking-docker-linux.md",
+      "service": "virtual-network",
+      "ms_date": "02/23/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/deploy-container-networking.md",
+      "source_path": "articles/virtual-network/deploy-container-networking.md",
+      "service": "virtual-network",
+      "ms_date": "03/24/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/diagnose-network-routing-problem.md",
+      "source_path": "articles/virtual-network/diagnose-network-routing-problem.md",
+      "service": "virtual-network",
+      "ms_date": "04/02/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/diagnose-network-traffic-filter-problem.md",
+      "source_path": "articles/virtual-network/diagnose-network-traffic-filter-problem.md",
+      "service": "virtual-network",
+      "ms_date": "04/01/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/how-to-configure-subnet-peering.md",
+      "source_path": "articles/virtual-network/how-to-configure-subnet-peering.md",
+      "service": "virtual-network",
+      "ms_date": "12/09/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/how-to-create-encryption.md",
+      "source_path": "articles/virtual-network/how-to-create-encryption.md",
+      "service": "virtual-network",
+      "ms_date": "08/15/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/how-to-create-virtual-network-routing-appliance.md",
+      "source_path": "articles/virtual-network/how-to-create-virtual-network-routing-appliance.md",
+      "service": "virtual-network",
+      "ms_date": "02/04/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/how-to-dhcp-azure.md",
+      "source_path": "articles/virtual-network/how-to-dhcp-azure.md",
+      "service": "virtual-network",
+      "ms_date": "02/23/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/how-to-multiple-prefixes-subnet.md",
+      "source_path": "articles/virtual-network/how-to-multiple-prefixes-subnet.md",
+      "service": "virtual-network",
+      "ms_date": "08/29/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/how-to-virtual-machine-mtu.md",
+      "source_path": "articles/virtual-network/how-to-virtual-machine-mtu.md",
+      "service": "virtual-network",
+      "ms_date": "07/22/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-based-access-control-list-overview.md",
+      "source_path": "articles/virtual-network/ip-based-access-control-list-overview.md",
+      "service": "virtual-network",
+      "ms_date": "05/02/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/kubernetes-network-policies.md",
+      "source_path": "articles/virtual-network/kubernetes-network-policies.md",
+      "service": "virtual-network",
+      "ms_date": "03/25/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/manage-accelerated-networking.md",
+      "source_path": "articles/virtual-network/manage-accelerated-networking.md",
+      "service": "virtual-network",
+      "ms_date": "01/07/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/manage-network-security-group.md",
+      "source_path": "articles/virtual-network/manage-network-security-group.md",
+      "service": "virtual-network",
+      "ms_date": "07/26/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/manage-subnet-delegation.md",
+      "source_path": "articles/virtual-network/manage-subnet-delegation.md",
+      "service": "virtual-network",
+      "ms_date": "07/29/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/monitor-virtual-network-reference.md",
+      "source_path": "articles/virtual-network/monitor-virtual-network-reference.md",
+      "service": "virtual-network",
+      "ms_date": "07/21/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/monitor-virtual-network.md",
+      "source_path": "articles/virtual-network/monitor-virtual-network.md",
+      "service": "virtual-network",
+      "ms_date": "07/21/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/network-optimized-vm-network-connection-acceleration.md",
+      "source_path": "articles/virtual-network/network-optimized-vm-network-connection-acceleration.md",
+      "service": "virtual-network",
+      "ms_date": "05/19/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/network-overview.md",
+      "source_path": "articles/virtual-network/network-overview.md",
+      "service": "virtual-network",
+      "ms_date": "04/15/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/network-security-group-how-it-works.md",
+      "source_path": "articles/virtual-network/network-security-group-how-it-works.md",
+      "service": "virtual-network",
+      "ms_date": "07/28/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/network-security-groups-overview.md",
+      "source_path": "articles/virtual-network/network-security-groups-overview.md",
+      "service": "virtual-network",
+      "ms_date": "07/15/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/policy-reference.md",
+      "source_path": "articles/virtual-network/policy-reference.md",
+      "service": "virtual-network",
+      "ms_date": "02/06/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/quickstart-create-virtual-network.md",
+      "source_path": "articles/virtual-network/quickstart-create-virtual-network.md",
+      "service": "virtual-network",
+      "ms_date": "07/10/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/secure-virtual-network.md",
+      "source_path": "articles/virtual-network/secure-virtual-network.md",
+      "service": "virtual-network",
+      "ms_date": "06/18/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/security-controls-policy.md",
+      "source_path": "articles/virtual-network/security-controls-policy.md",
+      "service": "virtual-network",
+      "ms_date": "02/06/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/service-tags-overview.md",
+      "source_path": "articles/virtual-network/service-tags-overview.md",
+      "service": "virtual-network",
+      "ms_date": "07/15/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/setup-dpdk-mana.md",
+      "source_path": "articles/virtual-network/setup-dpdk-mana.md",
+      "service": "virtual-network",
+      "ms_date": "07/10/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/setup-dpdk.md",
+      "source_path": "articles/virtual-network/setup-dpdk.md",
+      "service": "virtual-network",
+      "ms_date": "10/02/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/subnet-delegation-overview.md",
+      "source_path": "articles/virtual-network/subnet-delegation-overview.md",
+      "service": "virtual-network",
+      "ms_date": "07/28/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/subnet-extension.md",
+      "source_path": "articles/virtual-network/subnet-extension.md",
+      "service": "virtual-network",
+      "ms_date": "04/06/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/tutorial-connect-virtual-networks.md",
+      "source_path": "articles/virtual-network/tutorial-connect-virtual-networks.md",
+      "service": "virtual-network",
+      "ms_date": "07/11/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/tutorial-create-route-table.md",
+      "source_path": "articles/virtual-network/tutorial-create-route-table.md",
+      "service": "virtual-network",
+      "ms_date": "02/05/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/tutorial-filter-network-traffic.md",
+      "source_path": "articles/virtual-network/tutorial-filter-network-traffic.md",
+      "service": "virtual-network",
+      "ms_date": "08/19/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/tutorial-restrict-network-access-to-resources.md",
+      "source_path": "articles/virtual-network/tutorial-restrict-network-access-to-resources.md",
+      "service": "virtual-network",
+      "ms_date": "02/20/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/tutorial-tap-virtual-network-cli.md",
+      "source_path": "articles/virtual-network/tutorial-tap-virtual-network-cli.md",
+      "service": "virtual-network",
+      "ms_date": "04/21/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/tutorial-virtual-network-tap-portal.md",
+      "source_path": "articles/virtual-network/tutorial-virtual-network-tap-portal.md",
+      "service": "virtual-network",
+      "ms_date": "04/21/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-machine-network-throughput.md",
+      "source_path": "articles/virtual-network/virtual-machine-network-throughput.md",
+      "service": "virtual-network",
+      "ms_date": "07/28/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-cost-optimization.md",
+      "source_path": "articles/virtual-network/virtual-network-cost-optimization.md",
+      "service": "virtual-network",
+      "ms_date": "02/23/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-encryption-overview.md",
+      "source_path": "articles/virtual-network/virtual-network-encryption-overview.md",
+      "service": "virtual-network",
+      "ms_date": "12/11/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-manage-peering.md",
+      "source_path": "articles/virtual-network/virtual-network-manage-peering.md",
+      "service": "virtual-network",
+      "ms_date": "07/29/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-manage-subnet.md",
+      "source_path": "articles/virtual-network/virtual-network-manage-subnet.md",
+      "service": "virtual-network",
+      "ms_date": "07/29/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-network-interface.md",
+      "source_path": "articles/virtual-network/virtual-network-network-interface.md",
+      "service": "virtual-network",
+      "ms_date": "07/28/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-nsg-manage-log.md",
+      "source_path": "articles/virtual-network/virtual-network-nsg-manage-log.md",
+      "service": "virtual-network",
+      "ms_date": "07/11/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-optimize-network-bandwidth.md",
+      "source_path": "articles/virtual-network/virtual-network-optimize-network-bandwidth.md",
+      "service": "virtual-network",
+      "ms_date": "08/02/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-peering-overview.md",
+      "source_path": "articles/virtual-network/virtual-network-peering-overview.md",
+      "service": "virtual-network",
+      "ms_date": "07/16/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-routing-appliance-overview.md",
+      "source_path": "articles/virtual-network/virtual-network-routing-appliance-overview.md",
+      "service": "virtual-network",
+      "ms_date": "02/04/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-scenario-udr-gw-nva.md",
+      "source_path": "articles/virtual-network/virtual-network-scenario-udr-gw-nva.md",
+      "service": "virtual-network",
+      "ms_date": "03/22/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-service-endpoint-policies-overview.md",
+      "source_path": "articles/virtual-network/virtual-network-service-endpoint-policies-overview.md",
+      "service": "virtual-network",
+      "ms_date": "04/16/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-service-endpoint-policies.md",
+      "source_path": "articles/virtual-network/virtual-network-service-endpoint-policies.md",
+      "service": "virtual-network",
+      "ms_date": "08/20/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-service-endpoints-overview.md",
+      "source_path": "articles/virtual-network/virtual-network-service-endpoints-overview.md",
+      "service": "virtual-network",
+      "ms_date": "07/22/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-support-help.md",
+      "source_path": "articles/virtual-network/virtual-network-support-help.md",
+      "service": "virtual-network",
+      "ms_date": "03/03/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-tap-overview.md",
+      "source_path": "articles/virtual-network/virtual-network-tap-overview.md",
+      "service": "virtual-network",
+      "ms_date": "04/21/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-tcpip-performance-tuning.md",
+      "source_path": "articles/virtual-network/virtual-network-tcpip-performance-tuning.md",
+      "service": "virtual-network",
+      "ms_date": "04/21/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-troubleshoot-nva.md",
+      "source_path": "articles/virtual-network/virtual-network-troubleshoot-nva.md",
+      "service": "virtual-network",
+      "ms_date": "04/03/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-network-vnet-plan-design-arm.md",
+      "source_path": "articles/virtual-network/virtual-network-vnet-plan-design-arm.md",
+      "service": "virtual-network",
+      "ms_date": "04/17/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-networks-faq.md",
+      "source_path": "articles/virtual-network/virtual-networks-faq.md",
+      "service": "virtual-network",
+      "ms_date": "07/22/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-networks-name-resolution-ddns.md",
+      "source_path": "articles/virtual-network/virtual-networks-name-resolution-ddns.md",
+      "service": "virtual-network",
+      "ms_date": "03/20/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances.md",
+      "source_path": "articles/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances.md",
+      "service": "virtual-network",
+      "ms_date": "07/24/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-networks-overview.md",
+      "source_path": "articles/virtual-network/virtual-networks-overview.md",
+      "service": "virtual-network",
+      "ms_date": "07/17/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/virtual-networks-udr-overview.md",
+      "source_path": "articles/virtual-network/virtual-networks-udr-overview.md",
+      "service": "virtual-network",
+      "ms_date": "10/30/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/vnet-integration-for-azure-services.md",
+      "source_path": "articles/virtual-network/vnet-integration-for-azure-services.md",
+      "service": "virtual-network",
+      "ms_date": "07/28/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/what-is-ip-address-168-63-129-16.md",
+      "source_path": "articles/virtual-network/what-is-ip-address-168-63-129-16.md",
+      "service": "virtual-network",
+      "ms_date": "07/25/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/add-dual-stack-ipv6-vm-portal.md",
+      "source_path": "articles/virtual-network/ip-services/add-dual-stack-ipv6-vm-portal.md",
+      "service": "virtual-network",
+      "ms_date": "11/20/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/associate-public-ip-address-vm.md",
+      "source_path": "articles/virtual-network/ip-services/associate-public-ip-address-vm.md",
+      "service": "virtual-network",
+      "ms_date": "11/20/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/configure-public-ip-application-gateway.md",
+      "source_path": "articles/virtual-network/ip-services/configure-public-ip-application-gateway.md",
+      "service": "virtual-network",
+      "ms_date": "01/07/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/configure-public-ip-bastion.md",
+      "source_path": "articles/virtual-network/ip-services/configure-public-ip-bastion.md",
+      "service": "virtual-network",
+      "ms_date": "01/07/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/configure-public-ip-firewall.md",
+      "source_path": "articles/virtual-network/ip-services/configure-public-ip-firewall.md",
+      "service": "virtual-network",
+      "ms_date": "01/07/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/configure-public-ip-load-balancer.md",
+      "source_path": "articles/virtual-network/ip-services/configure-public-ip-load-balancer.md",
+      "service": "virtual-network",
+      "ms_date": "01/07/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/configure-public-ip-nat-gateway.md",
+      "source_path": "articles/virtual-network/ip-services/configure-public-ip-nat-gateway.md",
+      "service": "virtual-network",
+      "ms_date": "01/07/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/configure-public-ip-vpn-gateway.md",
+      "source_path": "articles/virtual-network/ip-services/configure-public-ip-vpn-gateway.md",
+      "service": "virtual-network",
+      "ms_date": "01/07/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/configure-routing-preference-virtual-machine.md",
+      "source_path": "articles/virtual-network/ip-services/configure-routing-preference-virtual-machine.md",
+      "service": "virtual-network",
+      "ms_date": "02/24/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/create-custom-ip-address-prefix-ipv6-portal.md",
+      "source_path": "articles/virtual-network/ip-services/create-custom-ip-address-prefix-ipv6-portal.md",
+      "service": "virtual-network",
+      "ms_date": "08/06/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/create-custom-ip-address-prefix-portal.md",
+      "source_path": "articles/virtual-network/ip-services/create-custom-ip-address-prefix-portal.md",
+      "service": "virtual-network",
+      "ms_date": "08/08/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/create-public-ip-cli.md",
+      "source_path": "articles/virtual-network/ip-services/create-public-ip-cli.md",
+      "service": "virtual-network",
+      "ms_date": "11/05/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/create-public-ip-portal.md",
+      "source_path": "articles/virtual-network/ip-services/create-public-ip-portal.md",
+      "service": "virtual-network",
+      "ms_date": "04/16/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/create-public-ip-powershell.md",
+      "source_path": "articles/virtual-network/ip-services/create-public-ip-powershell.md",
+      "service": "virtual-network",
+      "ms_date": "11/05/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/create-public-ip-prefix-cli.md",
+      "source_path": "articles/virtual-network/ip-services/create-public-ip-prefix-cli.md",
+      "service": "virtual-network",
+      "ms_date": "01/10/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/create-public-ip-prefix-portal.md",
+      "source_path": "articles/virtual-network/ip-services/create-public-ip-prefix-portal.md",
+      "service": "virtual-network",
+      "ms_date": "01/09/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/create-public-ip-prefix-powershell.md",
+      "source_path": "articles/virtual-network/ip-services/create-public-ip-prefix-powershell.md",
+      "service": "virtual-network",
+      "ms_date": "01/09/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/create-public-ip-prefix-terraform.md",
+      "source_path": "articles/virtual-network/ip-services/create-public-ip-prefix-terraform.md",
+      "service": "virtual-network",
+      "ms_date": "02/18/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/create-public-ip-template.md",
+      "source_path": "articles/virtual-network/ip-services/create-public-ip-template.md",
+      "service": "virtual-network",
+      "ms_date": "11/05/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/create-public-ip-terraform.md",
+      "source_path": "articles/virtual-network/ip-services/create-public-ip-terraform.md",
+      "service": "virtual-network",
+      "ms_date": "11/05/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/create-vm-dual-stack-ipv6-portal.md",
+      "source_path": "articles/virtual-network/ip-services/create-vm-dual-stack-ipv6-portal.md",
+      "service": "virtual-network",
+      "ms_date": "02/24/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/custom-ip-address-prefix.md",
+      "source_path": "articles/virtual-network/ip-services/custom-ip-address-prefix.md",
+      "service": "virtual-network",
+      "ms_date": "08/05/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/default-outbound-access.md",
+      "source_path": "articles/virtual-network/ip-services/default-outbound-access.md",
+      "service": "virtual-network",
+      "ms_date": "01/30/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/ip-services-overview.md",
+      "source_path": "articles/virtual-network/ip-services/ip-services-overview.md",
+      "service": "virtual-network",
+      "ms_date": "11/05/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/ipv6-overview.md",
+      "source_path": "articles/virtual-network/ip-services/ipv6-overview.md",
+      "service": "virtual-network",
+      "ms_date": "10/16/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/ipv6-virtual-machine-scale-set.md",
+      "source_path": "articles/virtual-network/ip-services/ipv6-virtual-machine-scale-set.md",
+      "service": "virtual-network",
+      "ms_date": "01/08/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/manage-custom-ip-address-prefix.md",
+      "source_path": "articles/virtual-network/ip-services/manage-custom-ip-address-prefix.md",
+      "service": "virtual-network",
+      "ms_date": "01/08/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/manage-public-ip-address-prefix.md",
+      "source_path": "articles/virtual-network/ip-services/manage-public-ip-address-prefix.md",
+      "service": "virtual-network",
+      "ms_date": "01/08/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/monitor-public-ip-reference.md",
+      "source_path": "articles/virtual-network/ip-services/monitor-public-ip-reference.md",
+      "service": "virtual-network",
+      "ms_date": "07/21/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/monitor-public-ip.md",
+      "source_path": "articles/virtual-network/ip-services/monitor-public-ip.md",
+      "service": "virtual-network",
+      "ms_date": "07/21/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/private-ip-addresses.md",
+      "source_path": "articles/virtual-network/ip-services/private-ip-addresses.md",
+      "service": "virtual-network",
+      "ms_date": "11/05/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/public-ip-address-prefix.md",
+      "source_path": "articles/virtual-network/ip-services/public-ip-address-prefix.md",
+      "service": "virtual-network",
+      "ms_date": "01/08/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/public-ip-addresses.md",
+      "source_path": "articles/virtual-network/ip-services/public-ip-addresses.md",
+      "service": "virtual-network",
+      "ms_date": "02/04/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/public-ip-basic-upgrade-guidance.md",
+      "source_path": "articles/virtual-network/ip-services/public-ip-basic-upgrade-guidance.md",
+      "service": "virtual-network",
+      "ms_date": "11/20/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/public-ip-upgrade-availability-set.md",
+      "source_path": "articles/virtual-network/ip-services/public-ip-upgrade-availability-set.md",
+      "service": "virtual-network",
+      "ms_date": "11/20/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/public-ip-upgrade-classic.md",
+      "source_path": "articles/virtual-network/ip-services/public-ip-upgrade-classic.md",
+      "service": "virtual-network",
+      "ms_date": "11/20/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/public-ip-upgrade-vm.md",
+      "source_path": "articles/virtual-network/ip-services/public-ip-upgrade-vm.md",
+      "service": "virtual-network",
+      "ms_date": "11/20/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/public-ip-upgrade.md",
+      "source_path": "articles/virtual-network/ip-services/public-ip-upgrade.md",
+      "service": "virtual-network",
+      "ms_date": "09/05/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/remove-public-ip-address-vm.md",
+      "source_path": "articles/virtual-network/ip-services/remove-public-ip-address-vm.md",
+      "service": "virtual-network",
+      "ms_date": "11/19/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/routing-preference-azure-kubernetes-service-cli.md",
+      "source_path": "articles/virtual-network/ip-services/routing-preference-azure-kubernetes-service-cli.md",
+      "service": "virtual-network",
+      "ms_date": "08/12/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/routing-preference-mixed-network-adapter-portal.md",
+      "source_path": "articles/virtual-network/ip-services/routing-preference-mixed-network-adapter-portal.md",
+      "service": "virtual-network",
+      "ms_date": "08/24/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/routing-preference-overview.md",
+      "source_path": "articles/virtual-network/ip-services/routing-preference-overview.md",
+      "service": "virtual-network",
+      "ms_date": "01/12/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/routing-preference-portal.md",
+      "source_path": "articles/virtual-network/ip-services/routing-preference-portal.md",
+      "service": "virtual-network",
+      "ms_date": "07/25/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/routing-preference-unmetered.md",
+      "source_path": "articles/virtual-network/ip-services/routing-preference-unmetered.md",
+      "service": "virtual-network",
+      "ms_date": "11/20/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/virtual-network-multiple-ip-addresses-cli.md",
+      "source_path": "articles/virtual-network/ip-services/virtual-network-multiple-ip-addresses-cli.md",
+      "service": "virtual-network",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/virtual-network-multiple-ip-addresses-portal.md",
+      "source_path": "articles/virtual-network/ip-services/virtual-network-multiple-ip-addresses-portal.md",
+      "service": "virtual-network",
+      "ms_date": "02/06/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/virtual-network-multiple-ip-addresses-powershell.md",
+      "source_path": "articles/virtual-network/ip-services/virtual-network-multiple-ip-addresses-powershell.md",
+      "service": "virtual-network",
+      "ms_date": "08/24/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/virtual-network-network-interface-addresses.md",
+      "source_path": "articles/virtual-network/ip-services/virtual-network-network-interface-addresses.md",
+      "service": "virtual-network",
+      "ms_date": "12/01/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/virtual-network-private-ip-address-blocks-portal.md",
+      "source_path": "articles/virtual-network/ip-services/virtual-network-private-ip-address-blocks-portal.md",
+      "service": "virtual-network",
+      "ms_date": "11/07/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/virtual-network-public-ip-address.md",
+      "source_path": "articles/virtual-network/ip-services/virtual-network-public-ip-address.md",
+      "service": "virtual-network",
+      "ms_date": "01/08/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/virtual-network-static-public-ip.md",
+      "source_path": "articles/virtual-network/ip-services/virtual-network-static-public-ip.md",
+      "service": "virtual-network",
+      "ms_date": "02/24/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/virtual-network/ip-services/virtual-networks-static-private-ip.md",
+      "source_path": "articles/virtual-network/ip-services/virtual-networks-static-private-ip.md",
+      "service": "virtual-network",
+      "ms_date": "02/24/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/delegate-subdomain-ps.md",
+      "source_path": "articles/dns/delegate-subdomain-ps.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/delegate-subdomain.md",
+      "source_path": "articles/dns/delegate-subdomain.md",
+      "service": "dns",
+      "ms_date": "06/07/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-alias-appservice.md",
+      "source_path": "articles/dns/dns-alias-appservice.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-alias.md",
+      "source_path": "articles/dns/dns-alias.md",
+      "service": "dns",
+      "ms_date": "09/24/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-custom-domain.md",
+      "source_path": "articles/dns/dns-custom-domain.md",
+      "service": "dns",
+      "ms_date": "07/22/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-delegate-domain-azure-dns.md",
+      "source_path": "articles/dns/dns-delegate-domain-azure-dns.md",
+      "service": "dns",
+      "ms_date": "06/07/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-domain-delegation.md",
+      "source_path": "articles/dns/dns-domain-delegation.md",
+      "service": "dns",
+      "ms_date": "06/07/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-for-azure-services.md",
+      "source_path": "articles/dns/dns-for-azure-services.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-get-started-bicep.md",
+      "source_path": "articles/dns/dns-get-started-bicep.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-get-started-template.md",
+      "source_path": "articles/dns/dns-get-started-template.md",
+      "service": "dns",
+      "ms_date": "11/05/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-get-started-terraform.md",
+      "source_path": "articles/dns/dns-get-started-terraform.md",
+      "service": "dns",
+      "ms_date": "4/14/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-getstarted-cli.md",
+      "source_path": "articles/dns/dns-getstarted-cli.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-getstarted-portal.md",
+      "source_path": "articles/dns/dns-getstarted-portal.md",
+      "service": "dns",
+      "ms_date": "06/07/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-getstarted-powershell.md",
+      "source_path": "articles/dns/dns-getstarted-powershell.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-import-export-portal.md",
+      "source_path": "articles/dns/dns-import-export-portal.md",
+      "service": "dns",
+      "ms_date": "02/05/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-import-export.md",
+      "source_path": "articles/dns/dns-import-export.md",
+      "service": "dns",
+      "ms_date": "10/20/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-operations-dnszones-cli.md",
+      "source_path": "articles/dns/dns-operations-dnszones-cli.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-operations-dnszones-portal.md",
+      "source_path": "articles/dns/dns-operations-dnszones-portal.md",
+      "service": "dns",
+      "ms_date": "06/07/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-operations-dnszones.md",
+      "source_path": "articles/dns/dns-operations-dnszones.md",
+      "service": "dns",
+      "ms_date": "03/07/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-operations-recordsets-cli.md",
+      "source_path": "articles/dns/dns-operations-recordsets-cli.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-operations-recordsets-portal.md",
+      "source_path": "articles/dns/dns-operations-recordsets-portal.md",
+      "service": "dns",
+      "ms_date": "06/27/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-operations-recordsets.md",
+      "source_path": "articles/dns/dns-operations-recordsets.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-overview.md",
+      "source_path": "articles/dns/dns-overview.md",
+      "service": "dns",
+      "ms_date": "12/16/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-private-records.md",
+      "source_path": "articles/dns/dns-private-records.md",
+      "service": "dns",
+      "ms_date": "02/07/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-private-resolver-get-started-bicep.md",
+      "source_path": "articles/dns/dns-private-resolver-get-started-bicep.md",
+      "service": "dns",
+      "ms_date": "02/28/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-private-resolver-get-started-portal.md",
+      "source_path": "articles/dns/dns-private-resolver-get-started-portal.md",
+      "service": "dns",
+      "ms_date": "08/21/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-private-resolver-get-started-powershell.md",
+      "source_path": "articles/dns/dns-private-resolver-get-started-powershell.md",
+      "service": "dns",
+      "ms_date": "04/05/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-private-resolver-get-started-template.md",
+      "source_path": "articles/dns/dns-private-resolver-get-started-template.md",
+      "service": "dns",
+      "ms_date": "02/28/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-private-resolver-get-started-terraform.md",
+      "source_path": "articles/dns/dns-private-resolver-get-started-terraform.md",
+      "service": "dns",
+      "ms_date": "02/18/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-private-resolver-overview.md",
+      "source_path": "articles/dns/dns-private-resolver-overview.md",
+      "service": "dns",
+      "ms_date": "12/16/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-private-zone-terraform.md",
+      "source_path": "articles/dns/dns-private-zone-terraform.md",
+      "service": "dns",
+      "ms_date": "2/19/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-protect-private-zones-recordsets.md",
+      "source_path": "articles/dns/dns-protect-private-zones-recordsets.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-protect-zones-recordsets.md",
+      "source_path": "articles/dns/dns-protect-zones-recordsets.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-reverse-dns-for-azure-services.md",
+      "source_path": "articles/dns/dns-reverse-dns-for-azure-services.md",
+      "service": "dns",
+      "ms_date": "04/21/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-reverse-dns-hosting.md",
+      "source_path": "articles/dns/dns-reverse-dns-hosting.md",
+      "service": "dns",
+      "ms_date": "04/21/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-reverse-dns-overview.md",
+      "source_path": "articles/dns/dns-reverse-dns-overview.md",
+      "service": "dns",
+      "ms_date": "04/21/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-security-policy.md",
+      "source_path": "articles/dns/dns-security-policy.md",
+      "service": "dns",
+      "ms_date": "11/17/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-traffic-log-how-to.md",
+      "source_path": "articles/dns/dns-traffic-log-how-to.md",
+      "service": "dns",
+      "ms_date": "07/02/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-troubleshoot.md",
+      "source_path": "articles/dns/dns-troubleshoot.md",
+      "service": "dns",
+      "ms_date": "08/06/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-web-sites-custom-domain.md",
+      "source_path": "articles/dns/dns-web-sites-custom-domain.md",
+      "service": "dns",
+      "ms_date": "08/04/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dns-zones-records.md",
+      "source_path": "articles/dns/dns-zones-records.md",
+      "service": "dns",
+      "ms_date": "12/18/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dnssec-how-to.md",
+      "source_path": "articles/dns/dnssec-how-to.md",
+      "service": "dns",
+      "ms_date": "01/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dnssec-unsign.md",
+      "source_path": "articles/dns/dnssec-unsign.md",
+      "service": "dns",
+      "ms_date": "01/27/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/dnssec.md",
+      "source_path": "articles/dns/dnssec.md",
+      "service": "dns",
+      "ms_date": "01/27/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/monitor-dns-reference.md",
+      "source_path": "articles/dns/monitor-dns-reference.md",
+      "service": "dns",
+      "ms_date": "01/06/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/monitor-dns.md",
+      "source_path": "articles/dns/monitor-dns.md",
+      "service": "dns",
+      "ms_date": "01/06/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-dns-arg.md",
+      "source_path": "articles/dns/private-dns-arg.md",
+      "service": "dns",
+      "ms_date": "03/20/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-dns-autoregistration.md",
+      "source_path": "articles/dns/private-dns-autoregistration.md",
+      "service": "dns",
+      "ms_date": "02/10/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-dns-fallback.md",
+      "source_path": "articles/dns/private-dns-fallback.md",
+      "service": "dns",
+      "ms_date": "02/04/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-dns-getstarted-cli.md",
+      "source_path": "articles/dns/private-dns-getstarted-cli.md",
+      "service": "dns",
+      "ms_date": "07/11/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-dns-getstarted-portal.md",
+      "source_path": "articles/dns/private-dns-getstarted-portal.md",
+      "service": "dns",
+      "ms_date": "02/26/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-dns-getstarted-powershell.md",
+      "source_path": "articles/dns/private-dns-getstarted-powershell.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-dns-import-export-portal.md",
+      "source_path": "articles/dns/private-dns-import-export-portal.md",
+      "service": "dns",
+      "ms_date": "02/07/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-dns-import-export.md",
+      "source_path": "articles/dns/private-dns-import-export.md",
+      "service": "dns",
+      "ms_date": "06/13/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-dns-migration-guide.md",
+      "source_path": "articles/dns/private-dns-migration-guide.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-dns-overview.md",
+      "source_path": "articles/dns/private-dns-overview.md",
+      "service": "dns",
+      "ms_date": "12/16/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-dns-privatednszone.md",
+      "source_path": "articles/dns/private-dns-privatednszone.md",
+      "service": "dns",
+      "ms_date": "12/18/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-dns-resiliency.md",
+      "source_path": "articles/dns/private-dns-resiliency.md",
+      "service": "dns",
+      "ms_date": "06/09/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-dns-scenarios.md",
+      "source_path": "articles/dns/private-dns-scenarios.md",
+      "service": "dns",
+      "ms_date": "02/10/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-dns-virtual-network-links.md",
+      "source_path": "articles/dns/private-dns-virtual-network-links.md",
+      "service": "dns",
+      "ms_date": "05/15/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-resolver-architecture.md",
+      "source_path": "articles/dns/private-resolver-architecture.md",
+      "service": "dns",
+      "ms_date": "01/10/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-resolver-endpoints-rulesets.md",
+      "source_path": "articles/dns/private-resolver-endpoints-rulesets.md",
+      "service": "dns",
+      "ms_date": "03/21/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-resolver-hybrid-dns.md",
+      "source_path": "articles/dns/private-resolver-hybrid-dns.md",
+      "service": "dns",
+      "ms_date": "04/05/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-resolver-reliability.md",
+      "source_path": "articles/dns/private-resolver-reliability.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/private-reverse-dns.md",
+      "source_path": "articles/dns/private-reverse-dns.md",
+      "service": "dns",
+      "ms_date": "06/20/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/public-dns-overview.md",
+      "source_path": "articles/dns/public-dns-overview.md",
+      "service": "dns",
+      "ms_date": "08/09/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/secure-dns.md",
+      "source_path": "articles/dns/secure-dns.md",
+      "service": "dns",
+      "ms_date": "08/06/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/sharding-private-dns-zones.md",
+      "source_path": "articles/dns/sharding-private-dns-zones.md",
+      "service": "dns",
+      "ms_date": "02/05/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/tutorial-alias-pip.md",
+      "source_path": "articles/dns/tutorial-alias-pip.md",
+      "service": "dns",
+      "ms_date": "03/03/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/tutorial-alias-rr.md",
+      "source_path": "articles/dns/tutorial-alias-rr.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/tutorial-alias-tm.md",
+      "source_path": "articles/dns/tutorial-alias-tm.md",
+      "service": "dns",
+      "ms_date": "03/03/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/tutorial-dns-private-resolver-failover.md",
+      "source_path": "articles/dns/tutorial-dns-private-resolver-failover.md",
+      "service": "dns",
+      "ms_date": "11/30/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/dns/tutorial-public-dns-zones-child.md",
+      "source_path": "articles/dns/tutorial-public-dns-zones-child.md",
+      "service": "dns",
+      "ms_date": "06/07/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/about-active-active-gateways.md",
+      "source_path": "articles/vpn-gateway/about-active-active-gateways.md",
+      "service": "vpn-gateway",
+      "ms_date": "11/01/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/about-gateway-skus.md",
+      "source_path": "articles/vpn-gateway/about-gateway-skus.md",
+      "service": "vpn-gateway",
+      "ms_date": "06/23/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/about-site-to-site-tunneling.md",
+      "source_path": "articles/vpn-gateway/about-site-to-site-tunneling.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/about-vpn-profile-download.md",
+      "source_path": "articles/vpn-gateway/about-vpn-profile-download.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/add-remove-site-to-site-connections.md",
+      "source_path": "articles/vpn-gateway/add-remove-site-to-site-connections.md",
+      "service": "vpn-gateway",
+      "ms_date": "07/08/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/azure-vpn-client-optional-configurations.md",
+      "source_path": "articles/vpn-gateway/azure-vpn-client-optional-configurations.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/07/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/azure-vpn-client-prerequisites-check.md",
+      "source_path": "articles/vpn-gateway/azure-vpn-client-prerequisites-check.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/14/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/azure-vpn-client-versions.md",
+      "source_path": "articles/vpn-gateway/azure-vpn-client-versions.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/14/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/basic-public-ip-migrate-about.md",
+      "source_path": "articles/vpn-gateway/basic-public-ip-migrate-about.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/06/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/basic-public-ip-migrate-howto.md",
+      "source_path": "articles/vpn-gateway/basic-public-ip-migrate-howto.md",
+      "service": "vpn-gateway",
+      "ms_date": "01/30/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/basic-sku-public-ip-remove.md",
+      "source_path": "articles/vpn-gateway/basic-sku-public-ip-remove.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/24/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/bgp-how-to-cli.md",
+      "source_path": "articles/vpn-gateway/bgp-how-to-cli.md",
+      "service": "vpn-gateway",
+      "ms_date": "01/09/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/bgp-howto.md",
+      "source_path": "articles/vpn-gateway/bgp-howto.md",
+      "service": "vpn-gateway",
+      "ms_date": "10/16/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/create-custom-policies-p2s-ps.md",
+      "source_path": "articles/vpn-gateway/create-custom-policies-p2s-ps.md",
+      "service": "vpn-gateway",
+      "ms_date": "04/29/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/create-gateway-basic-sku-powershell.md",
+      "source_path": "articles/vpn-gateway/create-gateway-basic-sku-powershell.md",
+      "service": "vpn-gateway",
+      "ms_date": "01/23/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/create-gateway-powershell.md",
+      "source_path": "articles/vpn-gateway/create-gateway-powershell.md",
+      "service": "vpn-gateway",
+      "ms_date": "11/19/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/create-routebased-vpn-gateway-cli.md",
+      "source_path": "articles/vpn-gateway/create-routebased-vpn-gateway-cli.md",
+      "service": "vpn-gateway",
+      "ms_date": "11/18/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/create-zone-redundant-vnet-gateway.md",
+      "source_path": "articles/vpn-gateway/create-zone-redundant-vnet-gateway.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/custom-traffic-selectors.md",
+      "source_path": "articles/vpn-gateway/custom-traffic-selectors.md",
+      "service": "vpn-gateway",
+      "ms_date": "06/25/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/customer-controlled-gateway-maintenance.md",
+      "source_path": "articles/vpn-gateway/customer-controlled-gateway-maintenance.md",
+      "service": "vpn-gateway",
+      "ms_date": "04/16/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/design.md",
+      "source_path": "articles/vpn-gateway/design.md",
+      "service": "vpn-gateway",
+      "ms_date": "01/15/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/gateway-change-active-active.md",
+      "source_path": "articles/vpn-gateway/gateway-change-active-active.md",
+      "service": "vpn-gateway",
+      "ms_date": "12/05/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/gateway-sku-consolidation.md",
+      "source_path": "articles/vpn-gateway/gateway-sku-consolidation.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/03/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/gateway-sku-upgrade.md",
+      "source_path": "articles/vpn-gateway/gateway-sku-upgrade.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/03/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/ikev2-openvpn-from-sstp.md",
+      "source_path": "articles/vpn-gateway/ikev2-openvpn-from-sstp.md",
+      "service": "vpn-gateway",
+      "ms_date": "09/29/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/ipsec-ike-policy-howto.md",
+      "source_path": "articles/vpn-gateway/ipsec-ike-policy-howto.md",
+      "service": "vpn-gateway",
+      "ms_date": "12/02/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/ipv6-configuration.md",
+      "source_path": "articles/vpn-gateway/ipv6-configuration.md",
+      "service": "vpn-gateway",
+      "ms_date": "05/02/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/monitor-vpn-gateway-reference.md",
+      "source_path": "articles/vpn-gateway/monitor-vpn-gateway-reference.md",
+      "service": "vpn-gateway",
+      "ms_date": "07/26/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/monitor-vpn-gateway.md",
+      "source_path": "articles/vpn-gateway/monitor-vpn-gateway.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/nat-howto.md",
+      "source_path": "articles/vpn-gateway/nat-howto.md",
+      "service": "vpn-gateway",
+      "ms_date": "10/16/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/nat-overview.md",
+      "source_path": "articles/vpn-gateway/nat-overview.md",
+      "service": "vpn-gateway",
+      "ms_date": "10/16/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/nva-work-remotely-support.md",
+      "source_path": "articles/vpn-gateway/nva-work-remotely-support.md",
+      "service": "vpn-gateway",
+      "ms_date": "05/05/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/openvpn-azure-ad-mfa.md",
+      "source_path": "articles/vpn-gateway/openvpn-azure-ad-mfa.md",
+      "service": "vpn-gateway",
+      "ms_date": "01/17/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/openvpn-azure-ad-tenant.md",
+      "source_path": "articles/vpn-gateway/openvpn-azure-ad-tenant.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/25/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/p2s-session-management.md",
+      "source_path": "articles/vpn-gateway/p2s-session-management.md",
+      "service": "vpn-gateway",
+      "ms_date": "11/27/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/packet-capture.md",
+      "source_path": "articles/vpn-gateway/packet-capture.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-about.md",
+      "source_path": "articles/vpn-gateway/point-to-site-about.md",
+      "service": "vpn-gateway",
+      "ms_date": "07/09/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-certificate-client-linux-azure-vpn-client.md",
+      "source_path": "articles/vpn-gateway/point-to-site-certificate-client-linux-azure-vpn-client.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/26/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-certificate-gateway.md",
+      "source_path": "articles/vpn-gateway/point-to-site-certificate-gateway.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/10/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-certificates-linux-openssl.md",
+      "source_path": "articles/vpn-gateway/point-to-site-certificates-linux-openssl.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/20/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-entra-gateway-update.md",
+      "source_path": "articles/vpn-gateway/point-to-site-entra-gateway-update.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/10/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-entra-gateway.md",
+      "source_path": "articles/vpn-gateway/point-to-site-entra-gateway.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/13/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-entra-register-custom-app.md",
+      "source_path": "articles/vpn-gateway/point-to-site-entra-register-custom-app.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/27/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-entra-users-access.md",
+      "source_path": "articles/vpn-gateway/point-to-site-entra-users-access.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-entra-vpn-client-linux.md",
+      "source_path": "articles/vpn-gateway/point-to-site-entra-vpn-client-linux.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/10/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-entra-vpn-client-mac.md",
+      "source_path": "articles/vpn-gateway/point-to-site-entra-vpn-client-mac.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/10/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-entra-vpn-client-windows-device-sso.md",
+      "source_path": "articles/vpn-gateway/point-to-site-entra-vpn-client-windows-device-sso.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/26/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-entra-vpn-client-windows.md",
+      "source_path": "articles/vpn-gateway/point-to-site-entra-vpn-client-windows.md",
+      "service": "vpn-gateway",
+      "ms_date": "07/03/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-how-to-radius-ps.md",
+      "source_path": "articles/vpn-gateway/point-to-site-how-to-radius-ps.md",
+      "service": "vpn-gateway",
+      "ms_date": "12/06/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-how-to-vpn-client-install-azure-cert.md",
+      "source_path": "articles/vpn-gateway/point-to-site-how-to-vpn-client-install-azure-cert.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/13/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-radius-gateway.md",
+      "source_path": "articles/vpn-gateway/point-to-site-radius-gateway.md",
+      "service": "vpn-gateway",
+      "ms_date": "12/06/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-user-groups-about.md",
+      "source_path": "articles/vpn-gateway/point-to-site-user-groups-about.md",
+      "service": "vpn-gateway",
+      "ms_date": "08/27/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-user-groups-create.md",
+      "source_path": "articles/vpn-gateway/point-to-site-user-groups-create.md",
+      "service": "vpn-gateway",
+      "ms_date": "08/27/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-user-groups-radius.md",
+      "source_path": "articles/vpn-gateway/point-to-site-user-groups-radius.md",
+      "service": "vpn-gateway",
+      "ms_date": "08/27/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-vpn-client-cert-mac.md",
+      "source_path": "articles/vpn-gateway/point-to-site-vpn-client-cert-mac.md",
+      "service": "vpn-gateway",
+      "ms_date": "01/30/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-vpn-client-certificate-ike-linux.md",
+      "source_path": "articles/vpn-gateway/point-to-site-vpn-client-certificate-ike-linux.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/12/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-vpn-client-certificate-openvpn-ios.md",
+      "source_path": "articles/vpn-gateway/point-to-site-vpn-client-certificate-openvpn-ios.md",
+      "service": "vpn-gateway",
+      "ms_date": "06/18/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-vpn-client-certificate-openvpn-linux.md",
+      "source_path": "articles/vpn-gateway/point-to-site-vpn-client-certificate-openvpn-linux.md",
+      "service": "vpn-gateway",
+      "ms_date": "06/24/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-vpn-client-certificate-openvpn-mac.md",
+      "source_path": "articles/vpn-gateway/point-to-site-vpn-client-certificate-openvpn-mac.md",
+      "service": "vpn-gateway",
+      "ms_date": "06/18/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-vpn-client-certificate-windows-azure-vpn-client.md",
+      "source_path": "articles/vpn-gateway/point-to-site-vpn-client-certificate-windows-azure-vpn-client.md",
+      "service": "vpn-gateway",
+      "ms_date": "07/03/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-vpn-client-certificate-windows-native.md",
+      "source_path": "articles/vpn-gateway/point-to-site-vpn-client-certificate-windows-native.md",
+      "service": "vpn-gateway",
+      "ms_date": "05/14/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-vpn-client-certificate-windows-openvpn-client-version-3.md",
+      "source_path": "articles/vpn-gateway/point-to-site-vpn-client-certificate-windows-openvpn-client-version-3.md",
+      "service": "vpn-gateway",
+      "ms_date": "01/29/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-vpn-client-certificate-windows-openvpn-client.md",
+      "source_path": "articles/vpn-gateway/point-to-site-vpn-client-certificate-windows-openvpn-client.md",
+      "service": "vpn-gateway",
+      "ms_date": "01/29/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-vpn-client-configuration-radius-certificate.md",
+      "source_path": "articles/vpn-gateway/point-to-site-vpn-client-configuration-radius-certificate.md",
+      "service": "vpn-gateway",
+      "ms_date": "05/23/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-vpn-client-configuration-radius-other.md",
+      "source_path": "articles/vpn-gateway/point-to-site-vpn-client-configuration-radius-other.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/12/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-vpn-client-configuration-radius-password.md",
+      "source_path": "articles/vpn-gateway/point-to-site-vpn-client-configuration-radius-password.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/26/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/point-to-site-vpn-client-winget.md",
+      "source_path": "articles/vpn-gateway/point-to-site-vpn-client-winget.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/reset-gateway.md",
+      "source_path": "articles/vpn-gateway/reset-gateway.md",
+      "service": "vpn-gateway",
+      "ms_date": "06/26/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/roles-permissions.md",
+      "source_path": "articles/vpn-gateway/roles-permissions.md",
+      "service": "vpn-gateway",
+      "ms_date": "12/4/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/secure-vpn-gateway.md",
+      "source_path": "articles/vpn-gateway/secure-vpn-gateway.md",
+      "service": "vpn-gateway",
+      "ms_date": "09/08/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/site-to-site-certificate-authentication-gateway-about.md",
+      "source_path": "articles/vpn-gateway/site-to-site-certificate-authentication-gateway-about.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/24/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/site-to-site-certificate-authentication-gateway-portal.md",
+      "source_path": "articles/vpn-gateway/site-to-site-certificate-authentication-gateway-portal.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/25/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/site-to-site-certificate-authentication-gateway-powershell.md",
+      "source_path": "articles/vpn-gateway/site-to-site-certificate-authentication-gateway-powershell.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/24/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/site-to-site-high-bandwidth-tunnel.md",
+      "source_path": "articles/vpn-gateway/site-to-site-high-bandwidth-tunnel.md",
+      "service": "vpn-gateway",
+      "ms_date": "01/08/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/site-to-site-ipv6-azure-cli.md",
+      "source_path": "articles/vpn-gateway/site-to-site-ipv6-azure-cli.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/25/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/site-to-site-tunneling.md",
+      "source_path": "articles/vpn-gateway/site-to-site-tunneling.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/site-to-site-vpn-private-peering.md",
+      "source_path": "articles/vpn-gateway/site-to-site-vpn-private-peering.md",
+      "service": "vpn-gateway",
+      "ms_date": "08/22/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/tutorial-create-gateway-portal.md",
+      "source_path": "articles/vpn-gateway/tutorial-create-gateway-portal.md",
+      "service": "vpn-gateway",
+      "ms_date": "06/24/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/tutorial-site-to-site-portal.md",
+      "source_path": "articles/vpn-gateway/tutorial-site-to-site-portal.md",
+      "service": "vpn-gateway",
+      "ms_date": "07/09/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-3rdparty-device-config-cisco-asa.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-3rdparty-device-config-cisco-asa.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-3rdparty-device-config-overview.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-3rdparty-device-config-overview.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-about-compliance-crypto.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-about-compliance-crypto.md",
+      "service": "vpn-gateway",
+      "ms_date": "01/26/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-about-point-to-site-routing.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-about-point-to-site-routing.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-about-skus-legacy.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-about-skus-legacy.md",
+      "service": "vpn-gateway",
+      "ms_date": "2/27/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-about-vpn-devices.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-about-vpn-devices.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-about-vpn-gateway-settings.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-about-vpn-gateway-settings.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-about-vpngateways.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-about-vpngateways.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-bgp-overview.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-bgp-overview.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-bgp-resource-manager-ps.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-bgp-resource-manager-ps.md",
+      "service": "vpn-gateway",
+      "ms_date": "07/12/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-certificates-point-to-site-linux.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-certificates-point-to-site-linux.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/26/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-certificates-point-to-site-makecert.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-certificates-point-to-site-makecert.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/13/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-certificates-point-to-site.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-certificates-point-to-site.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/13/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-classic-resource-manager-migration.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-classic-resource-manager-migration.md",
+      "service": "vpn-gateway",
+      "ms_date": "08/21/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-connect-different-deployment-models-portal.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-connect-different-deployment-models-portal.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/12/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-connect-different-deployment-models-powershell.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-connect-different-deployment-models-powershell.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/12/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps.md",
+      "service": "vpn-gateway",
+      "ms_date": "10/15/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-create-site-to-site-rm-powershell.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-create-site-to-site-rm-powershell.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/25/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-delete-vnet-gateway-portal.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-delete-vnet-gateway-portal.md",
+      "service": "vpn-gateway",
+      "ms_date": "08/07/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-delete-vnet-gateway-powershell.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-delete-vnet-gateway-powershell.md",
+      "service": "vpn-gateway",
+      "ms_date": "08/23/2023",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-download-vpndevicescript.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-download-vpndevicescript.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-highlyavailable.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-highlyavailable.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-howto-always-on-device-tunnel.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-howto-always-on-device-tunnel.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-howto-always-on-user-tunnel.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-howto-always-on-user-tunnel.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-howto-aws-bgp.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-howto-aws-bgp.md",
+      "service": "vpn-gateway",
+      "ms_date": "02/18/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-howto-point-to-site-rm-ps.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-howto-point-to-site-rm-ps.md",
+      "service": "vpn-gateway",
+      "ms_date": "05/15/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-cli.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-cli.md",
+      "service": "vpn-gateway",
+      "ms_date": "12/02/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-howto-vnet-vnet-cli.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-howto-vnet-vnet-cli.md",
+      "service": "vpn-gateway",
+      "ms_date": "07/11/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal.md",
+      "service": "vpn-gateway",
+      "ms_date": "06/30/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-modify-local-network-gateway-cli.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-modify-local-network-gateway-cli.md",
+      "service": "vpn-gateway",
+      "ms_date": "10/28/2021",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-modify-local-network-gateway-portal.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-modify-local-network-gateway-portal.md",
+      "service": "vpn-gateway",
+      "ms_date": "12/13/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-modify-local-network-gateway.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-modify-local-network-gateway.md",
+      "service": "vpn-gateway",
+      "ms_date": "10/28/2021",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-p2s-advertise-custom-routes.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-p2s-advertise-custom-routes.md",
+      "service": "vpn-gateway",
+      "ms_date": "10/15/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-peering-gateway-transit.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-peering-gateway-transit.md",
+      "service": "vpn-gateway",
+      "ms_date": "06/19/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-radius-mfa-nsp.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-radius-mfa-nsp.md",
+      "service": "vpn-gateway",
+      "ms_date": "11/13/2024",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-support-help.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-support-help.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/03/2026",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-verify-connection-resource-manager.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-verify-connection-resource-manager.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/26/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-gateway-vpn-faq.md",
+      "source_path": "articles/vpn-gateway/vpn-gateway-vpn-faq.md",
+      "service": "vpn-gateway",
+      "ms_date": "09/09/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/vpn-profile-intune.md",
+      "source_path": "articles/vpn-gateway/vpn-profile-intune.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/whats-new.md",
+      "source_path": "articles/vpn-gateway/whats-new.md",
+      "service": "vpn-gateway",
+      "ms_date": "11/25/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/vpn-gateway/work-remotely-support.md",
+      "source_path": "articles/vpn-gateway/work-remotely-support.md",
+      "service": "vpn-gateway",
+      "ms_date": "03/31/2025",
+      "synced_at": "2026-04-07T18:02:55Z",
+      "wiki_page": null
+    }
+  ]
 }
