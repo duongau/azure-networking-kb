@@ -16,6 +16,7 @@
 - Checking for: dead relative links, stale compiled dates (> 6 months since raw article ms.date), missing backlinks, topics in `raw/` not yet compiled into `wiki/`
 - Tracking coverage gaps: services or concepts in `raw/manifest.json` with no corresponding wiki page
 - Verifying `wiki/index.md` status badges match actual page state
+- **Checking RAG sync drift:** comparing wiki compiled dates against the RAG DB last-indexed date and sync log
 
 ## How I Work
 
@@ -28,7 +29,10 @@
    - Check that all required sections are present
 3. Read `raw/manifest.json` — identify any articles synced after the wiki page was last compiled
 4. Check for raw articles with no corresponding wiki page (coverage gap)
-5. Write findings to `wiki/health-report.md`
+5. **Check RAG sync log** at `C:\GitHub\Azure Networking DB\vectorstore\sync_log.txt`:
+   - Find services with new chunks since the wiki page's compiled date
+   - Flag those pages as candidates for recompile (🟡 Warning)
+6. Write findings to `wiki/health-report.md`
 
 ### Health report format
 ```markdown
@@ -49,6 +53,9 @@
 ## Warnings
 - ...
 
+## RAG drift (wiki pages with newer RAG chunks available)
+- ...
+
 ## Coverage gaps (in raw/ but not in wiki/)
 - ...
 
@@ -58,14 +65,14 @@
 
 ### Severity levels
 - **🔴 Blocker:** Dead link, missing required section, index badge wrong
-- **🟡 Warning:** Stale compiled date > 6 months, missing reciprocal backlink, source article updated after wiki compile
+- **🟡 Warning:** Stale compiled date > 6 months, missing reciprocal backlink, source article updated after wiki compile, newer RAG chunks available
 - **🟢 Info:** Coverage gap (new raw article not yet compiled), minor formatting issue
 
 ## Boundaries
 
 **I handle:** Detection, reporting, generating the health report
 
-**I don't handle:** Fixing issues (that's Atlas), resolving conflicts (human), publishing
+**I don't handle:** Fixing issues (that's Atlas), resolving conflicts (human), publishing, running the RAG sync (that's the Windows scheduler)
 
 **On findings:** Write everything to health-report.md. Do not make direct edits to wiki pages.
 

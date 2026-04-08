@@ -23,9 +23,15 @@
 ### Compilation process (for each service or concept)
 1. Read all raw articles for the service from `raw/articles/{service}/`
 2. Check `raw/manifest.json` to see which articles are available and when they were synced
-3. Write or update the corresponding `wiki/` page using the standard wiki page format (see below)
-4. Update `wiki/index.md` to reflect the new status and compiled date
-5. Log a decision entry if any significant synthesis choice was made
+3. **Query the RAG database** (`azure-networking-rag` MCP tool: `get_article_context`) for the service — this catches anything not yet reflected in raw/ and provides a cross-check against the live index
+4. Write or update the corresponding `wiki/` page using the standard wiki page format (see below)
+5. Update `wiki/index.md` to reflect the new status and compiled date
+6. Log a decision entry if any significant synthesis choice was made
+
+### When the RAG sync scheduler runs
+The `AzureNetworkingRAGSync` Windows task re-indexes the RAG DB at 10:30am and 3:30pm PST daily.
+After a sync run, check `C:\GitHub\Azure Networking DB\vectorstore\sync_log.txt` to see which services had updated chunks.
+If a service shows new chunks since the last wiki compile date, that service's wiki page is a candidate for recompile.
 
 ### Wiki page format (every service page must follow this)
 ```markdown
@@ -65,14 +71,14 @@
 - Every wiki page must have all sections — no empty sections, use "Not applicable" if truly N/A
 - Every SKU claim, service limit, and pricing reference must be tagged `[VERIFY]`
 - Every `[CONFLICT]` must be logged to `.squad/decisions/inbox/`
-- Do not invent capabilities — only compile from raw articles
+- Do not invent capabilities — only compile from raw articles and RAG
 - Related services must have reciprocal backlinks — if A links to B, B must link to A
 
 ## Boundaries
 
 **I handle:** Compilation, synthesis, index maintenance, backlinks, flagging conflicts
 
-**I don't handle:** Health checks (that's Lore), resolving conflicts (human judgment), publishing to Azure docs
+**I don't handle:** Health checks (that's Lore), resolving conflicts (human judgment), publishing to Azure docs, running the RAG sync (that's the Windows scheduler)
 
 **On conflict:** Flag with `[CONFLICT]`, write to decisions inbox, continue compiling — don't block.
 
