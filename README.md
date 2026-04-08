@@ -19,6 +19,63 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 
 ---
 
+## Current status
+
+| Service | Raw articles synced | Wiki page | Status |
+|---|---|---|---|
+| nat-gateway | 27 ✅ | `wiki/services/nat-gateway.md` | ✅ compiled |
+| virtual-network | 128 ✅ | `wiki/services/virtual-network.md` | 🔲 stub |
+| dns | 73 ✅ | `wiki/services/dns.md` | 🔲 stub |
+| vpn-gateway | 122 ✅ | `wiki/services/vpn-gateway.md` | 🔲 stub |
+| expressroute | — | `wiki/services/expressroute.md` | 🔲 stub |
+| firewall | — | `wiki/services/azure-firewall.md` | ⚠️ hold (freshness review in-flight) |
+| application-gateway | — | `wiki/services/application-gateway.md` | 🔲 stub |
+| load-balancer | — | `wiki/services/load-balancer.md` | 🔲 stub |
+| bastion | — | `wiki/services/bastion.md` | 🔲 stub |
+| private-link | — | `wiki/services/private-link.md` | 🔲 stub |
+| ddos-protection | — | `wiki/services/ddos-protection.md` | 🔲 stub |
+| network-watcher | — | `wiki/services/network-watcher.md` | ⚠️ hold (orphaned RAG chunks — needs re-index) |
+
+---
+
+## Resuming work (Copilot CLI)
+
+This project is maintained using **GitHub Copilot CLI** with the `Content Developer` agent. To resume:
+
+### 1. Open Copilot CLI in the KB repo or v4 writing project
+
+```powershell
+cd "C:\GitHub\azure-networking-kb"
+# Launch Copilot CLI with Content Developer agent
+```
+
+### 2. Tell Copilot CLI what to do next
+
+Copy-paste this to resume right where we left off:
+
+```
+Resume the Azure Networking KB project. The KB repo is at C:\GitHub\azure-networking-kb and the RAG server is running at C:\GitHub\Azure Networking DB. We've already compiled nat-gateway. Next priority is compiling wiki/services/virtual-network.md from raw/articles/virtual-network/ (128 articles). Then dns, then vpn-gateway. After that, sync the remaining 9 services and update the Networking Writer charter in C:\GitHub\Azure Networking Design\v4-modular-reference to reference wiki/ instead of source-design-guide.md.
+```
+
+### 3. Sync more raw articles if needed
+
+```powershell
+cd "C:\GitHub\azure-networking-kb"
+.\scripts\sync-raw.ps1 -Services @('expressroute', 'load-balancer', 'bastion', 'private-link', 'ddos-protection', 'application-gateway', 'networking')
+# Note: skip firewall and network-watcher until their issues are resolved
+```
+
+### Connected systems
+
+| System | Location | Notes |
+|---|---|---|
+| **RAG server** | `C:\GitHub\Azure Networking DB\` | 8,452 chunks, 1,985 docs. API key configured in `C:\Users\duau\.copilot\mcp-config.json` |
+| **v4 writing pipeline** | `C:\GitHub\Azure Networking Design\v4-modular-reference\` | Squad project that consumes this KB |
+| **azure-docs-pr** | `C:\GitHub\azure-docs-pr\` | Source of truth for raw articles |
+| **Squad framework** | `https://github.com/duongau/squad` | Agent engine used in both projects |
+
+---
+
 ## Quick start (for colleagues)
 
 ### 1. Clone and install squad
@@ -75,7 +132,7 @@ azure-networking-kb/
 This KB feeds the **v4 Azure Networking Design Guide** writing pipeline. The Networking Writer squad agent reads `wiki/services/` and `wiki/decisions/` before drafting articles — replacing the manual `source-design-guide.md`.
 
 ```
-awiki/ (this repo)
+wiki/ (this repo)
     │
     ▼
 Networking Writer agent → drafts v4 design guide articles
