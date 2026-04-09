@@ -1,6 +1,6 @@
 # Azure Networking Knowledge Base — Index
 
-> **Last compiled:** _not yet compiled_ | **Atlas version:** — | **Coverage:** 0 / 12 services
+> **Last compiled:** 2026-04-08 | **Atlas version:** — | **Coverage:** 12 / 12 services
 
 This is the entry point for the Azure Networking KB. All wiki pages are compiled by Atlas from source articles in `raw/`.
 
@@ -10,18 +10,18 @@ This is the entry point for the Azure Networking KB. All wiki pages are compiled
 
 | Service | Wiki page | Status | Last compiled |
 |---|---|---|---|
-| Azure Virtual Network | [virtual-network.md](services/virtual-network.md) | 🔲 stub | — |
-| ExpressRoute | [expressroute.md](services/expressroute.md) | 🔲 stub | — |
-| VPN Gateway | [vpn-gateway.md](services/vpn-gateway.md) | 🔲 stub | — |
-| Azure Firewall | [azure-firewall.md](services/azure-firewall.md) | 🔲 stub | — |
-| Application Gateway | [application-gateway.md](services/application-gateway.md) | 🔲 stub | — |
-| Azure Load Balancer | [load-balancer.md](services/load-balancer.md) | 🔲 stub | — |
-| NAT Gateway | [nat-gateway.md](services/nat-gateway.md) | 🔲 stub | — |
-| Azure Bastion | [bastion.md](services/bastion.md) | 🔲 stub | — |
-| Private Link | [private-link.md](services/private-link.md) | 🔲 stub | — |
-| DDoS Protection | [ddos-protection.md](services/ddos-protection.md) | 🔲 stub | — |
-| Azure DNS | [dns.md](services/dns.md) | 🔲 stub | — |
-| Network Watcher | [network-watcher.md](services/network-watcher.md) | 🔲 stub | — |
+| Azure Virtual Network | [virtual-network.md](services/virtual-network.md) | ✅ current | 2025-07-31 |
+| ExpressRoute | [expressroute.md](services/expressroute.md) | ✅ current | 2025-01-27 |
+| VPN Gateway | [vpn-gateway.md](services/vpn-gateway.md) | ✅ current | 2025-11-25 |
+| Azure Firewall | [azure-firewall.md](services/azure-firewall.md) | ✅ current | 2025-07-14 |
+| Application Gateway | [application-gateway.md](services/application-gateway.md) | ✅ current | 2025-07-15 |
+| Azure Load Balancer | [load-balancer.md](services/load-balancer.md) | ✅ current | 2025-01-30 |
+| NAT Gateway | [nat-gateway.md](services/nat-gateway.md) | ✅ current | 2026-04-08 |
+| Azure Bastion | [bastion.md](services/bastion.md) | ✅ current | 2025-01-30 |
+| Private Link | [private-link.md](services/private-link.md) | ✅ current | 2025-07-30 |
+| DDoS Protection | [ddos-protection.md](services/ddos-protection.md) | ✅ current | 2026-04-08 |
+| Azure DNS | [dns.md](services/dns.md) | ✅ current | 2025-07-31 |
+| Network Watcher | [network-watcher.md](services/network-watcher.md) | ✅ current | 2025-07-14 |
 
 ---
 
