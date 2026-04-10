@@ -1,6 +1,6 @@
 # Azure Networking Knowledge Base — Index
 
-> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 23 / 23 services · 17 concepts · 7 comparisons · 4 patterns · 4 decision guides · 2 limits references · 23 source summaries
+> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 23 / 23 services · 17 concepts · 10 comparisons · 4 patterns · 4 decision guides · 4 limits/tracking references · 23 source summaries
 
 This is the entry point for the Azure Networking KB. All wiki pages are compiled by Atlas from source articles in `raw/`.
 
@@ -72,6 +72,9 @@ Side-by-side decision matrices for choosing between Azure networking services.
 | Virtual WAN vs hub-spoke | [virtual-wan-vs-hub-spoke.md](comparisons/virtual-wan-vs-hub-spoke.md) | ✅ current |
 | Private Endpoint vs Service Endpoint | [private-endpoints-vs-service-endpoints.md](comparisons/private-endpoints-vs-service-endpoints.md) | ✅ current |
 | Application Gateway vs Azure Front Door | [app-gateway-vs-front-door.md](comparisons/app-gateway-vs-front-door.md) | ✅ current |
+| Azure Front Door vs Traffic Manager | [front-door-vs-traffic-manager.md](comparisons/front-door-vs-traffic-manager.md) | ✅ current |
+| DDoS IP Protection vs Network Protection | [ddos-ip-vs-network-protection.md](comparisons/ddos-ip-vs-network-protection.md) | ✅ current |
+| Private DNS Resolver vs custom DNS | [private-dns-resolver-vs-custom-dns.md](comparisons/private-dns-resolver-vs-custom-dns.md) | ✅ current |
 
 ---
 
@@ -105,6 +108,8 @@ Deployment patterns with architecture diagrams and configuration notes.
 |---|---|---|
 | SKU comparison | [sku-comparison.md](limits-and-skus/sku-comparison.md) | ✅ current |
 | Service limits quick reference | [service-limits-quick-reference.md](limits-and-skus/service-limits-quick-reference.md) | ✅ current |
+| Retirement and deprecation tracker | [retirement-tracker.md](limits-and-skus/retirement-tracker.md) | ✅ current |
+| [VERIFY] queue | [verify-queue.md](limits-and-skus/verify-queue.md) | ✅ current |
 
 ---
 

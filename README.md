@@ -21,7 +21,7 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 
 ## Current status
 
-> **Coverage: 23 / 23 services · 17 concepts · 7 comparisons · 4 patterns · 4 decision guides · 2 limits references · 23 source summaries** as of 2026-04-10. See [`wiki/index.md`](wiki/index.md) for the full index.
+> **Coverage: 23 / 23 services · 17 concepts · 10 comparisons · 4 patterns · 4 decision guides · 4 limits/tracking references · 23 source summaries** as of 2026-04-10. See [`wiki/index.md`](wiki/index.md) for the full index.
 
 | Service | Raw articles | Wiki page | Status |
 |---|---|---|---|
@@ -82,6 +82,9 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 | Virtual WAN vs hub-spoke | `wiki/comparisons/virtual-wan-vs-hub-spoke.md` | ✅ compiled |
 | Private Endpoint vs Service Endpoint | `wiki/comparisons/private-endpoints-vs-service-endpoints.md` | ✅ compiled |
 | Application Gateway vs Front Door | `wiki/comparisons/app-gateway-vs-front-door.md` | ✅ compiled |
+| Azure Front Door vs Traffic Manager | `wiki/comparisons/front-door-vs-traffic-manager.md` | ✅ compiled |
+| DDoS IP Protection vs Network Protection | `wiki/comparisons/ddos-ip-vs-network-protection.md` | ✅ compiled |
+| Private DNS Resolver vs custom DNS | `wiki/comparisons/private-dns-resolver-vs-custom-dns.md` | ✅ compiled |
 
 ### Patterns
 
@@ -107,6 +110,8 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 |---|---|---|
 | SKU comparison | `wiki/limits-and-skus/sku-comparison.md` | ✅ compiled |
 | Service limits quick reference | `wiki/limits-and-skus/service-limits-quick-reference.md` | ✅ compiled |
+| Retirement and deprecation tracker | `wiki/limits-and-skus/retirement-tracker.md` | ✅ compiled |
+| [VERIFY] queue | `wiki/limits-and-skus/verify-queue.md` | ✅ compiled |
 
 ### Source summaries
 
