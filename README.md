@@ -47,7 +47,7 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 | Internet Peering | 23 | `wiki/services/internet-peering.md` | ✅ compiled |
 | Peering Service | 9 | `wiki/services/peering-service.md` | ✅ compiled |
 | Network Function Manager | 8 | `wiki/services/network-function-manager.md` | ✅ compiled |
-| Networking (cross-service) | 77 | — | 🔲 not started |
+| Networking (cross-service) | 77 | used as source for concepts/decisions | ✅ ingested |
 
 ### Concept pages
 
