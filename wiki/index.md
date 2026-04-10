@@ -1,6 +1,6 @@
 # Azure Networking Knowledge Base — Index
 
-> **Last compiled:** 2026-04-09 | **Atlas version:** — | **Coverage:** 12 / 19 services
+> **Last compiled:** 2026-04-09 | **Atlas version:** — | **Coverage:** 12 / 23 services
 
 This is the entry point for the Azure Networking KB. All wiki pages are compiled by Atlas from source articles in `raw/`.
 
@@ -29,6 +29,9 @@ This is the entry point for the Azure Networking KB. All wiki pages are compiled
 | Web Application Firewall | [web-application-firewall.md](services/web-application-firewall.md) | 🔲 stub | — |
 | Azure Firewall Manager | [firewall-manager.md](services/firewall-manager.md) | 🔲 stub | — |
 | Azure Virtual Network Manager | [virtual-network-manager.md](services/virtual-network-manager.md) | 🔲 stub | — |
+| Internet Peering | [internet-peering.md](services/internet-peering.md) | 🔲 stub | — |
+| Peering Service | [peering-service.md](services/peering-service.md) | 🔲 stub | — |
+| Network Function Manager | [network-function-manager.md](services/network-function-manager.md) | 🔲 stub | — |
 
 ---
 

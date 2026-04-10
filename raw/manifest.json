@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "description": "Tracks source articles ingested into raw/articles/ and their corresponding wiki pages.",
-  "last_sync": "2026-04-08T17:40:43Z",
+  "last_sync": "2026-04-09T21:23:36Z",
   "source_repo": "MicrosoftDocs/azure-docs-pr",
   "source_paths": [
     "articles/networking/",
@@ -20,3651 +20,939 @@
   ],
   "articles": [
     {
-      "path": "raw/articles/articles/frontdoor/apex-domain.md",
-      "source_path": "articles/frontdoor/apex-domain.md",
-      "service": "frontdoor",
-      "ms_date": "03/31/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/azure-for-network-engineers.md",
+      "source_path": "articles/networking/azure-for-network-engineers.md",
+      "service": "networking",
+      "ms_date": "06/25/2020",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/frontdoor/best-practices.md",
-      "source_path": "articles/frontdoor/best-practices.md",
-      "service": "frontdoor",
-      "ms_date": "09/25/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/azure-network-latency.md",
+      "source_path": "articles/networking/azure-network-latency.md",
+      "service": "networking",
+      "ms_date": "07/07/2025",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/frontdoor/billing.md",
-      "source_path": "articles/frontdoor/billing.md",
-      "service": "frontdoor",
-      "ms_date": "12/28/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/check-usage-against-limits.md",
+      "source_path": "articles/networking/check-usage-against-limits.md",
+      "service": "networking",
+      "ms_date": "06/05/2018",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/frontdoor/blue-green-deployment.md",
-      "source_path": "articles/frontdoor/blue-green-deployment.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/connectivity-interoperability-control-plane.md",
+      "source_path": "articles/networking/connectivity-interoperability-control-plane.md",
+      "service": "networking",
+      "ms_date": "03/24/2023",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/frontdoor/classic-overview.md",
-      "source_path": "articles/frontdoor/classic-overview.md",
-      "service": "frontdoor",
-      "ms_date": "11/15/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/connectivity-interoperability-data-plane.md",
+      "source_path": "articles/networking/connectivity-interoperability-data-plane.md",
+      "service": "networking",
+      "ms_date": "03/24/2023",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/frontdoor/classic-retirement-faq.md",
-      "source_path": "articles/frontdoor/classic-retirement-faq.md",
-      "service": "frontdoor",
-      "ms_date": "03/31/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/connectivity-interoperability-preface.md",
+      "source_path": "articles/networking/connectivity-interoperability-preface.md",
+      "service": "networking",
+      "ms_date": "03/26/2023",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/frontdoor/compare-cdn-front-door-price.md",
-      "source_path": "articles/frontdoor/compare-cdn-front-door-price.md",
-      "service": "frontdoor",
-      "ms_date": "05/11/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/create-zero-trust-network-web-apps.md",
+      "source_path": "articles/networking/create-zero-trust-network-web-apps.md",
+      "service": "networking",
+      "ms_date": "12/31/2022",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/frontdoor/create-front-door-bicep.md",
-      "source_path": "articles/frontdoor/create-front-door-bicep.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/microsoft-global-network.md",
+      "source_path": "articles/networking/microsoft-global-network.md",
+      "service": "networking",
+      "ms_date": "04/06/2023",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/frontdoor/create-front-door-cli.md",
-      "source_path": "articles/frontdoor/create-front-door-cli.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/create-front-door-portal.md",
-      "source_path": "articles/frontdoor/create-front-door-portal.md",
-      "service": "frontdoor",
-      "ms_date": "11/12/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/create-front-door-powershell.md",
-      "source_path": "articles/frontdoor/create-front-door-powershell.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/create-front-door-template.md",
-      "source_path": "articles/frontdoor/create-front-door-template.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/create-front-door-terraform.md",
-      "source_path": "articles/frontdoor/create-front-door-terraform.md",
-      "service": "frontdoor",
-      "ms_date": "08/11/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/diffie-hellman-ciphers.md",
-      "source_path": "articles/frontdoor/diffie-hellman-ciphers.md",
-      "service": "frontdoor",
-      "ms_date": "01/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/domain.md",
-      "source_path": "articles/frontdoor/domain.md",
-      "service": "frontdoor",
-      "ms_date": "03/26/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/edge-locations-by-abbreviation.md",
-      "source_path": "articles/frontdoor/edge-locations-by-abbreviation.md",
-      "service": "frontdoor",
-      "ms_date": "12/18/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/edge-locations-by-region.md",
-      "source_path": "articles/frontdoor/edge-locations-by-region.md",
-      "service": "frontdoor",
-      "ms_date": "09/25/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/end-to-end-tls.md",
-      "source_path": "articles/frontdoor/end-to-end-tls.md",
-      "service": "frontdoor",
-      "ms_date": "08/07/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/endpoint.md",
-      "source_path": "articles/frontdoor/endpoint.md",
-      "service": "frontdoor",
-      "ms_date": "11/13/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-caching.md",
-      "source_path": "articles/frontdoor/front-door-caching.md",
-      "service": "frontdoor",
-      "ms_date": "09/25/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-cdn-comparison.md",
-      "source_path": "articles/frontdoor/front-door-cdn-comparison.md",
-      "service": "frontdoor",
-      "ms_date": "05/08/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-custom-domain-https.md",
-      "source_path": "articles/frontdoor/front-door-custom-domain-https.md",
-      "service": "frontdoor",
-      "ms_date": "08/07/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-custom-domain.md",
-      "source_path": "articles/frontdoor/front-door-custom-domain.md",
-      "service": "frontdoor",
-      "ms_date": "09/25/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-ddos.md",
-      "source_path": "articles/frontdoor/front-door-ddos.md",
-      "service": "frontdoor",
-      "ms_date": "11/13/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-how-to-onboard-apex-domain.md",
-      "source_path": "articles/frontdoor/front-door-how-to-onboard-apex-domain.md",
-      "service": "frontdoor",
-      "ms_date": "04/30/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-how-to-redirect-https.md",
-      "source_path": "articles/frontdoor/front-door-how-to-redirect-https.md",
-      "service": "frontdoor",
-      "ms_date": "11/15/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-http-headers-protocol.md",
-      "source_path": "articles/frontdoor/front-door-http-headers-protocol.md",
-      "service": "frontdoor",
-      "ms_date": "04/30/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-http2.md",
-      "source_path": "articles/frontdoor/front-door-http2.md",
-      "service": "frontdoor",
-      "ms_date": "11/19/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-overview.md",
-      "source_path": "articles/frontdoor/front-door-overview.md",
-      "service": "frontdoor",
-      "ms_date": "11/12/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-quickstart-template-samples.md",
-      "source_path": "articles/frontdoor/front-door-quickstart-template-samples.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-route-matching.md",
-      "source_path": "articles/frontdoor/front-door-route-matching.md",
-      "service": "frontdoor",
-      "ms_date": "11/13/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-routing-architecture.md",
-      "source_path": "articles/frontdoor/front-door-routing-architecture.md",
-      "service": "frontdoor",
-      "ms_date": "02/24/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-routing-limits.md",
-      "source_path": "articles/frontdoor/front-door-routing-limits.md",
-      "service": "frontdoor",
-      "ms_date": "09/25/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-rules-engine-actions.md",
-      "source_path": "articles/frontdoor/front-door-rules-engine-actions.md",
-      "service": "frontdoor",
-      "ms_date": "07/16/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-rules-engine.md",
-      "source_path": "articles/frontdoor/front-door-rules-engine.md",
-      "service": "frontdoor",
-      "ms_date": "04/09/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-security-headers.md",
-      "source_path": "articles/frontdoor/front-door-security-headers.md",
-      "service": "frontdoor",
-      "ms_date": "04/10/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-traffic-acceleration.md",
-      "source_path": "articles/frontdoor/front-door-traffic-acceleration.md",
-      "service": "frontdoor",
-      "ms_date": "02/24/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-tutorial-rules-engine.md",
-      "source_path": "articles/frontdoor/front-door-tutorial-rules-engine.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-url-redirect.md",
-      "source_path": "articles/frontdoor/front-door-url-redirect.md",
-      "service": "frontdoor",
-      "ms_date": "06/17/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-url-rewrite.md",
-      "source_path": "articles/frontdoor/front-door-url-rewrite.md",
-      "service": "frontdoor",
-      "ms_date": "08/12/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-waf.md",
-      "source_path": "articles/frontdoor/front-door-waf.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/front-door-wildcard-domain.md",
-      "source_path": "articles/frontdoor/front-door-wildcard-domain.md",
-      "service": "frontdoor",
-      "ms_date": "03/31/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/health-probes.md",
-      "source_path": "articles/frontdoor/health-probes.md",
-      "service": "frontdoor",
-      "ms_date": "01/29/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/high-availability.md",
-      "source_path": "articles/frontdoor/high-availability.md",
-      "service": "frontdoor",
-      "ms_date": "01/28/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/how-to-configure-caching.md",
-      "source_path": "articles/frontdoor/how-to-configure-caching.md",
-      "service": "frontdoor",
-      "ms_date": "03/31/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/how-to-configure-endpoints.md",
-      "source_path": "articles/frontdoor/how-to-configure-endpoints.md",
-      "service": "frontdoor",
-      "ms_date": "02/18/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/how-to-configure-origin.md",
-      "source_path": "articles/frontdoor/how-to-configure-origin.md",
-      "service": "frontdoor",
-      "ms_date": "02/18/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/how-to-enable-private-link-application-gateway.md",
-      "source_path": "articles/frontdoor/how-to-enable-private-link-application-gateway.md",
-      "service": "frontdoor",
-      "ms_date": "09/24/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/how-to-enable-private-link-storage-static-website.md",
-      "source_path": "articles/frontdoor/how-to-enable-private-link-storage-static-website.md",
-      "service": "frontdoor",
-      "ms_date": "09/24/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/integrate-storage-account.md",
-      "source_path": "articles/frontdoor/integrate-storage-account.md",
-      "service": "frontdoor",
-      "ms_date": "11/13/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/managed-identity.md",
-      "source_path": "articles/frontdoor/managed-identity.md",
-      "service": "frontdoor",
-      "ms_date": "05/12/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/manager.md",
-      "source_path": "articles/frontdoor/manager.md",
-      "service": "frontdoor",
-      "ms_date": "11/13/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/migrate-tier-powershell.md",
-      "source_path": "articles/frontdoor/migrate-tier-powershell.md",
-      "service": "frontdoor",
-      "ms_date": "10/15/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/migrate-tier.md",
-      "source_path": "articles/frontdoor/migrate-tier.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/migration-faq.md",
-      "source_path": "articles/frontdoor/migration-faq.md",
-      "service": "frontdoor",
-      "ms_date": "08/06/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/monitor-front-door-reference.md",
-      "source_path": "articles/frontdoor/monitor-front-door-reference.md",
-      "service": "frontdoor",
-      "ms_date": "01/21/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/monitor-front-door.md",
-      "source_path": "articles/frontdoor/monitor-front-door.md",
-      "service": "frontdoor",
-      "ms_date": "01/21/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/origin-authentication-with-managed-identities.md",
-      "source_path": "articles/frontdoor/origin-authentication-with-managed-identities.md",
-      "service": "frontdoor",
-      "ms_date": "05/12/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/origin-security.md",
-      "source_path": "articles/frontdoor/origin-security.md",
-      "service": "frontdoor",
-      "ms_date": "09/25/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/origin.md",
-      "source_path": "articles/frontdoor/origin.md",
-      "service": "frontdoor",
-      "ms_date": "09/25/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/post-migration-dev-ops-experience.md",
-      "source_path": "articles/frontdoor/post-migration-dev-ops-experience.md",
-      "service": "frontdoor",
-      "ms_date": "08/06/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/private-link.md",
-      "source_path": "articles/frontdoor/private-link.md",
-      "service": "frontdoor",
-      "ms_date": "09/24/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/routing-methods.md",
-      "source_path": "articles/frontdoor/routing-methods.md",
-      "service": "frontdoor",
-      "ms_date": "11/12/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/rule-set-server-variables.md",
-      "source_path": "articles/frontdoor/rule-set-server-variables.md",
-      "service": "frontdoor",
-      "ms_date": "04/09/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/rules-engine-scenarios.md",
-      "source_path": "articles/frontdoor/rules-engine-scenarios.md",
-      "service": "frontdoor",
-      "ms_date": "06/12/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/rules-match-conditions.md",
-      "source_path": "articles/frontdoor/rules-match-conditions.md",
-      "service": "frontdoor",
-      "ms_date": "11/12/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/scenario-storage-blobs.md",
-      "source_path": "articles/frontdoor/scenario-storage-blobs.md",
-      "service": "frontdoor",
-      "ms_date": "11/13/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/scenario-upload-storage-blobs.md",
-      "source_path": "articles/frontdoor/scenario-upload-storage-blobs.md",
-      "service": "frontdoor",
-      "ms_date": "05/10/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/scenarios.md",
-      "source_path": "articles/frontdoor/scenarios.md",
-      "service": "frontdoor",
-      "ms_date": "03/02/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/secure-front-door.md",
-      "source_path": "articles/frontdoor/secure-front-door.md",
-      "service": "frontdoor",
-      "ms_date": "07/08/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/support-help.md",
-      "source_path": "articles/frontdoor/support-help.md",
-      "service": "frontdoor",
-      "ms_date": "03/03/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/terraform-samples.md",
-      "source_path": "articles/frontdoor/terraform-samples.md",
-      "service": "frontdoor",
-      "ms_date": "11/22/2022",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/tier-mapping.md",
-      "source_path": "articles/frontdoor/tier-mapping.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/tier-migration.md",
-      "source_path": "articles/frontdoor/tier-migration.md",
-      "service": "frontdoor",
-      "ms_date": "09/25/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/tier-upgrade-powershell.md",
-      "source_path": "articles/frontdoor/tier-upgrade-powershell.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/tier-upgrade.md",
-      "source_path": "articles/frontdoor/tier-upgrade.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/understanding-pricing.md",
-      "source_path": "articles/frontdoor/understanding-pricing.md",
-      "service": "frontdoor",
-      "ms_date": "09/25/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/web-application-firewall.md",
-      "source_path": "articles/frontdoor/web-application-firewall.md",
-      "service": "frontdoor",
-      "ms_date": "11/15/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/scripts/custom-domain.md",
-      "source_path": "articles/frontdoor/scripts/custom-domain.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/front-door-add-rules-cli.md",
-      "source_path": "articles/frontdoor/standard-premium/front-door-add-rules-cli.md",
-      "service": "frontdoor",
-      "ms_date": "12/30/2021",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-add-custom-domain.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-add-custom-domain.md",
-      "service": "frontdoor",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-add-security-headers.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-add-security-headers.md",
-      "service": "frontdoor",
-      "ms_date": "02/25/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-cache-purge-cli.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-cache-purge-cli.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-cache-purge-powershell.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-cache-purge-powershell.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-cache-purge.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-cache-purge.md",
-      "service": "frontdoor",
-      "ms_date": "11/15/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-compression.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-compression.md",
-      "service": "frontdoor",
-      "ms_date": "04/21/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-configure-https-custom-domain.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-configure-https-custom-domain.md",
-      "service": "frontdoor",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-configure-rule-set.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-configure-rule-set.md",
-      "service": "frontdoor",
-      "ms_date": "11/15/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-enable-private-link-apim.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-enable-private-link-apim.md",
-      "service": "frontdoor",
-      "ms_date": "09/24/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-enable-private-link-internal-load-balancer.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-enable-private-link-internal-load-balancer.md",
-      "service": "frontdoor",
-      "ms_date": "09/24/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-enable-private-link-storage-account.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-enable-private-link-storage-account.md",
-      "service": "frontdoor",
-      "ms_date": "07/02/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-enable-private-link-web-app-powershell.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-enable-private-link-web-app-powershell.md",
-      "service": "frontdoor",
-      "ms_date": "11/15/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-enable-private-link-web-app.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-enable-private-link-web-app.md",
-      "service": "frontdoor",
-      "ms_date": "07/31/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-logs.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-logs.md",
-      "service": "frontdoor",
-      "ms_date": "05/21/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-protect-sensitive-data.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-protect-sensitive-data.md",
-      "service": "frontdoor",
-      "ms_date": "04/30/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/how-to-reports.md",
-      "source_path": "articles/frontdoor/standard-premium/how-to-reports.md",
-      "service": "frontdoor",
-      "ms_date": "03/31/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/sensitive-data-protection.md",
-      "source_path": "articles/frontdoor/standard-premium/sensitive-data-protection.md",
-      "service": "frontdoor",
-      "ms_date": "04/30/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/subscription-offers.md",
-      "source_path": "articles/frontdoor/standard-premium/subscription-offers.md",
-      "service": "frontdoor",
-      "ms_date": "11/18/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/tls-policy-configure.md",
-      "source_path": "articles/frontdoor/standard-premium/tls-policy-configure.md",
-      "service": "frontdoor",
-      "ms_date": "01/15/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/tls-policy.md",
-      "source_path": "articles/frontdoor/standard-premium/tls-policy.md",
-      "service": "frontdoor",
-      "ms_date": "04/09/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/troubleshoot-cross-origin-resources.md",
-      "source_path": "articles/frontdoor/standard-premium/troubleshoot-cross-origin-resources.md",
-      "service": "frontdoor",
-      "ms_date": "12/28/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/frontdoor/standard-premium/websocket.md",
-      "source_path": "articles/frontdoor/standard-premium/websocket.md",
-      "service": "frontdoor",
-      "ms_date": "03/31/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/configure-multivalue-routing-method-template.md",
-      "source_path": "articles/traffic-manager/configure-multivalue-routing-method-template.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/dns-record-types.md",
-      "source_path": "articles/traffic-manager/dns-record-types.md",
-      "service": "traffic-manager",
-      "ms_date": "06/19/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/how-to-add-endpoint-existing-profile-template.md",
-      "source_path": "articles/traffic-manager/how-to-add-endpoint-existing-profile-template.md",
-      "service": "traffic-manager",
-      "ms_date": "04/24/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/quickstart-create-traffic-manager-profile-bicep.md",
-      "source_path": "articles/traffic-manager/quickstart-create-traffic-manager-profile-bicep.md",
-      "service": "traffic-manager",
-      "ms_date": "02/19/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/quickstart-create-traffic-manager-profile-cli.md",
-      "source_path": "articles/traffic-manager/quickstart-create-traffic-manager-profile-cli.md",
-      "service": "traffic-manager",
-      "ms_date": "02/18/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/quickstart-create-traffic-manager-profile-powershell.md",
-      "source_path": "articles/traffic-manager/quickstart-create-traffic-manager-profile-powershell.md",
-      "service": "traffic-manager",
-      "ms_date": "02/18/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/quickstart-create-traffic-manager-profile-template.md",
-      "source_path": "articles/traffic-manager/quickstart-create-traffic-manager-profile-template.md",
-      "service": "traffic-manager",
-      "ms_date": "02/19/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/quickstart-create-traffic-manager-profile-terraform.md",
-      "source_path": "articles/traffic-manager/quickstart-create-traffic-manager-profile-terraform.md",
-      "service": "traffic-manager",
-      "ms_date": "6/8/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/quickstart-create-traffic-manager-profile.md",
-      "source_path": "articles/traffic-manager/quickstart-create-traffic-manager-profile.md",
-      "service": "traffic-manager",
-      "ms_date": "02/18/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-configure-geographic-routing-method.md",
-      "source_path": "articles/traffic-manager/traffic-manager-configure-geographic-routing-method.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-configure-multivalue-routing-method.md",
-      "source_path": "articles/traffic-manager/traffic-manager-configure-multivalue-routing-method.md",
-      "service": "traffic-manager",
-      "ms_date": "05/07/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-configure-performance-routing-method.md",
-      "source_path": "articles/traffic-manager/traffic-manager-configure-performance-routing-method.md",
-      "service": "traffic-manager",
-      "ms_date": "05/30/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-configure-priority-routing-method.md",
-      "source_path": "articles/traffic-manager/traffic-manager-configure-priority-routing-method.md",
-      "service": "traffic-manager",
-      "ms_date": "04/26/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-configure-subnet-routing-method.md",
-      "source_path": "articles/traffic-manager/traffic-manager-configure-subnet-routing-method.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-configure-weighted-routing-method.md",
-      "source_path": "articles/traffic-manager/traffic-manager-configure-weighted-routing-method.md",
-      "service": "traffic-manager",
-      "ms_date": "04/26/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-create-rum-visual-studio.md",
-      "source_path": "articles/traffic-manager/traffic-manager-create-rum-visual-studio.md",
-      "service": "traffic-manager",
-      "ms_date": "07/13/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-create-rum-web-pages.md",
-      "source_path": "articles/traffic-manager/traffic-manager-create-rum-web-pages.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-diagnostic-logs.md",
-      "source_path": "articles/traffic-manager/traffic-manager-diagnostic-logs.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-endpoint-types.md",
-      "source_path": "articles/traffic-manager/traffic-manager-endpoint-types.md",
-      "service": "traffic-manager",
-      "ms_date": "06/27/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-FAQs.md",
-      "source_path": "articles/traffic-manager/traffic-manager-FAQs.md",
-      "service": "traffic-manager",
-      "ms_date": "12/29/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-geographic-regions.md",
-      "source_path": "articles/traffic-manager/traffic-manager-geographic-regions.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-how-it-works.md",
-      "source_path": "articles/traffic-manager/traffic-manager-how-it-works.md",
-      "service": "traffic-manager",
-      "ms_date": "12/29/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-load-balancing-azure.md",
-      "source_path": "articles/traffic-manager/traffic-manager-load-balancing-azure.md",
-      "service": "traffic-manager",
-      "ms_date": "04/30/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-manage-endpoints.md",
-      "source_path": "articles/traffic-manager/traffic-manager-manage-endpoints.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-manage-profiles.md",
-      "source_path": "articles/traffic-manager/traffic-manager-manage-profiles.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-metrics-alerts.md",
-      "source_path": "articles/traffic-manager/traffic-manager-metrics-alerts.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-monitoring.md",
-      "source_path": "articles/traffic-manager/traffic-manager-monitoring.md",
-      "service": "traffic-manager",
-      "ms_date": "12/29/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-nested-profiles.md",
-      "source_path": "articles/traffic-manager/traffic-manager-nested-profiles.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-overview.md",
-      "source_path": "articles/traffic-manager/traffic-manager-overview.md",
-      "service": "traffic-manager",
-      "ms_date": "12/28/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-performance-considerations.md",
-      "source_path": "articles/traffic-manager/traffic-manager-performance-considerations.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-point-internet-domain.md",
-      "source_path": "articles/traffic-manager/traffic-manager-point-internet-domain.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-powershell-arm.md",
-      "source_path": "articles/traffic-manager/traffic-manager-powershell-arm.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-routing-methods.md",
-      "source_path": "articles/traffic-manager/traffic-manager-routing-methods.md",
-      "service": "traffic-manager",
-      "ms_date": "12/29/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-rum-overview.md",
-      "source_path": "articles/traffic-manager/traffic-manager-rum-overview.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-subnet-override-cli.md",
-      "source_path": "articles/traffic-manager/traffic-manager-subnet-override-cli.md",
-      "service": "traffic-manager",
-      "ms_date": "06/03/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-subnet-override-powershell.md",
-      "source_path": "articles/traffic-manager/traffic-manager-subnet-override-powershell.md",
-      "service": "traffic-manager",
-      "ms_date": "06/03/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-testing-settings.md",
-      "source_path": "articles/traffic-manager/traffic-manager-testing-settings.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-traffic-view-overview.md",
-      "source_path": "articles/traffic-manager/traffic-manager-traffic-view-overview.md",
-      "service": "traffic-manager",
-      "ms_date": "02/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-troubleshooting-degraded.md",
-      "source_path": "articles/traffic-manager/traffic-manager-troubleshooting-degraded.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-use-azure-app-service.md",
-      "source_path": "articles/traffic-manager/traffic-manager-use-azure-app-service.md",
-      "service": "traffic-manager",
-      "ms_date": "07/17/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/traffic-manager-use-with-application-gateway.md",
-      "source_path": "articles/traffic-manager/traffic-manager-use-with-application-gateway.md",
-      "service": "traffic-manager",
-      "ms_date": "07/17/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/tutorial-traffic-manager-improve-website-response.md",
-      "source_path": "articles/traffic-manager/tutorial-traffic-manager-improve-website-response.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/tutorial-traffic-manager-subnet-routing.md",
-      "source_path": "articles/traffic-manager/tutorial-traffic-manager-subnet-routing.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/traffic-manager/tutorial-traffic-manager-weighted-endpoint-routing.md",
-      "source_path": "articles/traffic-manager/tutorial-traffic-manager-weighted-endpoint-routing.md",
-      "service": "traffic-manager",
-      "ms_date": "08/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/about-client-address-pools.md",
-      "source_path": "articles/virtual-wan/about-client-address-pools.md",
-      "service": "virtual-wan",
-      "ms_date": "02/15/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/about-internet-routing.md",
-      "source_path": "articles/virtual-wan/about-internet-routing.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/about-nva-hub.md",
-      "source_path": "articles/virtual-wan/about-nva-hub.md",
-      "service": "virtual-wan",
-      "ms_date": "12/10/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/about-virtual-hub-routing-preference.md",
-      "source_path": "articles/virtual-wan/about-virtual-hub-routing-preference.md",
-      "service": "virtual-wan",
-      "ms_date": "12/10/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/about-virtual-hub-routing.md",
-      "source_path": "articles/virtual-wan/about-virtual-hub-routing.md",
-      "service": "virtual-wan",
-      "ms_date": "12/10/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/about-vpn-profile-download.md",
-      "source_path": "articles/virtual-wan/about-vpn-profile-download.md",
-      "service": "virtual-wan",
-      "ms_date": "02/04/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/azure-monitor-insights.md",
-      "source_path": "articles/virtual-wan/azure-monitor-insights.md",
-      "service": "virtual-wan",
-      "ms_date": "06/09/2022",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/azure-vpn-client-optional-configurations.md",
-      "source_path": "articles/virtual-wan/azure-vpn-client-optional-configurations.md",
-      "service": "virtual-wan",
-      "ms_date": "03/07/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/azure-vpn-client-prerequisites-check.md",
-      "source_path": "articles/virtual-wan/azure-vpn-client-prerequisites-check.md",
-      "service": "virtual-wan",
-      "ms_date": "03/14/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/azure-vpn-client-versions.md",
-      "source_path": "articles/virtual-wan/azure-vpn-client-versions.md",
-      "service": "virtual-wan",
-      "ms_date": "02/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/certificates-point-to-site-makecert.md",
-      "source_path": "articles/virtual-wan/certificates-point-to-site-makecert.md",
-      "service": "virtual-wan",
-      "ms_date": "03/20/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/certificates-point-to-site.md",
-      "source_path": "articles/virtual-wan/certificates-point-to-site.md",
-      "service": "virtual-wan",
-      "ms_date": "03/20/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/connect-virtual-network-gateway-vwan.md",
-      "source_path": "articles/virtual-wan/connect-virtual-network-gateway-vwan.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/create-bgp-peering-hub-portal.md",
-      "source_path": "articles/virtual-wan/create-bgp-peering-hub-portal.md",
-      "service": "virtual-wan",
+      "path": "raw/articles/articles/networking/network-monitoring-overview.md",
+      "source_path": "articles/networking/network-monitoring-overview.md",
+      "service": "networking",
       "ms_date": "10/30/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/create-bgp-peering-hub-powershell.md",
-      "source_path": "articles/virtual-wan/create-bgp-peering-hub-powershell.md",
-      "service": "virtual-wan",
-      "ms_date": "08/13/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/networking-partners-msp.md",
+      "source_path": "articles/networking/networking-partners-msp.md",
+      "service": "networking",
+      "ms_date": "10/14/2025",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/cross-tenant-vnet-az-cli.md",
-      "source_path": "articles/virtual-wan/cross-tenant-vnet-az-cli.md",
-      "service": "virtual-wan",
-      "ms_date": "09/12/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/nva-accelerated-connections.md",
+      "source_path": "articles/networking/nva-accelerated-connections.md",
+      "service": "networking",
+      "ms_date": "02/01/2023",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/cross-tenant-vnet.md",
-      "source_path": "articles/virtual-wan/cross-tenant-vnet.md",
-      "service": "virtual-wan",
-      "ms_date": "08/24/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/policy-reference.md",
+      "source_path": "articles/networking/policy-reference.md",
+      "service": "networking",
+      "ms_date": "02/06/2024",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/customer-controlled-gateway-maintenance.md",
-      "source_path": "articles/virtual-wan/customer-controlled-gateway-maintenance.md",
-      "service": "virtual-wan",
-      "ms_date": "03/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/secure-application-delivery.md",
+      "source_path": "articles/networking/secure-application-delivery.md",
+      "service": "networking",
+      "ms_date": "06/17/2024",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/disaster-recovery-design.md",
-      "source_path": "articles/virtual-wan/disaster-recovery-design.md",
-      "service": "virtual-wan",
-      "ms_date": "12/10/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/secure-network-topology.md",
+      "source_path": "articles/networking/secure-network-topology.md",
+      "service": "networking",
+      "ms_date": "06/17/2024",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/effective-routes-virtual-hub.md",
-      "source_path": "articles/virtual-wan/effective-routes-virtual-hub.md",
-      "service": "virtual-wan",
-      "ms_date": "07/28/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security-controls-policy.md",
+      "source_path": "articles/networking/security-controls-policy.md",
+      "service": "networking",
+      "ms_date": "02/06/2024",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/expressroute-powershell.md",
-      "source_path": "articles/virtual-wan/expressroute-powershell.md",
-      "service": "virtual-wan",
-      "ms_date": "08/13/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/troubleshoot-failed-state.md",
+      "source_path": "articles/networking/troubleshoot-failed-state.md",
+      "service": "networking",
+      "ms_date": "03/21/2023",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/gateway-settings.md",
-      "source_path": "articles/virtual-wan/gateway-settings.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/working-remotely-support.md",
+      "source_path": "articles/networking/working-remotely-support.md",
+      "service": "networking",
+      "ms_date": "04/09/2023",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/global-hub-profile.md",
-      "source_path": "articles/virtual-wan/global-hub-profile.md",
-      "service": "virtual-wan",
-      "ms_date": "11/21/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/cross-service-scenarios/design-secure-hub-spoke-network.md",
+      "source_path": "articles/networking/cross-service-scenarios/design-secure-hub-spoke-network.md",
+      "service": "networking",
+      "ms_date": "03/24/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/how-to-forced-tunnel.md",
-      "source_path": "articles/virtual-wan/how-to-forced-tunnel.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/foundations/network-foundations-overview.md",
+      "source_path": "articles/networking/foundations/network-foundations-overview.md",
+      "service": "networking",
+      "ms_date": "07/26/2025",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/how-to-network-virtual-appliance-add-ip-configurations.md",
-      "source_path": "articles/virtual-wan/how-to-network-virtual-appliance-add-ip-configurations.md",
-      "service": "virtual-wan",
-      "ms_date": "04/21/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/fundamentals/architecture-guides.md",
+      "source_path": "articles/networking/fundamentals/architecture-guides.md",
+      "service": "networking",
+      "ms_date": "06/13/2023",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/how-to-network-virtual-appliance-inbound.md",
-      "source_path": "articles/virtual-wan/how-to-network-virtual-appliance-inbound.md",
-      "service": "virtual-wan",
-      "ms_date": "12/11/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/fundamentals/lumenisity-patent-list.md",
+      "source_path": "articles/networking/fundamentals/lumenisity-patent-list.md",
+      "service": "networking",
+      "ms_date": "05/31/2023",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/how-to-network-virtual-appliance-reimage.md",
-      "source_path": "articles/virtual-wan/how-to-network-virtual-appliance-reimage.md",
-      "service": "virtual-wan",
-      "ms_date": "1/28/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/fundamentals/networking-overview.md",
+      "source_path": "articles/networking/fundamentals/networking-overview.md",
+      "service": "networking",
+      "ms_date": "06/26/2025",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/how-to-network-virtual-appliance-restart.md",
-      "source_path": "articles/virtual-wan/how-to-network-virtual-appliance-restart.md",
-      "service": "virtual-wan",
-      "ms_date": "04/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/fundamentals/resource-graph-samples.md",
+      "source_path": "articles/networking/fundamentals/resource-graph-samples.md",
+      "service": "networking",
+      "ms_date": "05/28/2023",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/how-to-nva-hub.md",
-      "source_path": "articles/virtual-wan/how-to-nva-hub.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/hybrid-connectivity/hybrid-connectivity.md",
+      "source_path": "articles/networking/hybrid-connectivity/hybrid-connectivity.md",
+      "service": "networking",
+      "ms_date": "06/24/2025",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/how-to-palo-alto-cloud-ngfw.md",
-      "source_path": "articles/virtual-wan/how-to-palo-alto-cloud-ngfw.md",
-      "service": "virtual-wan",
-      "ms_date": "07/31/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/latency.md",
+      "source_path": "articles/networking/includes/latency.md",
+      "service": "networking",
+      "ms_date": "07/01/2025",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/how-to-routing-policies.md",
-      "source_path": "articles/virtual-wan/how-to-routing-policies.md",
-      "service": "virtual-wan",
-      "ms_date": "08/01/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/networking.md",
+      "source_path": "articles/networking/includes/networking.md",
+      "service": "networking",
+      "ms_date": "07/07/2022",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/how-to-virtual-hub-routing-powershell.md",
-      "source_path": "articles/virtual-wan/how-to-virtual-hub-routing-powershell.md",
-      "service": "virtual-wan",
-      "ms_date": "11/21/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/clean-up-cli.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/clean-up-cli.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/how-to-virtual-hub-routing-preference-powershell.md",
-      "source_path": "articles/virtual-wan/how-to-virtual-hub-routing-preference-powershell.md",
-      "service": "virtual-wan",
-      "ms_date": "08/13/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/clean-up-powershell.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/clean-up-powershell.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/how-to-virtual-hub-routing.md",
-      "source_path": "articles/virtual-wan/how-to-virtual-hub-routing.md",
-      "service": "virtual-wan",
-      "ms_date": "01/10/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/clean-up.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/clean-up.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/howto-always-on-device-tunnel.md",
-      "source_path": "articles/virtual-wan/howto-always-on-device-tunnel.md",
-      "service": "virtual-wan",
-      "ms_date": "08/24/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/create-resource-group-cli.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/create-resource-group-cli.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/howto-always-on-user-tunnel.md",
-      "source_path": "articles/virtual-wan/howto-always-on-user-tunnel.md",
-      "service": "virtual-wan",
-      "ms_date": "11/21/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/create-resource-group-powershell.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/create-resource-group-powershell.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/howto-connect-vnet-hub-powershell.md",
-      "source_path": "articles/virtual-wan/howto-connect-vnet-hub-powershell.md",
-      "service": "virtual-wan",
-      "ms_date": "06/15/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/create-resource-group.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/create-resource-group.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/howto-connect-vnet-hub.md",
-      "source_path": "articles/virtual-wan/howto-connect-vnet-hub.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/create-virtual-machines-cli.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/create-virtual-machines-cli.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/howto-firewall.md",
-      "source_path": "articles/virtual-wan/howto-firewall.md",
-      "service": "virtual-wan",
-      "ms_date": "10/25/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/create-virtual-machines-powershell.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/create-virtual-machines-powershell.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/howto-private-link.md",
-      "source_path": "articles/virtual-wan/howto-private-link.md",
-      "service": "virtual-wan",
-      "ms_date": "03/30/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/create-virtual-machines.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/create-virtual-machines.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/howto-remove-vnet-connection.md",
-      "source_path": "articles/virtual-wan/howto-remove-vnet-connection.md",
-      "service": "virtual-wan",
-      "ms_date": "03/20/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/create-virtual-network-cli.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/create-virtual-network-cli.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/howto-virtual-hub-routing-preference.md",
-      "source_path": "articles/virtual-wan/howto-virtual-hub-routing-preference.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/create-virtual-network-powershell.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/create-virtual-network-powershell.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/hub-settings.md",
-      "source_path": "articles/virtual-wan/hub-settings.md",
-      "service": "virtual-wan",
-      "ms_date": "08/24/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/create-virtual-network.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/create-virtual-network.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/install-client-certificates.md",
-      "source_path": "articles/virtual-wan/install-client-certificates.md",
-      "service": "virtual-wan",
-      "ms_date": "02/13/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/deploy-bastion-cli.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/deploy-bastion-cli.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/interconnect-china.md",
-      "source_path": "articles/virtual-wan/interconnect-china.md",
-      "service": "virtual-wan",
-      "ms_date": "02/13/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/deploy-bastion-powershell.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/deploy-bastion-powershell.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/manage-secure-access-resources-spoke-p2s.md",
-      "source_path": "articles/virtual-wan/manage-secure-access-resources-spoke-p2s.md",
-      "service": "virtual-wan",
-      "ms_date": "11/21/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network/deploy-bastion.md",
+      "source_path": "articles/networking/includes/azure-virtual-network/deploy-bastion.md",
+      "service": "networking",
+      "ms_date": "03/26/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-wan/migrate-from-hub-spoke-topology.md",
-      "source_path": "articles/virtual-wan/migrate-from-hub-spoke-topology.md",
-      "service": "virtual-wan",
-      "ms_date": "10/25/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/monitor-bgp-dashboard.md",
-      "source_path": "articles/virtual-wan/monitor-bgp-dashboard.md",
-      "service": "virtual-wan",
-      "ms_date": "06/06/2022",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/monitor-point-to-site-connections.md",
-      "source_path": "articles/virtual-wan/monitor-point-to-site-connections.md",
-      "service": "virtual-wan",
-      "ms_date": "07/28/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/monitor-virtual-wan-reference.md",
-      "source_path": "articles/virtual-wan/monitor-virtual-wan-reference.md",
-      "service": "virtual-wan",
-      "ms_date": "09/10/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/monitor-virtual-wan.md",
-      "source_path": "articles/virtual-wan/monitor-virtual-wan.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/nat-rules-vpn-gateway-powershell.md",
-      "source_path": "articles/virtual-wan/nat-rules-vpn-gateway-powershell.md",
-      "service": "virtual-wan",
-      "ms_date": "08/14/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/nat-rules-vpn-gateway.md",
-      "source_path": "articles/virtual-wan/nat-rules-vpn-gateway.md",
-      "service": "virtual-wan",
-      "ms_date": "10/16/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/next-hop-ip.md",
-      "source_path": "articles/virtual-wan/next-hop-ip.md",
-      "service": "virtual-wan",
-      "ms_date": "04/21/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/openvpn-azure-ad-mfa.md",
-      "source_path": "articles/virtual-wan/openvpn-azure-ad-mfa.md",
-      "service": "virtual-wan",
-      "ms_date": "01/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/openvpn-azure-ad-tenant-multi-app.md",
-      "source_path": "articles/virtual-wan/openvpn-azure-ad-tenant-multi-app.md",
-      "service": "virtual-wan",
-      "ms_date": "04/24/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/openvpn-azure-ad-tenant.md",
-      "source_path": "articles/virtual-wan/openvpn-azure-ad-tenant.md",
-      "service": "virtual-wan",
-      "ms_date": "10/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/packet-capture-site-to-site-portal.md",
-      "source_path": "articles/virtual-wan/packet-capture-site-to-site-portal.md",
-      "service": "virtual-wan",
-      "ms_date": "11/21/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/packet-capture-site-to-site-powershell.md",
-      "source_path": "articles/virtual-wan/packet-capture-site-to-site-powershell.md",
-      "service": "virtual-wan",
-      "ms_date": "11/21/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/path-selection-multiple-links.md",
-      "source_path": "articles/virtual-wan/path-selection-multiple-links.md",
-      "service": "virtual-wan",
-      "ms_date": "04/27/2021",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-azure-vpn-client-certificate-linux.md",
-      "source_path": "articles/virtual-wan/point-to-site-azure-vpn-client-certificate-linux.md",
-      "service": "virtual-wan",
-      "ms_date": "02/06/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-certificates-linux-openssl.md",
-      "source_path": "articles/virtual-wan/point-to-site-certificates-linux-openssl.md",
-      "service": "virtual-wan",
-      "ms_date": "03/20/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-certificates-linux-strongswan.md",
-      "source_path": "articles/virtual-wan/point-to-site-certificates-linux-strongswan.md",
-      "service": "virtual-wan",
-      "ms_date": "03/20/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-concepts.md",
-      "source_path": "articles/virtual-wan/point-to-site-concepts.md",
-      "service": "virtual-wan",
-      "ms_date": "10/25/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-entra-gateway-update.md",
-      "source_path": "articles/virtual-wan/point-to-site-entra-gateway-update.md",
-      "service": "virtual-wan",
-      "ms_date": "02/10/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-entra-gateway.md",
-      "source_path": "articles/virtual-wan/point-to-site-entra-gateway.md",
-      "service": "virtual-wan",
-      "ms_date": "02/13/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-entra-register-custom-app.md",
-      "source_path": "articles/virtual-wan/point-to-site-entra-register-custom-app.md",
-      "service": "virtual-wan",
-      "ms_date": "02/25/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-entra-vpn-client-linux.md",
-      "source_path": "articles/virtual-wan/point-to-site-entra-vpn-client-linux.md",
-      "service": "virtual-wan",
-      "ms_date": "02/10/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-entra-vpn-client-mac.md",
-      "source_path": "articles/virtual-wan/point-to-site-entra-vpn-client-mac.md",
-      "service": "virtual-wan",
-      "ms_date": "03/07/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-entra-vpn-client-windows.md",
-      "source_path": "articles/virtual-wan/point-to-site-entra-vpn-client-windows.md",
-      "service": "virtual-wan",
-      "ms_date": "03/20/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-ipsec.md",
-      "source_path": "articles/virtual-wan/point-to-site-ipsec.md",
-      "service": "virtual-wan",
-      "ms_date": "08/24/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-vpn-client-cert-mac.md",
-      "source_path": "articles/virtual-wan/point-to-site-vpn-client-cert-mac.md",
-      "service": "virtual-wan",
-      "ms_date": "02/04/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-vpn-client-certificate-ike-linux.md",
-      "source_path": "articles/virtual-wan/point-to-site-vpn-client-certificate-ike-linux.md",
-      "service": "virtual-wan",
-      "ms_date": "02/06/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-vpn-client-certificate-openvpn-ios.md",
-      "source_path": "articles/virtual-wan/point-to-site-vpn-client-certificate-openvpn-ios.md",
-      "service": "virtual-wan",
-      "ms_date": "01/30/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-vpn-client-certificate-openvpn-linux.md",
-      "source_path": "articles/virtual-wan/point-to-site-vpn-client-certificate-openvpn-linux.md",
-      "service": "virtual-wan",
-      "ms_date": "02/06/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-vpn-client-certificate-openvpn-mac.md",
-      "source_path": "articles/virtual-wan/point-to-site-vpn-client-certificate-openvpn-mac.md",
-      "service": "virtual-wan",
-      "ms_date": "01/30/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-vpn-client-certificate-windows-native.md",
-      "source_path": "articles/virtual-wan/point-to-site-vpn-client-certificate-windows-native.md",
-      "service": "virtual-wan",
-      "ms_date": "02/07/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-vpn-client-certificate-windows-openvpn-client-version-2.md",
-      "source_path": "articles/virtual-wan/point-to-site-vpn-client-certificate-windows-openvpn-client-version-2.md",
-      "service": "virtual-wan",
-      "ms_date": "01/29/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/point-to-site-vpn-client-certificate-windows-openvpn-client-version-3.md",
-      "source_path": "articles/virtual-wan/point-to-site-vpn-client-certificate-windows-openvpn-client-version-3.md",
-      "service": "virtual-wan",
-      "ms_date": "02/04/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/pricing-concepts.md",
-      "source_path": "articles/virtual-wan/pricing-concepts.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/quickstart-any-to-any-template.md",
-      "source_path": "articles/virtual-wan/quickstart-any-to-any-template.md",
-      "service": "virtual-wan",
-      "ms_date": "03/27/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/quickstart-route-shared-services-vnet-template.md",
-      "source_path": "articles/virtual-wan/quickstart-route-shared-services-vnet-template.md",
-      "service": "virtual-wan",
-      "ms_date": "03/27/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/roles-permissions.md",
-      "source_path": "articles/virtual-wan/roles-permissions.md",
-      "service": "virtual-wan",
-      "ms_date": "12/13/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/route-maps-about.md",
-      "source_path": "articles/virtual-wan/route-maps-about.md",
-      "service": "virtual-wan",
-      "ms_date": "03/04/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/route-maps-dashboard.md",
-      "source_path": "articles/virtual-wan/route-maps-dashboard.md",
-      "service": "virtual-wan",
-      "ms_date": "03/04/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/route-maps-drop-inbound-branch-sites.md",
-      "source_path": "articles/virtual-wan/route-maps-drop-inbound-branch-sites.md",
-      "service": "virtual-wan",
-      "ms_date": "03/04/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/route-maps-how-to-summarize-routes-leaving-your-virtual-wan.md",
-      "source_path": "articles/virtual-wan/route-maps-how-to-summarize-routes-leaving-your-virtual-wan.md",
-      "service": "virtual-wan",
-      "ms_date": "03/04/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/route-maps-how-to.md",
-      "source_path": "articles/virtual-wan/route-maps-how-to.md",
-      "service": "virtual-wan",
-      "ms_date": "03/04/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/route-maps-prepend-routes.md",
-      "source_path": "articles/virtual-wan/route-maps-prepend-routes.md",
-      "service": "virtual-wan",
-      "ms_date": "03/04/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/route-maps-summarize-from-device-spoke-vnet-nva.md",
-      "source_path": "articles/virtual-wan/route-maps-summarize-from-device-spoke-vnet-nva.md",
-      "service": "virtual-wan",
-      "ms_date": "03/04/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/route-maps-tag-routes.md",
-      "source_path": "articles/virtual-wan/route-maps-tag-routes.md",
-      "service": "virtual-wan",
-      "ms_date": "03/04/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/routing-deep-dive.md",
-      "source_path": "articles/virtual-wan/routing-deep-dive.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/scenario-365-expressroute-private.md",
-      "source_path": "articles/virtual-wan/scenario-365-expressroute-private.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/scenario-any-to-any.md",
-      "source_path": "articles/virtual-wan/scenario-any-to-any.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/scenario-bgp-peering-hub.md",
-      "source_path": "articles/virtual-wan/scenario-bgp-peering-hub.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/scenario-isolate-virtual-networks-branches.md",
-      "source_path": "articles/virtual-wan/scenario-isolate-virtual-networks-branches.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/scenario-isolate-vnets-custom.md",
-      "source_path": "articles/virtual-wan/scenario-isolate-vnets-custom.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/scenario-isolate-vnets.md",
-      "source_path": "articles/virtual-wan/scenario-isolate-vnets.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/scenario-route-between-vnets-firewall.md",
-      "source_path": "articles/virtual-wan/scenario-route-between-vnets-firewall.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/scenario-route-through-nva.md",
-      "source_path": "articles/virtual-wan/scenario-route-through-nva.md",
-      "service": "virtual-wan",
-      "ms_date": "04/07/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/scenario-route-through-nvas-custom.md",
-      "source_path": "articles/virtual-wan/scenario-route-through-nvas-custom.md",
-      "service": "virtual-wan",
-      "ms_date": "10/25/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/scenario-secured-hub-app-gateway.md",
-      "source_path": "articles/virtual-wan/scenario-secured-hub-app-gateway.md",
-      "service": "virtual-wan",
-      "ms_date": "10/25/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/scenario-shared-services-vnet.md",
-      "source_path": "articles/virtual-wan/scenario-shared-services-vnet.md",
-      "service": "virtual-wan",
-      "ms_date": "10/25/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/sd-wan-connectivity-architecture.md",
-      "source_path": "articles/virtual-wan/sd-wan-connectivity-architecture.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/secure-virtual-wan.md",
-      "source_path": "articles/virtual-wan/secure-virtual-wan.md",
-      "service": "virtual-wan",
-      "ms_date": "09/08/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/site-to-site-powershell.md",
-      "source_path": "articles/virtual-wan/site-to-site-powershell.md",
-      "service": "virtual-wan",
-      "ms_date": "03/27/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/third-party-integrations.md",
-      "source_path": "articles/virtual-wan/third-party-integrations.md",
-      "service": "virtual-wan",
-      "ms_date": "04/26/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/upgrade-virtual-wan.md",
-      "source_path": "articles/virtual-wan/upgrade-virtual-wan.md",
-      "service": "virtual-wan",
-      "ms_date": "07/28/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/user-groups-about.md",
-      "source_path": "articles/virtual-wan/user-groups-about.md",
-      "service": "virtual-wan",
-      "ms_date": "03/27/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/user-groups-create.md",
-      "source_path": "articles/virtual-wan/user-groups-create.md",
-      "service": "virtual-wan",
-      "ms_date": "01/22/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/user-groups-radius.md",
-      "source_path": "articles/virtual-wan/user-groups-radius.md",
-      "service": "virtual-wan",
-      "ms_date": "04/23/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-about.md",
-      "source_path": "articles/virtual-wan/virtual-wan-about.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-configure-automation-providers.md",
-      "source_path": "articles/virtual-wan/virtual-wan-configure-automation-providers.md",
-      "service": "virtual-wan",
-      "ms_date": "06/29/2020",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-connectivity.md",
-      "source_path": "articles/virtual-wan/virtual-wan-connectivity.md",
-      "service": "virtual-wan",
-      "ms_date": "05/29/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-custom-ipsec-portal.md",
-      "source_path": "articles/virtual-wan/virtual-wan-custom-ipsec-portal.md",
-      "service": "virtual-wan",
-      "ms_date": "12/12/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-expressroute-about.md",
-      "source_path": "articles/virtual-wan/virtual-wan-expressroute-about.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-expressroute-portal.md",
-      "source_path": "articles/virtual-wan/virtual-wan-expressroute-portal.md",
-      "service": "virtual-wan",
-      "ms_date": "12/12/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-faq.md",
-      "source_path": "articles/virtual-wan/virtual-wan-faq.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-global-transit-network-architecture.md",
-      "source_path": "articles/virtual-wan/virtual-wan-global-transit-network-architecture.md",
-      "service": "virtual-wan",
-      "ms_date": "03/26/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-ipsec.md",
-      "source_path": "articles/virtual-wan/virtual-wan-ipsec.md",
-      "service": "virtual-wan",
-      "ms_date": "03/27/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-locations-partners.md",
-      "source_path": "articles/virtual-wan/virtual-wan-locations-partners.md",
-      "service": "virtual-wan",
-      "ms_date": "03/05/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-point-to-site-azure-ad.md",
-      "source_path": "articles/virtual-wan/virtual-wan-point-to-site-azure-ad.md",
-      "service": "virtual-wan",
-      "ms_date": "02/25/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-point-to-site-portal.md",
-      "source_path": "articles/virtual-wan/virtual-wan-point-to-site-portal.md",
-      "service": "virtual-wan",
-      "ms_date": "12/12/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-point-to-site-powershell.md",
-      "source_path": "articles/virtual-wan/virtual-wan-point-to-site-powershell.md",
-      "service": "virtual-wan",
-      "ms_date": "03/27/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-route-table-nva-portal.md",
-      "source_path": "articles/virtual-wan/virtual-wan-route-table-nva-portal.md",
-      "service": "virtual-wan",
-      "ms_date": "03/27/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-route-table-nva.md",
-      "source_path": "articles/virtual-wan/virtual-wan-route-table-nva.md",
-      "service": "virtual-wan",
-      "ms_date": "03/27/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-site-to-site-portal.md",
-      "source_path": "articles/virtual-wan/virtual-wan-site-to-site-portal.md",
-      "service": "virtual-wan",
-      "ms_date": "03/10/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/virtual-wan-troubleshooting-overview.md",
-      "source_path": "articles/virtual-wan/virtual-wan-troubleshooting-overview.md",
-      "service": "virtual-wan",
-      "ms_date": "12/30/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/vpn-client-certificate-windows.md",
-      "source_path": "articles/virtual-wan/vpn-client-certificate-windows.md",
-      "service": "virtual-wan",
-      "ms_date": "03/20/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/vpn-over-expressroute.md",
-      "source_path": "articles/virtual-wan/vpn-over-expressroute.md",
-      "service": "virtual-wan",
-      "ms_date": "03/27/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/vpn-profile-intune.md",
-      "source_path": "articles/virtual-wan/vpn-profile-intune.md",
-      "service": "virtual-wan",
-      "ms_date": "03/27/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/whats-new.md",
-      "source_path": "articles/virtual-wan/whats-new.md",
-      "service": "virtual-wan",
-      "ms_date": "03/27/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-wan/work-remotely-support.md",
-      "source_path": "articles/virtual-wan/work-remotely-support.md",
-      "service": "virtual-wan",
-      "ms_date": "03/27/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/about-dual-homed-network.md",
-      "source_path": "articles/route-server/about-dual-homed-network.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/anycast.md",
-      "source_path": "articles/route-server/anycast.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/configure-route-server.md",
-      "source_path": "articles/route-server/configure-route-server.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/expressroute-vpn-support.md",
-      "source_path": "articles/route-server/expressroute-vpn-support.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/hub-routing-preference.md",
-      "source_path": "articles/route-server/hub-routing-preference.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/monitor-route-server.md",
-      "source_path": "articles/route-server/monitor-route-server.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/multiregion.md",
-      "source_path": "articles/route-server/multiregion.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/next-hop-ip.md",
-      "source_path": "articles/route-server/next-hop-ip.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/overview.md",
-      "source_path": "articles/route-server/overview.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/path-selection.md",
-      "source_path": "articles/route-server/path-selection.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/peer-route-server-with-virtual-appliance.md",
-      "source_path": "articles/route-server/peer-route-server-with-virtual-appliance.md",
-      "service": "route-server",
-      "ms_date": "03/03/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/quickstart-create-route-server-cli.md",
-      "source_path": "articles/route-server/quickstart-create-route-server-cli.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/quickstart-create-route-server-portal.md",
-      "source_path": "articles/route-server/quickstart-create-route-server-portal.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/quickstart-create-route-server-powershell.md",
-      "source_path": "articles/route-server/quickstart-create-route-server-powershell.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/quickstart-create-route-server-template.md",
-      "source_path": "articles/route-server/quickstart-create-route-server-template.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/roles-permissions.md",
-      "source_path": "articles/route-server/roles-permissions.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/route-injection-in-spokes.md",
-      "source_path": "articles/route-server/route-injection-in-spokes.md",
-      "service": "route-server",
-      "ms_date": "02/10/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/route-server-capacity.md",
-      "source_path": "articles/route-server/route-server-capacity.md",
-      "service": "route-server",
-      "ms_date": "10/31/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/route-server-faq.md",
-      "source_path": "articles/route-server/route-server-faq.md",
-      "service": "route-server",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/troubleshoot-route-server.md",
-      "source_path": "articles/route-server/troubleshoot-route-server.md",
-      "service": "route-server",
-      "ms_date": "09/18/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/route-server/tutorial-protect-route-server-ddos.md",
-      "source_path": "articles/route-server/tutorial-protect-route-server-ddos.md",
-      "service": "route-server",
-      "ms_date": "02/10/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/geomatch-custom-rules-examples.md",
-      "source_path": "articles/web-application-firewall/geomatch-custom-rules-examples.md",
-      "service": "web-application-firewall",
-      "ms_date": "09/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/overview.md",
-      "source_path": "articles/web-application-firewall/overview.md",
-      "service": "web-application-firewall",
-      "ms_date": "11/10/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/quickstart-web-application-firewall-terraform.md",
-      "source_path": "articles/web-application-firewall/quickstart-web-application-firewall-terraform.md",
-      "service": "web-application-firewall",
-      "ms_date": "04/08/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ruleset-support-policy.md",
-      "source_path": "articles/web-application-firewall/ruleset-support-policy.md",
-      "service": "web-application-firewall",
-      "ms_date": "02/26/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/secure-web-application-firewall.md",
-      "source_path": "articles/web-application-firewall/secure-web-application-firewall.md",
-      "service": "web-application-firewall",
-      "ms_date": "07/08/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/waf-copilot.md",
-      "source_path": "articles/web-application-firewall/waf-copilot.md",
-      "service": "web-application-firewall",
-      "ms_date": "06/09/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/waf-javascript-challenge.md",
-      "source_path": "articles/web-application-firewall/waf-javascript-challenge.md",
-      "service": "web-application-firewall",
-      "ms_date": "11/12/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/waf-new-threat-detection.md",
-      "source_path": "articles/web-application-firewall/waf-new-threat-detection.md",
-      "service": "web-application-firewall",
-      "ms_date": "01/19/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/waf-sentinel.md",
-      "source_path": "articles/web-application-firewall/waf-sentinel.md",
-      "service": "web-application-firewall",
-      "ms_date": "06/19/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/afds-overview.md",
-      "source_path": "articles/web-application-firewall/afds/afds-overview.md",
-      "service": "web-application-firewall",
-      "ms_date": "02/25/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/automated-detection-response-with-sentinel.md",
-      "source_path": "articles/web-application-firewall/afds/automated-detection-response-with-sentinel.md",
-      "service": "web-application-firewall",
-      "ms_date": "09/27/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/captcha-challenge.md",
-      "source_path": "articles/web-application-firewall/afds/captcha-challenge.md",
-      "service": "web-application-firewall",
-      "ms_date": "10/28/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/http-ddos-ruleset.md",
-      "source_path": "articles/web-application-firewall/afds/http-ddos-ruleset.md",
-      "service": "web-application-firewall",
-      "ms_date": "11/18/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/protect-api-hosted-apim-by-waf.md",
-      "source_path": "articles/web-application-firewall/afds/protect-api-hosted-apim-by-waf.md",
-      "service": "web-application-firewall",
-      "ms_date": "07/13/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/protect-azure-open-ai.md",
-      "source_path": "articles/web-application-firewall/afds/protect-azure-open-ai.md",
-      "service": "web-application-firewall",
-      "ms_date": "08/28/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-best-practices.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-best-practices.md",
-      "service": "web-application-firewall",
-      "ms_date": "10/12/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-configure-custom-response-code.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-configure-custom-response-code.md",
-      "service": "web-application-firewall",
-      "ms_date": "05/08/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-configure-ip-restriction.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-configure-ip-restriction.md",
-      "service": "web-application-firewall",
-      "ms_date": "05/29/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-create-portal.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-create-portal.md",
-      "service": "web-application-firewall",
-      "ms_date": "07/15/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-custom-rules-powershell.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-custom-rules-powershell.md",
-      "service": "web-application-firewall",
-      "ms_date": "09/05/2019",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-custom-rules.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-custom-rules.md",
-      "service": "web-application-firewall",
-      "ms_date": "02/25/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-drs.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-drs.md",
-      "service": "web-application-firewall",
-      "ms_date": "03/17/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-exclusion-configure.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-exclusion-configure.md",
-      "service": "web-application-firewall",
-      "ms_date": "10/18/2022",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-exclusion.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-exclusion.md",
-      "service": "web-application-firewall",
-      "ms_date": "03/07/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-geo-filtering.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-geo-filtering.md",
-      "service": "web-application-firewall",
-      "ms_date": "09/05/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-monitor.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-monitor.md",
-      "service": "web-application-firewall",
-      "ms_date": "02/25/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-policy-configure-bot-protection.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-policy-configure-bot-protection.md",
-      "service": "web-application-firewall",
-      "ms_date": "11/10/2022",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-policy-settings.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-policy-settings.md",
-      "service": "web-application-firewall",
-      "ms_date": "10/12/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-rate-limit-configure.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-rate-limit-configure.md",
-      "service": "web-application-firewall",
-      "ms_date": "05/19/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-rate-limit.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-rate-limit.md",
-      "service": "web-application-firewall",
-      "ms_date": "02/25/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-tuning.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-tuning.md",
-      "service": "web-application-firewall",
-      "ms_date": "08/28/2022",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-front-door-tutorial-geo-filtering.md",
-      "source_path": "articles/web-application-firewall/afds/waf-front-door-tutorial-geo-filtering.md",
-      "service": "web-application-firewall",
-      "ms_date": "03/10/2020",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-sensitive-data-protection-configure-frontdoor.md",
-      "source_path": "articles/web-application-firewall/afds/waf-sensitive-data-protection-configure-frontdoor.md",
-      "service": "web-application-firewall",
-      "ms_date": "04/30/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/afds/waf-sensitive-data-protection-frontdoor.md",
-      "source_path": "articles/web-application-firewall/afds/waf-sensitive-data-protection-frontdoor.md",
-      "service": "web-application-firewall",
-      "ms_date": "06/24/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/ag-overview.md",
-      "source_path": "articles/web-application-firewall/ag/ag-overview.md",
-      "service": "web-application-firewall",
-      "ms_date": "03/10/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/application-gateway-crs-rulegroups-rules.md",
-      "source_path": "articles/web-application-firewall/ag/application-gateway-crs-rulegroups-rules.md",
-      "service": "web-application-firewall",
-      "ms_date": "02/26/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/application-gateway-customize-waf-rules-cli.md",
-      "source_path": "articles/web-application-firewall/ag/application-gateway-customize-waf-rules-cli.md",
-      "service": "web-application-firewall",
-      "ms_date": "08/25/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/application-gateway-customize-waf-rules-portal.md",
-      "source_path": "articles/web-application-firewall/ag/application-gateway-customize-waf-rules-portal.md",
-      "service": "web-application-firewall",
-      "ms_date": "11/07/2022",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/application-gateway-customize-waf-rules-powershell.md",
-      "source_path": "articles/web-application-firewall/ag/application-gateway-customize-waf-rules-powershell.md",
-      "service": "web-application-firewall",
-      "ms_date": "11/14/2019",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/application-gateway-waf-configuration.md",
-      "source_path": "articles/web-application-firewall/ag/application-gateway-waf-configuration.md",
-      "service": "web-application-firewall",
-      "ms_date": "02/25/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/application-gateway-waf-metrics.md",
-      "source_path": "articles/web-application-firewall/ag/application-gateway-waf-metrics.md",
-      "service": "web-application-firewall",
-      "ms_date": "06/16/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/application-gateway-waf-request-size-limits.md",
-      "source_path": "articles/web-application-firewall/ag/application-gateway-waf-request-size-limits.md",
-      "service": "web-application-firewall",
-      "ms_date": "02/25/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/application-gateway-web-application-firewall-portal.md",
-      "source_path": "articles/web-application-firewall/ag/application-gateway-web-application-firewall-portal.md",
-      "service": "web-application-firewall",
-      "ms_date": "02/25/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/associate-waf-policy-existing-gateway.md",
-      "source_path": "articles/web-application-firewall/ag/associate-waf-policy-existing-gateway.md",
-      "service": "web-application-firewall",
-      "ms_date": "10/25/2019",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/best-practices.md",
-      "source_path": "articles/web-application-firewall/ag/best-practices.md",
-      "service": "web-application-firewall",
-      "ms_date": "04/30/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/bot-protection-overview.md",
-      "source_path": "articles/web-application-firewall/ag/bot-protection-overview.md",
-      "service": "web-application-firewall",
-      "ms_date": "10/12/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/bot-protection.md",
-      "source_path": "articles/web-application-firewall/ag/bot-protection.md",
-      "service": "web-application-firewall",
-      "ms_date": "06/01/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/configure-custom-response-code.md",
-      "source_path": "articles/web-application-firewall/ag/configure-custom-response-code.md",
-      "service": "web-application-firewall",
-      "ms_date": "11/19/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/configure-waf-custom-rules.md",
-      "source_path": "articles/web-application-firewall/ag/configure-waf-custom-rules.md",
-      "service": "web-application-firewall",
-      "ms_date": "05/21/2020",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/create-custom-waf-rules.md",
-      "source_path": "articles/web-application-firewall/ag/create-custom-waf-rules.md",
-      "service": "web-application-firewall",
-      "ms_date": "04/30/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/create-waf-policy-ag.md",
-      "source_path": "articles/web-application-firewall/ag/create-waf-policy-ag.md",
-      "service": "web-application-firewall",
-      "ms_date": "02/25/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/custom-waf-rules-overview.md",
-      "source_path": "articles/web-application-firewall/ag/custom-waf-rules-overview.md",
-      "service": "web-application-firewall",
-      "ms_date": "03/30/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/ddos-ruleset.md",
-      "source_path": "articles/web-application-firewall/ag/ddos-ruleset.md",
-      "service": "web-application-firewall",
-      "ms_date": "01/22/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/geomatch-custom-rules.md",
-      "source_path": "articles/web-application-firewall/ag/geomatch-custom-rules.md",
-      "service": "web-application-firewall",
-      "ms_date": "05/12/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/insights.md",
-      "source_path": "articles/web-application-firewall/ag/insights.md",
-      "service": "web-application-firewall",
-      "ms_date": "02/20/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/log-analytics.md",
-      "source_path": "articles/web-application-firewall/ag/log-analytics.md",
-      "service": "web-application-firewall",
-      "ms_date": "08/14/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/migrate-policy.md",
-      "source_path": "articles/web-application-firewall/ag/migrate-policy.md",
-      "service": "web-application-firewall",
-      "ms_date": "05/18/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/per-site-policies.md",
-      "source_path": "articles/web-application-firewall/ag/per-site-policies.md",
-      "service": "web-application-firewall",
-      "ms_date": "12/09/2020",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/policy-overview.md",
-      "source_path": "articles/web-application-firewall/ag/policy-overview.md",
-      "service": "web-application-firewall",
-      "ms_date": "02/25/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/quick-create-bicep.md",
-      "source_path": "articles/web-application-firewall/ag/quick-create-bicep.md",
-      "service": "web-application-firewall",
-      "ms_date": "10/16/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/quick-create-template.md",
-      "source_path": "articles/web-application-firewall/ag/quick-create-template.md",
-      "service": "web-application-firewall",
-      "ms_date": "09/20/2022",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/rate-limiting-configure.md",
-      "source_path": "articles/web-application-firewall/ag/rate-limiting-configure.md",
-      "service": "web-application-firewall",
-      "ms_date": "01/22/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/rate-limiting-overview.md",
-      "source_path": "articles/web-application-firewall/ag/rate-limiting-overview.md",
-      "service": "web-application-firewall",
-      "ms_date": "01/27/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/tutorial-restrict-web-traffic-cli.md",
-      "source_path": "articles/web-application-firewall/ag/tutorial-restrict-web-traffic-cli.md",
-      "service": "web-application-firewall",
-      "ms_date": "02/24/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/tutorial-restrict-web-traffic-powershell.md",
-      "source_path": "articles/web-application-firewall/ag/tutorial-restrict-web-traffic-powershell.md",
-      "service": "web-application-firewall",
-      "ms_date": "02/24/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/upgrade-ag-waf-policy.md",
-      "source_path": "articles/web-application-firewall/ag/upgrade-ag-waf-policy.md",
-      "service": "web-application-firewall",
-      "ms_date": "04/30/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/upgrade-ruleset-version.md",
-      "source_path": "articles/web-application-firewall/ag/upgrade-ruleset-version.md",
-      "service": "web-application-firewall",
-      "ms_date": "08/28/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/waf-application-gateway-for-containers-overview.md",
-      "source_path": "articles/web-application-firewall/ag/waf-application-gateway-for-containers-overview.md",
-      "service": "web-application-firewall",
-      "ms_date": "11/10/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/waf-engine.md",
-      "source_path": "articles/web-application-firewall/ag/waf-engine.md",
-      "service": "web-application-firewall",
-      "ms_date": "03/06/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/waf-sensitive-data-protection-configure.md",
-      "source_path": "articles/web-application-firewall/ag/waf-sensitive-data-protection-configure.md",
-      "service": "web-application-firewall",
-      "ms_date": "09/05/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/waf-sensitive-data-protection.md",
-      "source_path": "articles/web-application-firewall/ag/waf-sensitive-data-protection.md",
-      "service": "web-application-firewall",
-      "ms_date": "04/10/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/web-application-firewall-logs.md",
-      "source_path": "articles/web-application-firewall/ag/web-application-firewall-logs.md",
-      "service": "web-application-firewall",
-      "ms_date": "08/24/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/ag/web-application-firewall-troubleshoot.md",
-      "source_path": "articles/web-application-firewall/ag/web-application-firewall-troubleshoot.md",
-      "service": "web-application-firewall",
-      "ms_date": "06/13/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/cdn/cdn-overview.md",
-      "source_path": "articles/web-application-firewall/cdn/cdn-overview.md",
-      "service": "web-application-firewall",
-      "ms_date": "10/16/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/shared/application-ddos-protection.md",
-      "source_path": "articles/web-application-firewall/shared/application-ddos-protection.md",
-      "service": "web-application-firewall",
-      "ms_date": "03/31/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/shared/manage-policies.md",
-      "source_path": "articles/web-application-firewall/shared/manage-policies.md",
-      "service": "web-application-firewall",
-      "ms_date": "06/15/2022",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/web-application-firewall/shared/waf-azure-policy.md",
-      "source_path": "articles/web-application-firewall/shared/waf-azure-policy.md",
-      "service": "web-application-firewall",
-      "ms_date": "05/25/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/configure-ddos.md",
-      "source_path": "articles/firewall-manager/configure-ddos.md",
-      "service": "firewall-manager",
-      "ms_date": "11/19/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/create-policy-powershell.md",
-      "source_path": "articles/firewall-manager/create-policy-powershell.md",
-      "service": "firewall-manager",
-      "ms_date": "01/10/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/deploy-trusted-security-partner.md",
-      "source_path": "articles/firewall-manager/deploy-trusted-security-partner.md",
-      "service": "firewall-manager",
-      "ms_date": "11/19/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/deployment-overview.md",
-      "source_path": "articles/firewall-manager/deployment-overview.md",
-      "service": "firewall-manager",
-      "ms_date": "06/21/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/dns-settings.md",
-      "source_path": "articles/firewall-manager/dns-settings.md",
-      "service": "firewall-manager",
-      "ms_date": "06/21/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/fqdn-filtering-network-rules.md",
-      "source_path": "articles/firewall-manager/fqdn-filtering-network-rules.md",
-      "service": "firewall-manager",
-      "ms_date": "06/21/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/ip-groups.md",
-      "source_path": "articles/firewall-manager/ip-groups.md",
-      "service": "firewall-manager",
-      "ms_date": "12/03/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/manage-web-application-firewall-policies.md",
-      "source_path": "articles/firewall-manager/manage-web-application-firewall-policies.md",
-      "service": "firewall-manager",
-      "ms_date": "07/29/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/migrate-to-policy.md",
-      "source_path": "articles/firewall-manager/migrate-to-policy.md",
-      "service": "firewall-manager",
-      "ms_date": "01/10/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/overview.md",
-      "source_path": "articles/firewall-manager/overview.md",
-      "service": "firewall-manager",
-      "ms_date": "02/26/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/policy-overview.md",
-      "source_path": "articles/firewall-manager/policy-overview.md",
-      "service": "firewall-manager",
-      "ms_date": "07/09/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/private-link-inspection-secure-virtual-hub.md",
-      "source_path": "articles/firewall-manager/private-link-inspection-secure-virtual-hub.md",
-      "service": "firewall-manager",
-      "ms_date": "01/08/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/quick-firewall-policy-bicep.md",
-      "source_path": "articles/firewall-manager/quick-firewall-policy-bicep.md",
-      "service": "firewall-manager",
-      "ms_date": "01/08/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/quick-firewall-policy-terraform.md",
-      "source_path": "articles/firewall-manager/quick-firewall-policy-terraform.md",
-      "service": "firewall-manager",
-      "ms_date": "01/07/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/quick-firewall-policy.md",
-      "source_path": "articles/firewall-manager/quick-firewall-policy.md",
-      "service": "firewall-manager",
-      "ms_date": "01/08/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/quick-secure-virtual-hub-bicep.md",
-      "source_path": "articles/firewall-manager/quick-secure-virtual-hub-bicep.md",
-      "service": "firewall-manager",
-      "ms_date": "06/28/2022",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/quick-secure-virtual-hub-terraform.md",
-      "source_path": "articles/firewall-manager/quick-secure-virtual-hub-terraform.md",
-      "service": "firewall-manager",
-      "ms_date": "01/09/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/quick-secure-virtual-hub.md",
-      "source_path": "articles/firewall-manager/quick-secure-virtual-hub.md",
-      "service": "firewall-manager",
-      "ms_date": "08/28/2020",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/rule-hierarchy.md",
-      "source_path": "articles/firewall-manager/rule-hierarchy.md",
-      "service": "firewall-manager",
-      "ms_date": "03/12/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/rule-processing.md",
-      "source_path": "articles/firewall-manager/rule-processing.md",
-      "service": "firewall-manager",
-      "ms_date": "07/29/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/secure-cloud-network-powershell.md",
-      "source_path": "articles/firewall-manager/secure-cloud-network-powershell.md",
-      "service": "firewall-manager",
-      "ms_date": "01/29/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/secure-cloud-network.md",
-      "source_path": "articles/firewall-manager/secure-cloud-network.md",
-      "service": "firewall-manager",
-      "ms_date": "01/29/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/secure-hybrid-network.md",
-      "source_path": "articles/firewall-manager/secure-hybrid-network.md",
-      "service": "firewall-manager",
-      "ms_date": "01/21/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/secured-virtual-hub.md",
-      "source_path": "articles/firewall-manager/secured-virtual-hub.md",
-      "service": "firewall-manager",
-      "ms_date": "01/28/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/threat-intelligence-settings.md",
-      "source_path": "articles/firewall-manager/threat-intelligence-settings.md",
-      "service": "firewall-manager",
-      "ms_date": "11/19/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/trusted-security-partners.md",
-      "source_path": "articles/firewall-manager/trusted-security-partners.md",
-      "service": "firewall-manager",
-      "ms_date": "01/09/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/firewall-manager/vhubs-and-vnets.md",
-      "source_path": "articles/firewall-manager/vhubs-and-vnets.md",
-      "service": "firewall-manager",
-      "ms_date": "03/08/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/automate-ip-address-management-ipam-sample.md",
-      "source_path": "articles/virtual-network-manager/automate-ip-address-management-ipam-sample.md",
-      "service": "virtual-network-manager",
-      "ms_date": "07/16/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/common-issues.md",
-      "source_path": "articles/virtual-network-manager/common-issues.md",
-      "service": "virtual-network-manager",
-      "ms_date": "11/05/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-azure-policy-integration.md",
-      "source_path": "articles/virtual-network-manager/concept-azure-policy-integration.md",
-      "service": "virtual-network-manager",
-      "ms_date": "07/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-connectivity-configuration.md",
-      "source_path": "articles/virtual-network-manager/concept-connectivity-configuration.md",
-      "service": "virtual-network-manager",
-      "ms_date": "01/09/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-cross-tenant.md",
-      "source_path": "articles/virtual-network-manager/concept-cross-tenant.md",
-      "service": "virtual-network-manager",
-      "ms_date": "07/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-deployments.md",
-      "source_path": "articles/virtual-network-manager/concept-deployments.md",
-      "service": "virtual-network-manager",
-      "ms_date": "07/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-enforcement.md",
-      "source_path": "articles/virtual-network-manager/concept-enforcement.md",
-      "service": "virtual-network-manager",
-      "ms_date": "05/06/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-event-logs.md",
-      "source_path": "articles/virtual-network-manager/concept-event-logs.md",
-      "service": "virtual-network-manager",
-      "ms_date": "05/06/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-ip-address-management.md",
-      "source_path": "articles/virtual-network-manager/concept-ip-address-management.md",
-      "service": "virtual-network-manager",
-      "ms_date": "01/09/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-limitations.md",
-      "source_path": "articles/virtual-network-manager/concept-limitations.md",
-      "service": "virtual-network-manager",
-      "ms_date": "07/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-network-groups.md",
-      "source_path": "articles/virtual-network-manager/concept-network-groups.md",
-      "service": "virtual-network-manager",
-      "ms_date": "03/23/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-network-manager-scope.md",
-      "source_path": "articles/virtual-network-manager/concept-network-manager-scope.md",
-      "service": "virtual-network-manager",
-      "ms_date": "07/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-remove-components-checklist.md",
-      "source_path": "articles/virtual-network-manager/concept-remove-components-checklist.md",
-      "service": "virtual-network-manager",
-      "ms_date": "07/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-security-admin-rules-network-group.md",
-      "source_path": "articles/virtual-network-manager/concept-security-admin-rules-network-group.md",
-      "service": "virtual-network-manager",
-      "ms_date": "04/15/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-security-admins.md",
-      "source_path": "articles/virtual-network-manager/concept-security-admins.md",
-      "service": "virtual-network-manager",
-      "ms_date": "01/09/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-use-cases.md",
-      "source_path": "articles/virtual-network-manager/concept-use-cases.md",
-      "service": "virtual-network-manager",
-      "ms_date": "07/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-user-defined-route.md",
-      "source_path": "articles/virtual-network-manager/concept-user-defined-route.md",
-      "service": "virtual-network-manager",
-      "ms_date": "01/09/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-virtual-network-flow-logs.md",
-      "source_path": "articles/virtual-network-manager/concept-virtual-network-flow-logs.md",
-      "service": "virtual-network-manager",
-      "ms_date": "12/31/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/concept-virtual-network-verifier.md",
-      "source_path": "articles/virtual-network-manager/concept-virtual-network-verifier.md",
-      "service": "virtual-network-manager",
-      "ms_date": "03/13/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/create-virtual-network-manager-bicep.md",
-      "source_path": "articles/virtual-network-manager/create-virtual-network-manager-bicep.md",
-      "service": "virtual-network-manager",
-      "ms_date": "04/09/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/create-virtual-network-manager-cli.md",
-      "source_path": "articles/virtual-network-manager/create-virtual-network-manager-cli.md",
-      "service": "virtual-network-manager",
-      "ms_date": "01/15/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
-      "wiki_page": null
-    },
-    {
-      "path": "raw/articles/articles/virtual-network-manager/create-virtual-network-manager-portal.md",
-      "source_path": "articles/virtual-network-manager/create-virtual-network-manager-portal.md",
-      "service": "virtual-network-manager",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network-manager/create-resource-group.md",
+      "source_path": "articles/networking/includes/azure-virtual-network-manager/create-resource-group.md",
+      "service": "networking",
       "ms_date": "03/23/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/create-virtual-network-manager-powershell.md",
-      "source_path": "articles/virtual-network-manager/create-virtual-network-manager-powershell.md",
-      "service": "virtual-network-manager",
-      "ms_date": "01/15/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network-manager/virtual-network-manager-create-instance-portal.md",
+      "source_path": "articles/networking/includes/azure-virtual-network-manager/virtual-network-manager-create-instance-portal.md",
+      "service": "networking",
+      "ms_date": "03/23/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/create-virtual-network-manager-template.md",
-      "source_path": "articles/virtual-network-manager/create-virtual-network-manager-template.md",
-      "service": "virtual-network-manager",
-      "ms_date": "10/23/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/includes/azure-virtual-network-manager/virtual-network-manager-create-network-group.md",
+      "source_path": "articles/networking/includes/azure-virtual-network-manager/virtual-network-manager-create-network-group.md",
+      "service": "networking",
+      "ms_date": "03/23/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/create-virtual-network-manager-terraform.md",
-      "source_path": "articles/virtual-network-manager/create-virtual-network-manager-terraform.md",
-      "service": "virtual-network-manager",
-      "ms_date": "02/05/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/load-balancer-content-delivery/load-balancing-content-delivery-overview.md",
+      "source_path": "articles/networking/load-balancer-content-delivery/load-balancing-content-delivery-overview.md",
+      "service": "networking",
+      "ms_date": "06/24/2025",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/deploy-cross-tenant-ip-address-management.md",
-      "source_path": "articles/virtual-network-manager/deploy-cross-tenant-ip-address-management.md",
-      "service": "virtual-network-manager",
-      "ms_date": "05/21/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/scripts/load-balancer-windows-powershell-sample-nlb.md",
+      "source_path": "articles/networking/scripts/load-balancer-windows-powershell-sample-nlb.md",
+      "service": "networking",
+      "ms_date": "05/31/2023",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/deploy-ip-address-management-pools-bicep.md",
-      "source_path": "articles/virtual-network-manager/deploy-ip-address-management-pools-bicep.md",
-      "service": "virtual-network-manager",
-      "ms_date": "06/25/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/scripts/traffic-manager-powershell-websites-high-availability.md",
+      "source_path": "articles/networking/scripts/traffic-manager-powershell-websites-high-availability.md",
+      "service": "networking",
+      "ms_date": "04/27/2023",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/faq.md",
-      "source_path": "articles/virtual-network-manager/faq.md",
-      "service": "virtual-network-manager",
-      "ms_date": "02/24/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/network-security.md",
+      "source_path": "articles/networking/security/network-security.md",
+      "service": "networking",
+      "ms_date": "06/24/2025",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-block-high-risk-ports.md",
-      "source_path": "articles/virtual-network-manager/how-to-block-high-risk-ports.md",
-      "service": "virtual-network-manager",
-      "ms_date": "03/15/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/zero-trust-application-gateway-waf.md",
+      "source_path": "articles/networking/security/zero-trust-application-gateway-waf.md",
+      "service": "networking",
+      "ms_date": "03/17/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-block-network-traffic-portal.md",
-      "source_path": "articles/virtual-network-manager/how-to-block-network-traffic-portal.md",
-      "service": "virtual-network-manager",
-      "ms_date": "03/22/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/zero-trust-azure-firewall.md",
+      "source_path": "articles/networking/security/zero-trust-azure-firewall.md",
+      "service": "networking",
+      "ms_date": "03/17/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-block-network-traffic-powershell.md",
-      "source_path": "articles/virtual-network-manager/how-to-block-network-traffic-powershell.md",
-      "service": "virtual-network-manager",
-      "ms_date": "03/22/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/zero-trust-ddos-protection.md",
+      "source_path": "articles/networking/security/zero-trust-ddos-protection.md",
+      "service": "networking",
+      "ms_date": "03/17/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-configure-cross-tenant-cli.md",
-      "source_path": "articles/virtual-network-manager/how-to-configure-cross-tenant-cli.md",
-      "service": "virtual-network-manager",
-      "ms_date": "10/15/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/zero-trust-front-door-waf.md",
+      "source_path": "articles/networking/security/zero-trust-front-door-waf.md",
+      "service": "networking",
+      "ms_date": "03/17/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-configure-cross-tenant-portal.md",
-      "source_path": "articles/virtual-network-manager/how-to-configure-cross-tenant-portal.md",
-      "service": "virtual-network-manager",
-      "ms_date": "07/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/zero-trust-network-security.md",
+      "source_path": "articles/networking/security/zero-trust-network-security.md",
+      "service": "networking",
+      "ms_date": "03/17/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-configure-event-logs.md",
-      "source_path": "articles/virtual-network-manager/how-to-configure-event-logs.md",
-      "service": "virtual-network-manager",
-      "ms_date": "12/11/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/25533.md",
+      "source_path": "articles/networking/security/includes/25533.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-create-hub-and-spoke-powershell.md",
-      "source_path": "articles/virtual-network-manager/how-to-create-hub-and-spoke-powershell.md",
-      "service": "virtual-network-manager",
-      "ms_date": "05/07/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/25535.md",
+      "source_path": "articles/networking/security/includes/25535.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-create-hub-and-spoke.md",
-      "source_path": "articles/virtual-network-manager/how-to-create-hub-and-spoke.md",
-      "service": "virtual-network-manager",
-      "ms_date": "07/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/25537.md",
+      "source_path": "articles/networking/security/includes/25537.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-create-mesh-network-powershell.md",
-      "source_path": "articles/virtual-network-manager/how-to-create-mesh-network-powershell.md",
-      "service": "virtual-network-manager",
-      "ms_date": "03/22/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/25539.md",
+      "source_path": "articles/networking/security/includes/25539.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-create-mesh-network.md",
-      "source_path": "articles/virtual-network-manager/how-to-create-mesh-network.md",
-      "service": "virtual-network-manager",
-      "ms_date": "07/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/25541.md",
+      "source_path": "articles/networking/security/includes/25541.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-create-security-admin-rule-network-group.md",
-      "source_path": "articles/virtual-network-manager/how-to-create-security-admin-rule-network-group.md",
-      "service": "virtual-network-manager",
-      "ms_date": "04/17/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/25543.md",
+      "source_path": "articles/networking/security/includes/25543.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-create-user-defined-route.md",
-      "source_path": "articles/virtual-network-manager/how-to-create-user-defined-route.md",
-      "service": "virtual-network-manager",
-      "ms_date": "12/17/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/25550.md",
+      "source_path": "articles/networking/security/includes/25550.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-define-network-group-membership-azure-policy.md",
-      "source_path": "articles/virtual-network-manager/how-to-define-network-group-membership-azure-policy.md",
-      "service": "virtual-network-manager",
-      "ms_date": "07/18/2023",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/26879.md",
+      "source_path": "articles/networking/security/includes/26879.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-deploy-hub-spoke-topology-with-azure-firewall.md",
-      "source_path": "articles/virtual-network-manager/how-to-deploy-hub-spoke-topology-with-azure-firewall.md",
-      "service": "virtual-network-manager",
-      "ms_date": "07/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/26880.md",
+      "source_path": "articles/networking/security/includes/26880.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-ip-address-management-association-recommendations.md",
-      "source_path": "articles/virtual-network-manager/how-to-ip-address-management-association-recommendations.md",
-      "service": "virtual-network-manager",
-      "ms_date": "11/05/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/26881.md",
+      "source_path": "articles/networking/security/includes/26881.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-manage-ip-addresses-network-manager.md",
-      "source_path": "articles/virtual-network-manager/how-to-manage-ip-addresses-network-manager.md",
-      "service": "virtual-network-manager",
-      "ms_date": "01/09/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/26882.md",
+      "source_path": "articles/networking/security/includes/26882.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-manage-user-defined-routes-multiple-hub-spoke-topologies.md",
-      "source_path": "articles/virtual-network-manager/how-to-manage-user-defined-routes-multiple-hub-spoke-topologies.md",
-      "service": "virtual-network-manager",
-      "ms_date": "11/07/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/26883.md",
+      "source_path": "articles/networking/security/includes/26883.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-verify-reachability-with-virtual-network-verifier.md",
-      "source_path": "articles/virtual-network-manager/how-to-verify-reachability-with-virtual-network-verifier.md",
-      "service": "virtual-network-manager",
-      "ms_date": "03/13/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/26884.md",
+      "source_path": "articles/networking/security/includes/26884.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/how-to-view-applied-configurations.md",
-      "source_path": "articles/virtual-network-manager/how-to-view-applied-configurations.md",
-      "service": "virtual-network-manager",
-      "ms_date": "03/22/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/26885.md",
+      "source_path": "articles/networking/security/includes/26885.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/overview.md",
-      "source_path": "articles/virtual-network-manager/overview.md",
-      "service": "virtual-network-manager",
-      "ms_date": "01/09/2026",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/26886.md",
+      "source_path": "articles/networking/security/includes/26886.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/prevent-overlapping-ip-address-space-policy-ipam.md",
-      "source_path": "articles/virtual-network-manager/prevent-overlapping-ip-address-space-policy-ipam.md",
-      "service": "virtual-network-manager",
-      "ms_date": "03/10/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/26887.md",
+      "source_path": "articles/networking/security/includes/26887.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/query-azure-resource-graph.md",
-      "source_path": "articles/virtual-network-manager/query-azure-resource-graph.md",
-      "service": "virtual-network-manager",
-      "ms_date": "02/04/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/26888.md",
+      "source_path": "articles/networking/security/includes/26888.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/resource-manager-template-samples.md",
-      "source_path": "articles/virtual-network-manager/resource-manager-template-samples.md",
-      "service": "virtual-network-manager",
-      "ms_date": "03/28/2024",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/26889.md",
+      "source_path": "articles/networking/security/includes/26889.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     },
     {
-      "path": "raw/articles/articles/virtual-network-manager/tutorial-create-secured-hub-and-spoke.md",
-      "source_path": "articles/virtual-network-manager/tutorial-create-secured-hub-and-spoke.md",
-      "service": "virtual-network-manager",
-      "ms_date": "07/11/2025",
-      "synced_at": "2026-04-08T17:40:43Z",
+      "path": "raw/articles/articles/networking/security/includes/27015.md",
+      "source_path": "articles/networking/security/includes/27015.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/networking/security/includes/27016.md",
+      "source_path": "articles/networking/security/includes/27016.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/networking/security/includes/27017.md",
+      "source_path": "articles/networking/security/includes/27017.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/networking/security/includes/27018.md",
+      "source_path": "articles/networking/security/includes/27018.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/networking/security/includes/27019.md",
+      "source_path": "articles/networking/security/includes/27019.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/networking/security/includes/27020.md",
+      "source_path": "articles/networking/security/includes/27020.md",
+      "service": "networking",
+      "ms_date": "03/10/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/faqs.md",
+      "source_path": "articles/internet-peering/faqs.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/how-to-exchange-route-server-portal.md",
+      "source_path": "articles/internet-peering/how-to-exchange-route-server-portal.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/howto-direct-portal.md",
+      "source_path": "articles/internet-peering/howto-direct-portal.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/howto-exchange-portal.md",
+      "source_path": "articles/internet-peering/howto-exchange-portal.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/howto-legacy-direct-portal.md",
+      "source_path": "articles/internet-peering/howto-legacy-direct-portal.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/howto-legacy-exchange-portal.md",
+      "source_path": "articles/internet-peering/howto-legacy-exchange-portal.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/howto-peering-service-portal.md",
+      "source_path": "articles/internet-peering/howto-peering-service-portal.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/howto-peering-service-voice-portal.md",
+      "source_path": "articles/internet-peering/howto-peering-service-voice-portal.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/howto-subscription-association-portal.md",
+      "source_path": "articles/internet-peering/howto-subscription-association-portal.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/overview-peering-service.md",
+      "source_path": "articles/internet-peering/overview-peering-service.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/overview.md",
+      "source_path": "articles/internet-peering/overview.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/peering-registered-prefix-requirements.md",
+      "source_path": "articles/internet-peering/peering-registered-prefix-requirements.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/peering-service-partner-overview.md",
+      "source_path": "articles/internet-peering/peering-service-partner-overview.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/policy.md",
+      "source_path": "articles/internet-peering/policy.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/prerequisites.md",
+      "source_path": "articles/internet-peering/prerequisites.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/walkthrough-communications-services-partner.md",
+      "source_path": "articles/internet-peering/walkthrough-communications-services-partner.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/walkthrough-device-maintenance-notification.md",
+      "source_path": "articles/internet-peering/walkthrough-device-maintenance-notification.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/walkthrough-direct-all.md",
+      "source_path": "articles/internet-peering/walkthrough-direct-all.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/walkthrough-direct-peering-type-conversions.md",
+      "source_path": "articles/internet-peering/walkthrough-direct-peering-type-conversions.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/walkthrough-exchange-all.md",
+      "source_path": "articles/internet-peering/walkthrough-exchange-all.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/walkthrough-exchange-route-server-partner.md",
+      "source_path": "articles/internet-peering/walkthrough-exchange-route-server-partner.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/walkthrough-monitoring-telemetry.md",
+      "source_path": "articles/internet-peering/walkthrough-monitoring-telemetry.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/internet-peering/walkthrough-peering-service-all.md",
+      "source_path": "articles/internet-peering/walkthrough-peering-service-all.md",
+      "service": "internet-peering",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/peering-service/about.md",
+      "source_path": "articles/peering-service/about.md",
+      "service": "peering-service",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/peering-service/azure-portal.md",
+      "source_path": "articles/peering-service/azure-portal.md",
+      "service": "peering-service",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/peering-service/cli.md",
+      "source_path": "articles/peering-service/cli.md",
+      "service": "peering-service",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/peering-service/connection-telemetry.md",
+      "source_path": "articles/peering-service/connection-telemetry.md",
+      "service": "peering-service",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/peering-service/connection.md",
+      "source_path": "articles/peering-service/connection.md",
+      "service": "peering-service",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/peering-service/customer-walkthrough.md",
+      "source_path": "articles/peering-service/customer-walkthrough.md",
+      "service": "peering-service",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/peering-service/location-partners.md",
+      "source_path": "articles/peering-service/location-partners.md",
+      "service": "peering-service",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/peering-service/peering-service-prefix-requirements.md",
+      "source_path": "articles/peering-service/peering-service-prefix-requirements.md",
+      "service": "peering-service",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/peering-service/powershell.md",
+      "source_path": "articles/peering-service/powershell.md",
+      "service": "peering-service",
+      "ms_date": "02/25/2026",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/network-function-manager/create-device.md",
+      "source_path": "articles/network-function-manager/create-device.md",
+      "service": "network-function-manager",
+      "ms_date": "11/02/2021",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/network-function-manager/delete-functions.md",
+      "source_path": "articles/network-function-manager/delete-functions.md",
+      "service": "network-function-manager",
+      "ms_date": "05/10/2022",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/network-function-manager/deploy-functions.md",
+      "source_path": "articles/network-function-manager/deploy-functions.md",
+      "service": "network-function-manager",
+      "ms_date": "11/02/2021",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/network-function-manager/faq.md",
+      "source_path": "articles/network-function-manager/faq.md",
+      "service": "network-function-manager",
+      "ms_date": "11/02/2021",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/network-function-manager/overview.md",
+      "source_path": "articles/network-function-manager/overview.md",
+      "service": "network-function-manager",
+      "ms_date": "11/02/2021",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/network-function-manager/partners.md",
+      "source_path": "articles/network-function-manager/partners.md",
+      "service": "network-function-manager",
+      "ms_date": "11/02/2021",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/network-function-manager/requirements.md",
+      "source_path": "articles/network-function-manager/requirements.md",
+      "service": "network-function-manager",
+      "ms_date": "11/02/2021",
+      "synced_at": "2026-04-09T21:23:36Z",
+      "wiki_page": null
+    },
+    {
+      "path": "raw/articles/articles/network-function-manager/resources-permissions.md",
+      "source_path": "articles/network-function-manager/resources-permissions.md",
+      "service": "network-function-manager",
+      "ms_date": "11/02/2021",
+      "synced_at": "2026-04-09T21:23:36Z",
       "wiki_page": null
     }
   ]

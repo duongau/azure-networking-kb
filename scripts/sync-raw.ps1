@@ -34,7 +34,17 @@ param(
         'private-link',
         'ddos-protection',
         'dns',
-        'network-watcher'
+        'network-watcher',
+        'frontdoor',
+        'traffic-manager',
+        'virtual-wan',
+        'route-server',
+        'web-application-firewall',
+        'firewall-manager',
+        'virtual-network-manager',
+        'internet-peering',
+        'peering-service',
+        'network-function-manager'
     )
 )
 
