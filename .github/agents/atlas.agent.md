@@ -49,6 +49,7 @@ For each service or concept:
 3. Write or update the wiki page using the standard format (see `.squad/agents/atlas/charter.md`)
 4. Update `wiki/index.md` — set status to `✅ current` and set the compiled date
 5. Log any synthesis decisions to `.squad/decisions/inbox/atlas-{slug}.md`
+6. **Update `FORGE-HANDOFF.md`** — rewrite it with today's date, the list of changed wiki files, and the commit range (`git rev-parse HEAD~1` for prev, `git rev-parse HEAD` for current). See `KB-REEMBED-PROTOCOL.md` for the exact format. This is required — the DB squad re-embeds based on this file.
 
 ## Standard wiki page format
 

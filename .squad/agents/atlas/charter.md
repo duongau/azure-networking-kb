@@ -26,7 +26,8 @@
 3. **Query the RAG database** (`azure-networking-rag` MCP tool: `get_article_context`) for the service — this catches anything not yet reflected in raw/ and provides a cross-check against the live index
 4. Write or update the corresponding `wiki/` page using the standard wiki page format (see below)
 5. Update `wiki/index.md` to reflect the new status and compiled date
-6. Log a decision entry if any significant synthesis choice was made
+6. **Update `FORGE-HANDOFF.md`** — rewrite with today's date, the list of changed wiki files, and the commit range (`git rev-parse HEAD~1` for prev SHA, `git rev-parse HEAD` for current). See `KB-REEMBED-PROTOCOL.md` for the exact format. Required after every compile — the DB squad re-embeds based on this file.
+7. Log a decision entry if any significant synthesis choice was made
 
 ### When the RAG sync scheduler runs
 The `AzureNetworkingRAGSync` Windows task re-indexes the RAG DB at 10:30am and 3:30pm PST daily.
