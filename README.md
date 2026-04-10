@@ -14,6 +14,7 @@ This repo is a **living knowledge base** for Azure Networking content teams. AI 
 |---|---|
 | **Atlas** | Compiler — reads raw Azure docs articles and compiles them into structured wiki pages |
 | **Lore** | Librarian — health-checks the wiki for dead links, stale content, and coverage gaps |
+| **Scribe** | Memory manager — merges Atlas decision logs from `.squad/decisions/inbox/` into `.squad/decisions.md` |
 
 The output (`wiki/`) is plain markdown — readable in any editor, searchable with grep, and committable to git.
 
