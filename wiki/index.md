@@ -1,6 +1,6 @@
 # Azure Networking Knowledge Base — Index
 
-> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 22 / 23 services · 7 concepts · 4 decision guides · 2 limits references
+> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 23 / 23 services · 8 concepts · 4 decision guides · 2 limits references
 
 This is the entry point for the Azure Networking KB. All wiki pages are compiled by Atlas from source articles in `raw/`.
 
@@ -46,7 +46,7 @@ This is the entry point for the Azure Networking KB. All wiki pages are compiled
 | Routing | [routing.md](concepts/routing.md) | ✅ current |
 | Private access to PaaS | [private-access-to-paas.md](concepts/private-access-to-paas.md) | ✅ current |
 | Monitoring | [monitoring.md](concepts/monitoring.md) | ✅ current |
-| Azure Networking Fundamentals | [azure-networking-fundamentals.md](concepts/azure-networking-fundamentals.md) | 🔲 stub |
+| Azure Networking Fundamentals | [azure-networking-fundamentals.md](concepts/azure-networking-fundamentals.md) | ✅ current |
 
 ---
 
