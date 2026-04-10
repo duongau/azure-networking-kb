@@ -1,6 +1,6 @@
 # Azure Networking Knowledge Base — Index
 
-> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 23 / 23 services · 13 concepts · 7 comparisons · 4 patterns · 4 decision guides · 2 limits references
+> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 23 / 23 services · 17 concepts · 7 comparisons · 4 patterns · 4 decision guides · 2 limits references · 23 source summaries
 
 This is the entry point for the Azure Networking KB. All wiki pages are compiled by Atlas from source articles in `raw/`.
 
@@ -52,6 +52,10 @@ This is the entry point for the Azure Networking KB. All wiki pages are compiled
 | User-defined routes (UDRs) | [user-defined-routes.md](concepts/user-defined-routes.md) | ✅ current |
 | Network Security Groups (NSGs) | [network-security-groups.md](concepts/network-security-groups.md) | ✅ current |
 | VNet peering | [vnet-peering.md](concepts/vnet-peering.md) | ✅ current |
+| DNS zones and records | [dns-zones-and-records.md](concepts/dns-zones-and-records.md) | ✅ current |
+| Flow logs | [flow-logs.md](concepts/flow-logs.md) | ✅ current |
+| Service endpoints | [service-endpoints.md](concepts/service-endpoints.md) | ✅ current |
+| VNet encryption | [vnet-encryption.md](concepts/vnet-encryption.md) | ✅ current |
 
 ---
 
@@ -101,6 +105,38 @@ Deployment patterns with architecture diagrams and configuration notes.
 |---|---|---|
 | SKU comparison | [sku-comparison.md](limits-and-skus/sku-comparison.md) | ✅ current |
 | Service limits quick reference | [service-limits-quick-reference.md](limits-and-skus/service-limits-quick-reference.md) | ✅ current |
+
+---
+
+## Sources
+
+Per-service source summaries: raw article counts, coverage strengths, gaps, and links to compiled wiki pages.
+
+| Service | Source summary | Articles |
+|---|---|---|
+| Application Gateway | [application-gateway-docs.md](sources/application-gateway-docs.md) | 176 |
+| Azure Bastion | [bastion-docs.md](sources/bastion-docs.md) | — |
+| DDoS Protection | [ddos-protection-docs.md](sources/ddos-protection-docs.md) | — |
+| Azure DNS | [dns-docs.md](sources/dns-docs.md) | — |
+| ExpressRoute | [expressroute-docs.md](sources/expressroute-docs.md) | — |
+| Azure Firewall | [firewall-docs.md](sources/firewall-docs.md) | — |
+| Firewall Manager | [firewall-manager-docs.md](sources/firewall-manager-docs.md) | — |
+| Azure Front Door | [frontdoor-docs.md](sources/frontdoor-docs.md) | — |
+| Internet Peering | [internet-peering-docs.md](sources/internet-peering-docs.md) | — |
+| Azure Load Balancer | [load-balancer-docs.md](sources/load-balancer-docs.md) | — |
+| NAT Gateway | [nat-gateway-docs.md](sources/nat-gateway-docs.md) | — |
+| Network Function Manager | [network-function-manager-docs.md](sources/network-function-manager-docs.md) | — |
+| Network Watcher | [network-watcher-docs.md](sources/network-watcher-docs.md) | — |
+| Azure Networking (cross-cutting) | [networking-docs.md](sources/networking-docs.md) | — |
+| Peering Service | [peering-service-docs.md](sources/peering-service-docs.md) | — |
+| Private Link | [private-link-docs.md](sources/private-link-docs.md) | — |
+| Azure Route Server | [route-server-docs.md](sources/route-server-docs.md) | — |
+| Traffic Manager | [traffic-manager-docs.md](sources/traffic-manager-docs.md) | — |
+| Azure Virtual Network | [virtual-network-docs.md](sources/virtual-network-docs.md) | — |
+| Virtual Network Manager | [virtual-network-manager-docs.md](sources/virtual-network-manager-docs.md) | — |
+| Virtual WAN | [virtual-wan-docs.md](sources/virtual-wan-docs.md) | — |
+| VPN Gateway | [vpn-gateway-docs.md](sources/vpn-gateway-docs.md) | — |
+| Web Application Firewall | [web-application-firewall-docs.md](sources/web-application-firewall-docs.md) | — |
 
 ---
 

@@ -21,7 +21,7 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 
 ## Current status
 
-> **Coverage: 23 / 23 services · 13 concepts · 7 comparisons · 4 patterns · 4 decision guides · 2 limits references** as of 2026-04-10. See [`wiki/index.md`](wiki/index.md) for the full index.
+> **Coverage: 23 / 23 services · 17 concepts · 7 comparisons · 4 patterns · 4 decision guides · 2 limits references · 23 source summaries** as of 2026-04-10. See [`wiki/index.md`](wiki/index.md) for the full index.
 
 | Service | Raw articles | Wiki page | Status |
 |---|---|---|---|
@@ -66,6 +66,10 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 | User-defined routes (UDRs) | `wiki/concepts/user-defined-routes.md` | ✅ compiled |
 | Network Security Groups (NSGs) | `wiki/concepts/network-security-groups.md` | ✅ compiled |
 | VNet peering | `wiki/concepts/vnet-peering.md` | ✅ compiled |
+| DNS zones and records | `wiki/concepts/dns-zones-and-records.md` | ✅ compiled |
+| Flow logs | `wiki/concepts/flow-logs.md` | ✅ compiled |
+| Service endpoints | `wiki/concepts/service-endpoints.md` | ✅ compiled |
+| VNet encryption | `wiki/concepts/vnet-encryption.md` | ✅ compiled |
 
 ### Comparisons
 
@@ -103,6 +107,10 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 |---|---|---|
 | SKU comparison | `wiki/limits-and-skus/sku-comparison.md` | ✅ compiled |
 | Service limits quick reference | `wiki/limits-and-skus/service-limits-quick-reference.md` | ✅ compiled |
+
+### Source summaries
+
+Per-service summaries of raw source material: article counts, coverage strengths, gaps, and links to compiled wiki pages. Located in `wiki/sources/` — one file per service.
 
 ---
 
@@ -155,11 +163,12 @@ azure-networking-kb/
 │   ├── log.md               # Chronological operations log
 │   ├── health-report.md     # Latest Lore health check output
 │   ├── services/            # 23 per-service compiled summaries
-│   ├── concepts/            # 13 concept pages (SNAT, BGP, UDRs, NSGs, peering, etc.)
+│   ├── concepts/            # 17 concept pages (SNAT, BGP, UDRs, NSGs, peering, DNS, flow logs, etc.)
 │   ├── comparisons/         # 7 decision matrices (Firewall vs NSG, VWAN vs hub-spoke, etc.)
 │   ├── patterns/            # 4 deployment pattern pages with architecture diagrams
 │   ├── decisions/           # 4 decision guides (which service to use when?)
-│   └── limits-and-skus/     # 2 SKU comparison and service limits reference pages
+│   ├── limits-and-skus/     # 2 SKU comparison and service limits reference pages
+│   └── sources/             # 23 per-service source summaries (article counts, coverage gaps)
 ├── scripts/
 │   ├── sync-raw.ps1             # Sync networking articles from azure-docs-pr
 │   └── check-kb-freshness.ps1   # Staleness detection: compare source ms.date vs wiki compiled date
