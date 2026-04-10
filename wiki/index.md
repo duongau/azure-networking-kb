@@ -1,6 +1,6 @@
 # Azure Networking Knowledge Base — Index
 
-> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 23 / 23 services · 8 concepts · 7 comparisons · 4 patterns · 4 decision guides · 2 limits references
+> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 23 / 23 services · 13 concepts · 7 comparisons · 4 patterns · 4 decision guides · 2 limits references
 
 This is the entry point for the Azure Networking KB. All wiki pages are compiled by Atlas from source articles in `raw/`.
 
@@ -47,6 +47,11 @@ This is the entry point for the Azure Networking KB. All wiki pages are compiled
 | Private access to PaaS | [private-access-to-paas.md](concepts/private-access-to-paas.md) | ✅ current |
 | Monitoring | [monitoring.md](concepts/monitoring.md) | ✅ current |
 | Azure Networking Fundamentals | [azure-networking-fundamentals.md](concepts/azure-networking-fundamentals.md) | ✅ current |
+| SNAT in Azure | [snat.md](concepts/snat.md) | ✅ current |
+| BGP and dynamic routing | [bgp-dynamic-routing.md](concepts/bgp-dynamic-routing.md) | ✅ current |
+| User-defined routes (UDRs) | [user-defined-routes.md](concepts/user-defined-routes.md) | ✅ current |
+| Network Security Groups (NSGs) | [network-security-groups.md](concepts/network-security-groups.md) | ✅ current |
+| VNet peering | [vnet-peering.md](concepts/vnet-peering.md) | ✅ current |
 
 ---
 
