@@ -1,6 +1,6 @@
 # Azure Networking Knowledge Base — Index
 
-> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 23 / 23 services · 8 concepts · 4 decision guides · 2 limits references
+> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 23 / 23 services · 8 concepts · 7 comparisons · 4 patterns · 4 decision guides · 2 limits references
 
 This is the entry point for the Azure Networking KB. All wiki pages are compiled by Atlas from source articles in `raw/`.
 
@@ -47,6 +47,35 @@ This is the entry point for the Azure Networking KB. All wiki pages are compiled
 | Private access to PaaS | [private-access-to-paas.md](concepts/private-access-to-paas.md) | ✅ current |
 | Monitoring | [monitoring.md](concepts/monitoring.md) | ✅ current |
 | Azure Networking Fundamentals | [azure-networking-fundamentals.md](concepts/azure-networking-fundamentals.md) | ✅ current |
+
+---
+
+## Comparisons
+
+Side-by-side decision matrices for choosing between Azure networking services.
+
+| Comparison | Wiki page | Status |
+|---|---|---|
+| Load balancing options (L4 vs L7 vs global) | [load-balancing-options.md](comparisons/load-balancing-options.md) | ✅ current |
+| VPN Gateway vs ExpressRoute | [vpn-gateway-vs-expressroute.md](comparisons/vpn-gateway-vs-expressroute.md) | ✅ current |
+| Azure Firewall vs NSG | [firewall-vs-nsg.md](comparisons/firewall-vs-nsg.md) | ✅ current |
+| Azure Firewall SKU comparison (Basic / Standard / Premium) | [firewall-sku-comparison.md](comparisons/firewall-sku-comparison.md) | ✅ current |
+| Virtual WAN vs hub-spoke | [virtual-wan-vs-hub-spoke.md](comparisons/virtual-wan-vs-hub-spoke.md) | ✅ current |
+| Private Endpoint vs Service Endpoint | [private-endpoints-vs-service-endpoints.md](comparisons/private-endpoints-vs-service-endpoints.md) | ✅ current |
+| Application Gateway vs Azure Front Door | [app-gateway-vs-front-door.md](comparisons/app-gateway-vs-front-door.md) | ✅ current |
+
+---
+
+## Patterns
+
+Deployment patterns with architecture diagrams and configuration notes.
+
+| Pattern | Wiki page | Status |
+|---|---|---|
+| Hub-spoke with Azure Firewall | [hub-spoke-with-firewall.md](patterns/hub-spoke-with-firewall.md) | ✅ current |
+| NAT Gateway in hub-spoke | [nat-gateway-hub-spoke.md](patterns/nat-gateway-hub-spoke.md) | ✅ current |
+| Hybrid DNS resolution (Private Resolver) | [dns-hybrid-resolution.md](patterns/dns-hybrid-resolution.md) | ✅ current |
+| ExpressRoute resiliency patterns | [expressroute-resiliency-patterns.md](patterns/expressroute-resiliency-patterns.md) | ✅ current |
 
 ---
 
