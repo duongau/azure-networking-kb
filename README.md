@@ -94,6 +94,15 @@ cd "C:\GitHub\azure-networking-kb"
 # To add a new service: .\scripts\sync-raw.ps1 -Services @('new-service-name')
 ```
 
+### Check for stale wiki pages
+
+```powershell
+cd "C:\GitHub\azure-networking-kb"
+.\scripts\check-kb-freshness.ps1              # full report across all services
+.\scripts\check-kb-freshness.ps1 -StaleOnly   # only services where source is newer than compiled wiki
+.\scripts\check-kb-freshness.ps1 -Threshold 30  # only flag if source is >30 days newer
+```
+
 ### Connected systems
 
 | System | Location | Notes |
@@ -118,7 +127,8 @@ azure-networking-kb/
 │   ├── decisions/           # Decision guides (which service to use when?)
 │   └── limits-and-skus/     # SKU comparisons and service limits reference
 ├── scripts/
-│   └── sync-raw.ps1         # Sync networking articles from azure-docs-pr
+│   ├── sync-raw.ps1             # Sync networking articles from azure-docs-pr
+│   └── check-kb-freshness.ps1   # Staleness detection: compare source ms.date vs wiki compiled date
 ```
 
 ---
