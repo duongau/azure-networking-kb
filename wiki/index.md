@@ -1,6 +1,6 @@
 # Azure Networking Knowledge Base — Index
 
-> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 23 / 23 services · 17 concepts · 10 comparisons · 4 patterns · 4 decision guides · 4 limits/tracking references · 23 source summaries
+> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 23 / 23 services · 17 concepts · 10 comparisons · 8 patterns · 4 decision guides · 4 limits/tracking references · 23 source summaries
 
 This is the entry point for the Azure Networking KB. All wiki pages are compiled by Atlas from source articles in `raw/`.
 
@@ -88,6 +88,10 @@ Deployment patterns with architecture diagrams and configuration notes.
 | NAT Gateway in hub-spoke | [nat-gateway-hub-spoke.md](patterns/nat-gateway-hub-spoke.md) | ✅ current |
 | Hybrid DNS resolution (Private Resolver) | [dns-hybrid-resolution.md](patterns/dns-hybrid-resolution.md) | ✅ current |
 | ExpressRoute resiliency patterns | [expressroute-resiliency-patterns.md](patterns/expressroute-resiliency-patterns.md) | ✅ current |
+| Multi-region active-active with Front Door | [multi-region-front-door.md](patterns/multi-region-front-door.md) | ✅ current |
+| Zero Trust application delivery | [zero-trust-app-delivery.md](patterns/zero-trust-app-delivery.md) | ✅ current |
+| Enterprise-scale hub-spoke with AVNM | [avnm-enterprise-scale.md](patterns/avnm-enterprise-scale.md) | ✅ current |
+| Private AKS cluster networking | [private-aks-networking.md](patterns/private-aks-networking.md) | ✅ current |
 
 ---
 

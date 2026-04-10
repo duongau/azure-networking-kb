@@ -21,7 +21,7 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 
 ## Current status
 
-> **Coverage: 23 / 23 services · 17 concepts · 10 comparisons · 4 patterns · 4 decision guides · 4 limits/tracking references · 23 source summaries** as of 2026-04-10. See [`wiki/index.md`](wiki/index.md) for the full index.
+> **Coverage: 23 / 23 services · 17 concepts · 10 comparisons · 8 patterns · 4 decision guides · 4 limits/tracking references · 23 source summaries** as of 2026-04-10. See [`wiki/index.md`](wiki/index.md) for the full index.
 
 | Service | Raw articles | Wiki page | Status |
 |---|---|---|---|
@@ -94,6 +94,10 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 | NAT Gateway in hub-spoke | `wiki/patterns/nat-gateway-hub-spoke.md` | ✅ compiled |
 | Hybrid DNS resolution | `wiki/patterns/dns-hybrid-resolution.md` | ✅ compiled |
 | ExpressRoute resiliency patterns | `wiki/patterns/expressroute-resiliency-patterns.md` | ✅ compiled |
+| Multi-region active-active with Front Door | `wiki/patterns/multi-region-front-door.md` | ✅ compiled |
+| Zero Trust application delivery | `wiki/patterns/zero-trust-app-delivery.md` | ✅ compiled |
+| Enterprise-scale hub-spoke with AVNM | `wiki/patterns/avnm-enterprise-scale.md` | ✅ compiled |
+| Private AKS cluster networking | `wiki/patterns/private-aks-networking.md` | ✅ compiled |
 
 ### Decision guides
 
