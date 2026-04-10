@@ -1,6 +1,6 @@
 # Azure Load Balancer
 
-> **Compiled:** 2025-01-30 | **Source articles:** 94 | **Status:** current
+> **Compiled:** 2026-04-10 | **Source articles:** 95 | **Status:** current
 
 ## What it is
 
@@ -32,7 +32,9 @@ Azure Load Balancer is a Layer-4 (OSI) pass-through network load balancer that d
 | **NAT Gateway integration** | Standard LB (internal and public) supported behind NAT Gateway for outbound |
 | **Global VNet peering** | Standard Internal LB accessible via Global VNet Peering |
 | **Cross-subscription backend** | Backend pools and frontends can span subscriptions (Standard) |
-| **Diagnostics** | Azure Monitor multi-dimensional metrics: Data Path Availability, Health Probe Status, SYN Count, SNAT Connection Count, Allocated/Used SNAT Ports, Byte Count, Packet Count |
+| **Diagnostics** | Azure Monitor multi-dimensional metrics: Data Path Availability, Health Probe Status, SYN Count, SNAT Connection Count, Allocated/Used SNAT Ports, Byte Count, Packet Count; bandwidth metrics support Protocol dimension filter (TCP=6, UDP=17) |
+| **Health event logs** | GA (February 2025) under Azure Monitor resource log category `LoadBalancerHealthEvent`; all public, China, and Government regions |
+| **Health Status** | GA (November 2024); per-backend-instance health state with reason detail |
 
 ---
 
@@ -158,6 +160,19 @@ Health Probes (TCP / HTTP / HTTPS) → 168.63.129.16
 | HTTPS probe requirement | Certificate chain minimum SHA256 signature hash |
 | Custom health logic | Return non-200 from HTTP/S probe to gracefully drain instance |
 
+> ⚠️ **Known issue — `numberOfProbes` / "Unhealthy threshold" not respected:** The `numberOfProbes` property (shown as "Unhealthy threshold" in the Azure portal) is currently **not honored**. The load balancer marks a backend up or down after a single probe result, regardless of the configured value. **Mitigation:** Use the `probeThreshold` property (API version 2022-05-01 or higher) to control the number of consecutive successful or failed probes required before state change. The `numberOfProbes` property is also **retiring September 1, 2027**.
+
+---
+
+## Retirements and deprecations
+
+| Feature | Retirement date | Action required |
+|---|---|---|
+| **Basic Load Balancer** | September 30, 2025 (**passed**) | Migrate all existing Basic LBs to Standard. New Basic deployments blocked since March 31, 2025. |
+| **`numberOfProbes` property** | September 1, 2027 | Migrate to `probeThreshold` property using API version 2022-05-01 or higher. |
+| **Inbound NAT rule V1** (for VMs and VMSS) | September 30, 2027 | Migrate to Inbound NAT rule V2. |
+| **Default outbound access** (new VNets) | March 31, 2026 | Explicitly configure NAT Gateway, Standard LB outbound rules, or instance-level PIPs for all VMs. |
+
 ---
 
 ## Gateway Load Balancer specifics
@@ -172,6 +187,7 @@ Health Probes (TCP / HTTP / HTTPS) → 168.63.129.16
 | Cross-tenant chaining | Supported via API/CLI/PS; not via portal |
 | UDR as next hop | Not supported |
 | Global tier compatibility | Not supported |
+| IPv6 support | GA (September 2023) |
 | MTU recommendation | ≥ 1550; up to 4000 for jumbo frame scenarios [VERIFY] |
 
 ---
@@ -196,18 +212,20 @@ Health Probes (TCP / HTTP / HTTPS) → 168.63.129.16
 
 ## Monitoring metrics (Standard LB only)
 
-| Metric | Scope | Aggregation |
-|---|---|---|
-| Data Path Availability | Public + Internal | Average |
-| Health Probe Status | Public + Internal | Average |
-| SYN Count | Public + Internal | Sum |
-| SNAT Connection Count | Public | Sum |
-| Allocated SNAT Ports | Public | Average |
-| Used SNAT Ports | Public | Average |
-| Byte Count | Public + Internal | Sum |
-| Packet Count | Public + Internal | Sum |
+| Metric | Scope | Aggregation | Notes |
+|---|---|---|---|
+| Data Path Availability | Public + Internal | Average | — |
+| Health Probe Status | Public + Internal | Average | — |
+| SYN Count | Public + Internal | Sum | Supports Protocol dimension filter (TCP=6, UDP=17) |
+| SNAT Connection Count | Public | Sum | — |
+| Allocated SNAT Ports | Public | Average | — |
+| Used SNAT Ports | Public | Average | — |
+| Byte Count | Public + Internal | Sum | Supports Protocol dimension filter (TCP=6, UDP=17) |
+| Packet Count | Public + Internal | Sum | Supports Protocol dimension filter (TCP=6, UDP=17) |
 
 > Note: Bandwidth metrics (SYN, byte, packet) do not capture traffic routed via UDR (e.g., from NVA/firewall to internal LB).
+
+**Health event logs** (GA February 2025): Available under Azure Monitor resource log category `LoadBalancerHealthEvent`. Enables collection, storage, and analysis of LB health events. Use for troubleshooting availability issues and configuring alerts. Available in all public, China, and Government regions.
 
 ---
 
@@ -222,6 +240,8 @@ Health Probes (TCP / HTTP / HTTPS) → 168.63.129.16
 - **Admin State: Down** for zero-disruption maintenance — existing TCP connections persist, no new connections accepted
 - **Gateway LB preferred over dual-LB setup** for NVA scenarios — no UDRs needed, flow symmetry guaranteed
 - **Private Link**: use for private access to Azure PaaS to eliminate SNAT entirely
+- **Replace `numberOfProbes` with `probeThreshold`**: `numberOfProbes` is not currently enforced (known issue) and retires September 2027. Use API version 2022-05-01+ and the `probeThreshold` property
+- **Migrate Inbound NAT rule V1 → V2** by September 2027 for all VMs and VMSS
 
 ---
 
@@ -256,48 +276,14 @@ Health Probes (TCP / HTTP / HTTPS) → 168.63.129.16
 - [Inbound NAT rules](../../raw/articles/load-balancer/inbound-nat-rules.md)
 - [Backend pool management](../../raw/articles/load-balancer/backend-pool-management.md)
 - [Basic Load Balancer upgrade guidance](../../raw/articles/load-balancer/load-balancer-basic-upgrade-guidance.md)
-- [What's new](../../raw/articles/load-balancer/whats-new.md)
-- *(+ 76 additional articles: quickstarts, tutorials, troubleshooting, cross-subscription, IPv6, move-across-regions, IMDS, monitor reference, TCP reset, idle timeout, health event logs, insights, and more)*
+- [What's new](../../raw/articles/load-balancer/whats-new.md) — delta read 2026-04-10 (entries through February 2026)
+- *(+ 77 additional articles: quickstarts, tutorials, troubleshooting, cross-subscription, IPv6, move-across-regions, IMDS, monitor reference, TCP reset, idle timeout, health event logs, insights, and more)*
 ```
 
 ---
 
-## Updated `wiki/index.md` entry
+## ✅ RECOMPILE 3 — Azure Bastion
 
-The Load Balancer row should be updated to:
-
-```markdown
-| Azure Load Balancer | [load-balancer.md](services/load-balancer.md) | ✅ current | 2025-01-30 |
-```
-
----
-
-## Decisions log → `.squad/decisions/inbox/atlas-load-balancer.md`
+**File:** `wiki/services/bastion.md`
 
 ```markdown
-# Atlas Decision Log — Azure Load Balancer
-
-**Date:** 2025-01-30
-**Compiler:** Atlas
-
-## Decisions made
-
-1. **Basic LB coverage**: Included Basic LB in the SKU table for historical completeness and migration context, clearly marked as RETIRED September 30, 2025. Did not compile a full separate section for Basic as it has been retired.
-
-2. **94 articles, 18 read in full**: Core conceptual, SKU, component, SNAT, health probe, distribution mode, diagnostics, Gateway, cross-region, HA ports, floating IP, admin state, and best practices articles were read in full. Quickstarts, tutorials, and troubleshooting articles were not individually read — their content is adequately represented by the conceptual articles. Flagged in source list.
-
-3. **Service limits**: Limits from `azure-subscription-service-limits` (ARM limits page) were not available in raw articles directly — only inline references. All numeric limits are tagged `[VERIFY]`.
-
-4. **[CONFLICT] none detected** across the 18 articles read. SNAT port table is internally consistent across outbound connections and diagnostics articles.
-
-5. **Outbound connectivity priority table**: Constructed from `load-balancer-outbound-connections.md` priority list verbatim. The article itself rates methods 1–5 and that ranking is preserved.
-
-6. **Cross-subscription backend**: Article exists (`cross-subscription-overview.md` etc.) but was not read in full. Capability noted as a bullet; not fully detailed — marked for follow-up.
-
-## Gaps requiring human input
-
-- Full service limits table requires cross-reference to `azure-subscription-service-limits` (ARM limits page) — not in raw articles.
-- Gateway LB partner list (`gateway-partners.md`) not read — NVA-specific partner details omitted.
-- IMDS + Load Balancer integration (`howto-load-balancer-imds.md`, `instance-metadata-service-load-balancer.md`) not compiled — niche scenario.
-- Cross-subscription articles (5 articles) not read in full.
-- IPv6/dual-stack howto articles not read in full.

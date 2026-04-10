@@ -1,6 +1,6 @@
 # Network Security Design in Azure
 
-> **Compiled:** 2025-07-31 | **Type:** Concept | **Status:** ✅ current
+> **Compiled:** 2026-04-10 | **Type:** Concept | **Status:** ✅ current
 
 ---
 
@@ -237,24 +237,66 @@ The Zero Trust model assumes no network or device is inherently trusted. Every c
 | Identity-based access | Microsoft Entra Conditional Access; Azure AD-joined devices; RBAC on network resources | Identity |
 | Continuous monitoring | DDoS diagnostics; Firewall logs to Sentinel; NSG flow logs + Traffic Analytics; WAF diagnostics | Monitoring |
 
-### Zero Trust hardening checklist (from source)
+### Zero Trust hardening checklist — per service (from official Zero Trust recommendations, updated 2026-03-17)
 
-| Check | Risk level |
-|---|---|
-| DDoS Protection enabled for all public IPs in VNets | High |
-| DDoS metrics and diagnostic logging enabled | Medium |
-| Outbound VNet traffic routed through Azure Firewall | High |
-| Threat Intelligence enabled in Deny mode on Azure Firewall | High |
-| IDPS enabled in Deny mode on Azure Firewall (Premium) | High |
-| Outbound TLS inspection enabled on Azure Firewall (Premium) | High |
-| Diagnostic logging enabled on Azure Firewall | High |
-| App Gateway WAF in Prevention mode | High |
-| Request body inspection enabled in WAF | High |
-| DRS/Bot Manager rule sets enabled in WAF | High |
-| HTTP DDoS ruleset enabled in WAF | High |
-| Rate limiting configured in WAF | High |
-| Front Door WAF in Prevention mode | High |
-| Diagnostic logging enabled on all WAF instances | High |
+An automated assessment of these controls is available via the [Zero Trust Assessment](/security/zero-trust/assessment) tool, which evaluates your Azure environment's configuration programmatically across these checks.
+
+#### Azure DDoS Protection
+
+| Check | Risk level | User impact | Implementation cost |
+|---|---|---|---|
+| DDoS Protection enabled for all public IPs in VNets | High | Low | Low |
+| Metrics enabled for DDoS-protected public IPs | Medium | Low | Low |
+| Diagnostic logging enabled for DDoS-protected public IPs | Medium | Low | Low |
+
+> Without DDoS Protection, public IPs for Application Gateways, Load Balancers, Azure Firewalls, Bastion, VPN Gateways, and VMs remain exposed to attacks that can exhaust bandwidth and cause cascading outages.
+
+#### Azure Firewall
+
+| Check | Risk level | User impact | Implementation cost |
+|---|---|---|---|
+| Outbound VNet traffic routed through Azure Firewall | High | Low | Medium |
+| Threat Intelligence enabled in Deny mode | High | Low | Low |
+| IDPS inspection enabled in Deny mode *(Premium only)* | High | Low | Low |
+| Outbound TLS inspection enabled *(Premium only)* | High | Low | Low |
+| Diagnostic logging enabled | High | Low | Low |
+
+> **Threat Intelligence:** Requires Standard or Premium; Basic supports Alert mode only.
+> **IDPS:** Signature-based L3–L7 detection; applies to inbound, spoke-to-spoke, and outbound traffic including on-premises traffic over VPN/ER; signatures continuously updated by Microsoft.
+> **TLS inspection:** Requires a CA certificate stored in Azure Key Vault; decrypts, inspects, and re-encrypts; enables IDPS to see encrypted payloads.
+> **SNAT note:** For high-traffic workloads at risk of SNAT port exhaustion, deploy NAT Gateway on the AzureFirewallSubnet — NAT Gateway provides 64,512 SNAT ports per public IP vs. Azure Firewall's 2,496 SNAT ports per public IP per instance.
+
+#### Application Gateway WAF
+
+| Check | Risk level | User impact | Implementation cost |
+|---|---|---|---|
+| WAF enabled in Prevention mode | High | Low | Low |
+| Request body inspection enabled | High | Low | Low |
+| Default rule set (DRS/CRS) enabled | High | Low | Low |
+| Bot protection rule set enabled | High | Low | Low |
+| HTTP DDoS protection rule set enabled | High | Low | Low |
+| Rate limiting configured | High | Low | Medium |
+| JavaScript challenge enabled | Medium | Low | Low |
+| Diagnostic logging enabled | High | Low | Low |
+
+> **Request body inspection:** When disabled, attackers can embed SQLi/XSS/command injection in POST/PUT/PATCH bodies, bypassing all rule evaluation.
+> **HTTP DDoS rule set:** Distinct from DDoS Network/IP Protection; detects HTTP flood and Slowloris attacks at the application layer.
+> **JavaScript challenge:** Proves request originates from a real browser; blocks credential-stuffing bots and scrapers without user-visible friction.
+
+#### Azure Front Door WAF
+
+| Check | Risk level | User impact | Implementation cost |
+|---|---|---|---|
+| WAF enabled in Prevention mode | High | Low | Low |
+| Request body inspection enabled | High | Low | Low |
+| Default rule set assigned | High | Low | Low |
+| Bot protection rule set enabled | High | Low | Low |
+| Rate limiting configured | High | Low | Medium |
+| JavaScript challenge enabled | Medium | Low | Low |
+| CAPTCHA challenge enabled | Medium | Low | Low |
+| Diagnostic logging enabled | High | Low | Low |
+
+> **CAPTCHA challenge (Front Door only):** Presents interactive challenge for requests that JavaScript challenge cannot fully classify; blocks sophisticated bots that can execute JavaScript.
 
 ---
 
@@ -435,3 +477,8 @@ Workload subscriptions (spokes):
 | `wiki/services/virtual-network.md` | Compiled wiki | NSG rules, ASGs, service tags, flow logs, VNet encryption caveats |
 | `raw/articles/networking/security/network-security.md` | Raw Azure docs | Network security overview; service selection factors; portal hub |
 | `raw/articles/networking/security/zero-trust-network-security.md` | Raw Azure docs | Zero Trust recommendations per service; risk level classification |
+| `raw/articles/networking/security/zero-trust-firewall.md` | Raw Azure docs | Azure Firewall Zero Trust configuration recommendations |
+| `raw/articles/networking/security/zero-trust-app-gateway.md` | Raw Azure docs | Application Gateway WAF Zero Trust configuration |
+| `raw/articles/networking/security/zero-trust-front-door.md` | Raw Azure docs | Azure Front Door WAF Zero Trust configuration |
+| `raw/articles/networking/security/zero-trust-ddos.md` | Raw Azure docs | DDoS Protection Zero Trust configuration |
+| `raw/articles/networking/security/zero-trust-vnet.md` | Raw Azure docs | Virtual Network Zero Trust configuration |

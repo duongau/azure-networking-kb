@@ -1,6 +1,6 @@
 # Azure Networking Knowledge Base — Index
 
-> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 22 / 23 services · 5 concepts · 4 decision guides · 1 limits reference
+> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 22 / 23 services · 7 concepts · 4 decision guides · 2 limits references
 
 This is the entry point for the Azure Networking KB. All wiki pages are compiled by Atlas from source articles in `raw/`.
 
@@ -11,13 +11,13 @@ This is the entry point for the Azure Networking KB. All wiki pages are compiled
 | Service | Wiki page | Status | Last compiled |
 |---|---|---|---|
 | Azure Virtual Network | [virtual-network.md](services/virtual-network.md) | ✅ current | 2025-07-31 |
-| ExpressRoute | [expressroute.md](services/expressroute.md) | ✅ current | 2025-01-27 |
+| ExpressRoute | [expressroute.md](services/expressroute.md) | ✅ current | 2026-04-10 |
 | VPN Gateway | [vpn-gateway.md](services/vpn-gateway.md) | ✅ current | 2025-11-25 |
 | Azure Firewall | [azure-firewall.md](services/azure-firewall.md) | ✅ current | 2025-07-14 |
 | Application Gateway | [application-gateway.md](services/application-gateway.md) | ✅ current | 2025-07-15 |
-| Azure Load Balancer | [load-balancer.md](services/load-balancer.md) | ✅ current | 2025-01-30 |
+| Azure Load Balancer | [load-balancer.md](services/load-balancer.md) | ✅ current | 2026-04-10 |
 | NAT Gateway | [nat-gateway.md](services/nat-gateway.md) | ✅ current | 2026-04-08 |
-| Azure Bastion | [bastion.md](services/bastion.md) | ✅ current | 2025-01-30 |
+| Azure Bastion | [bastion.md](services/bastion.md) | ✅ current | 2026-04-10 |
 | Private Link | [private-link.md](services/private-link.md) | ✅ current | 2025-07-30 |
 | DDoS Protection | [ddos-protection.md](services/ddos-protection.md) | ✅ current | 2026-04-08 |
 | Azure DNS | [dns.md](services/dns.md) | ✅ current | 2025-07-31 |
@@ -44,8 +44,9 @@ This is the entry point for the Azure Networking KB. All wiki pages are compiled
 | IP addressing and subnetting | [ip-addressing.md](concepts/ip-addressing.md) | ✅ current |
 | Network security design | [network-security-design.md](concepts/network-security-design.md) | ✅ current |
 | Routing | [routing.md](concepts/routing.md) | ✅ current |
-| Private access to PaaS | — | 🔲 stub |
-| Monitoring | — | 🔲 stub |
+| Private access to PaaS | [private-access-to-paas.md](concepts/private-access-to-paas.md) | ✅ current |
+| Monitoring | [monitoring.md](concepts/monitoring.md) | ✅ current |
+| Azure Networking Fundamentals | [azure-networking-fundamentals.md](concepts/azure-networking-fundamentals.md) | 🔲 stub |
 
 ---
 
@@ -65,7 +66,7 @@ This is the entry point for the Azure Networking KB. All wiki pages are compiled
 | Article | Wiki page | Status |
 |---|---|---|
 | SKU comparison | [sku-comparison.md](limits-and-skus/sku-comparison.md) | ✅ current |
-| Service limits quick reference | — | 🔲 stub |
+| Service limits quick reference | [service-limits-quick-reference.md](limits-and-skus/service-limits-quick-reference.md) | ✅ current |
 
 ---
 

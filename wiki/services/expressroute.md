@@ -1,6 +1,6 @@
 # Azure ExpressRoute
 
-> **Compiled:** 2025-01-27 | **Source articles:** 13 | **Status:** current
+> **Compiled:** 2026-04-10 | **Source articles:** 21 | **Status:** current
 
 ## What it is
 
@@ -16,16 +16,20 @@ Azure ExpressRoute creates private, dedicated connections between your on-premis
 | **Bandwidth is duplex** | A 200 Mbps circuit gives 200 Mbps inbound AND 200 Mbps outbound |
 | **Built-in redundancy** | Every circuit has primary + secondary connections to two separate MSEEs — both should run active-active |
 | **ExpressRoute Direct** | Bypass service providers; connect directly into Microsoft global network at 10/100/400 Gbps |
-| **ExpressRoute Metro** | Single circuit with links in two distinct peering locations within the same city for higher site-level resiliency |
+| **ExpressRoute Metro** | Single circuit with links in two distinct peering locations within the same city for higher site-level resiliency; 21 metro locations available [VERIFY for latest list] |
 | **Global Reach** | Link two ExpressRoute circuits privately to route on-premises-to-on-premises traffic over Microsoft's backbone |
 | **BGP dynamic routing** | Microsoft AS 12076; supports 16-bit and 32-bit AS numbers |
 | **FastPath** | Bypass the ER gateway — on-premises traffic goes directly to VMs, improving latency and throughput |
 | **MACsec encryption** | Layer 2 encryption on ExpressRoute Direct physical links (BYOK from Azure Key Vault) |
-| **IPsec over private peering** | Layer 3 end-to-end encryption using VPN Gateway over ER private peering |
+| **IPsec over private peering** | Layer 3 end-to-end encryption using VPN Gateway over ER private peering (not supported on ErGwScale) |
 | **QoS support** | DSCP marking preservation for Microsoft Teams/Skype (Microsoft peering only) |
 | **M365 access** | Requires Microsoft peering + Premium add-on |
 | **Traffic Collector** | Flow telemetry at 1:4096 sampling; up to 300,000 flows/min; no customer data stored |
 | **BFD** | Bidirectional Forwarding Detection on private peering reduces failure detection from ~3 min → <1 sec |
+| **Resiliency Insights** | Portal feature on ExpressRoute VNet gateway that scores control-plane resiliency 0–100; factors: route resiliency, zone-redundant gateway, advisor recommendations, resiliency validation recency; private peering only |
+| **Resiliency Validation** | Simulates circuit failover from portal; temporarily disconnects gateway from target circuit; validates HA/DR; requires 2 circuits in distinct peering locations; not supported for Virtual WAN or Metro |
+| **Customer-controlled maintenance** | Schedule maintenance windows for ExpressRoute VNet gateways; configure start date, time, and daily duration |
+| **Circuit migration** | Guided process to migrate production traffic from one circuit to another with minimal disruption; applies to L2 provider and ExpressRoute Direct |
 
 ## When to use it
 
@@ -78,16 +82,33 @@ Azure ExpressRoute creates private, dedicated connections between your on-premis
 
 ### Virtual Network Gateway SKUs for ExpressRoute
 
-| Gateway SKU | Max ER circuit connections | FastPath | VPN coexistence |
-|---|---|---|---|
-| **Standard / ERGw1Az** | 4 | ❌ | ✅ |
-| **High Performance / ERGw2Az** | 8 | ❌ | ✅ |
-| **Ultra Performance / ErGw3Az** | 16 | ✅ | ✅ |
-| **ErGwScale** | 4 (1 SU) / 8 (2 SU) / 16 (10+ SU) | ✅ (≥10 scale units) | ✅ |
+| Gateway SKU | Max ER circuit connections | FastPath | VPN coexistence | Notes |
+|---|---|---|---|---|
+| **Standard / ERGw1Az** | 4 | ❌ | ✅ | — |
+| **High Performance / ERGw2Az** | 8 | ❌ | ✅ | — |
+| **Ultra Performance / ErGw3Az** | 16 | ✅ | ✅ | — |
+| **ErGwScale** | 4 (1 SU) / 8 (2 SU) / 16 (10+ SU) | ✅ (≥10 scale units) | ✅ | Autoscales 1–40 scale units; up to 40 Gbps; IPsec over ER **not** supported |
 
 > **Note:** Max circuits from the same peering location to the same VNet is always 4, regardless of gateway SKU.
 
 > **Gateway performance figures** are in `[!INCLUDE]` directives not available in raw articles — see `expressroute-about-virtual-network-gateways.md` section `#aggthroughput` for current values. **[VERIFY]**
+
+### ErGwScale performance reference
+
+| Scale units | Aggregate bandwidth | Packets/sec | Connections/sec | Max VM connections |
+|---|---|---|---|---|
+| 1 | 1 Gbps | 100,000 | 7,000 | 2,000 |
+| 10 | 10 Gbps | 1,000,000 | 70,000 | 20,000 |
+| 20 | 20 Gbps | 2,000,000 | 140,000 | 30,000 [VERIFY] |
+| 40 | 40 Gbps | 8,000,000 | 280,000 | 50,000 [VERIFY] |
+
+**ErGwScale upgrade/migration paths:**
+- From **ErGw1Az / ErGw2Az / ErGw3Az**: direct in-place upgrade via portal or PowerShell; no downtime; up to 2 hours.
+- From **Standard / High Performance / Ultra Performance**: must use the gateway migration tool (`gateway-migration.md`).
+
+**ErGwScale limitations:** IPsec over ExpressRoute not supported; Basic public IP SKU not supported; autoscaling requires minimum scale unit ≥ 2 (or set min = max for fixed).
+
+**ErGwScale region gaps (not available):** Belgium Central, Japan East, Qatar Central, Southeast Asia, West Europe, West India, West US 2, South Central US, East US 2. [VERIFY for latest]
 
 ## Service limits
 
@@ -130,14 +151,84 @@ Azure ExpressRoute creates private, dedicated connections between your on-premis
 |---|---|---|
 | **Single circuit, active-active** | Within-location redundancy | Both links to two MSEEs active; protects against single MSEE or link failure |
 | **Single circuit, active-passive** | Weaker | Not recommended — passive link may advertise stale routes; on failure ALL flows must reroute (vs. ~50% in active-active) |
-| **Dual circuits, different peering locations** | Maximum resiliency | Protects against full site/location outage; Microsoft's recommended architecture |
-| **ExpressRoute Metro** | Multi-site within city | Single circuit with two physical link sets at two locations in same metro — simpler than dual circuits |
+| **Dual circuits, different peering locations** | Maximum resiliency | Protects against full site/location outage; Microsoft's recommended architecture; enables Resiliency Validation |
+| **ExpressRoute Metro** | Multi-site within city | Single circuit with two physical link sets at two locations in same metro — simpler than dual circuits; scores 10% in Resiliency Insights route score |
 | **VPN Gateway as backup** | Fallback to internet | S2S VPN over internet as warm standby; requires Route Server for BGP integration |
-| **Zone-redundant gateway (ErGw*Az SKUs)** | AZ-level gateway HA | Deploys gateway instances across availability zones |
+| **Zone-redundant gateway (ErGw*Az SKUs)** | AZ-level gateway HA | Deploys gateway instances across availability zones; contributes 8–10% to Resiliency Insights score |
 
 **Active-active recommendation:** During maintenance, Microsoft uses AS path prepend to drain traffic to the healthy link. If you've configured active-passive via your own prepend, ensure the passive path can actually handle traffic when Microsoft drains to it — a common gap in HA testing.
 
 **BFD:** Configure Bidirectional Forwarding Detection on private peering to reduce failure detection time from ~3 minutes (BGP hold timer) to <1 second.
+
+### ExpressRoute Metro locations (as of 2026-04-07)
+
+| Metro location | Two peering sites | Local Azure region | ER Direct |
+|---|---|---|---|
+| Amsterdam Metro | Equinix AM5 / Digital Realty AMS8 | West Europe | ✅ |
+| Atlanta Metro | Equinix AT1 / Digital Realty ATL14 | — | ✅ |
+| Brussels Metro | Digital Realty BR4 / LCL Brussels North | Belgium Central | — |
+| Chicago Metro | Equinix CH1 / CoreSite CH1 | North Central US | ✅ |
+| Dallas Metro | Equinix DA6 / Digital Realty DFW10 | — | ✅ |
+| Dublin Metro | Equinix DB3 / Digital Realty DUB02 | North Europe | ✅ |
+| Frankfurt Metro | Digital Realty FRA11 / Equinix FR7 | Germany West Central | ✅ |
+| Jakarta Metro | NeutraDC HDC / NTT GDC | Indonesia Central | ✅ |
+| Madrid Metro | Equinix MD2 / Digital Realty MAD1 | Spain Central | ✅ |
+| Milan Metro | Irideos Milan / Data4Italy Milan | Italy North | ✅ |
+| Mumbai Metro | TATA LVSB / Nxtra Data | West India | ✅ |
+| New York Metro | Equinix NY5 / 165 Halsey Street | — | ✅ |
+| Oslo Metro | DigiPlex Ulven / Bulk Data IX | Norway East | ✅ |
+| Silicon Valley Metro | Equinix SV10 / CoreSite SV7 | West US | ✅ |
+| Singapore Metro | Global Switch Tai Seng / Equinix SG1 | Southeast Asia | ✅ |
+| Stockholm Metro | Equinix SK1 / Digital Realty STO6 | Sweden Central | ✅ |
+| Taipei Metro | Chief Telecom / Chunghwa Telecom | Taiwan North | ✅ |
+| Toronto Metro | Cologix TOR1 / Allied King West | Canada Central | ✅ |
+| Vienna Metro | Digital Realty VIE1 / NTT GDC | Austria East | ✅ |
+| Washington DC Metro | Equinix DC6 / CoreSite VA3 | East US / East US 2 | ✅ |
+| Zurich Metro | Digital Realty ZUR2 / Equinix ZH5 | Switzerland North | ✅ |
+
+> Portal naming convention: City + City2 denote the two peering sites (e.g., Amsterdam and Amsterdam2 = Amsterdam Metro).
+
+## Resiliency Insights and Validation
+
+These two portal-based features (under the Monitoring section of ExpressRoute VNet gateways) work together to measure and prove resiliency. Both support **private peering only** — not Microsoft peering or VPN.
+
+### Resiliency Insights — score formula
+
+The resiliency index is a 0–100 score computed as:
+
+```
+Final score = (Route score × Validation multiplier) + Zone redundancy score + Advisor score
+```
+
+| Factor | Max contribution | Detail |
+|---|---|---|
+| **Route resiliency** | 20% base | Dual sites (distinct locations): 20%; Metro: 10%; Single site: 5%; Zero if MSEE-PE link failure present |
+| **Zone-redundant gateway** | 10% | ErGw*Az zonal: 8%; zone-redundant: 10%; ErGwScale >4 SU: 8%; >4+ SU: 10%; Standard/HP/Ultra: 0–2% |
+| **Advisor recommendations** | 10% | Full 10% if no outstanding recommendations; already factors out gateway/multi-site recommendations |
+| **Validation multiplier** | ×1 – ×4 | Tests within 30 days: ×4; 31–60 days: ×3; 61–90 days: ×2; >90 days: ×1; only one site tested: half multiplier |
+
+**Access requirement:** Contributor-level authorization on the gateway resource. Refreshes automatically every hour.
+
+### Resiliency Validation — circuit failover simulation
+
+Temporarily disconnects the gateway from a target circuit to validate that traffic fails over to the redundant circuit.
+
+**Prerequisites:**
+- ExpressRoute gateway connected to circuits in **at least two distinct peering locations**
+- Not supported for Virtual WAN ExpressRoute gateways or ExpressRoute Metro circuits
+- Contributor authorization on the gateway
+
+**Test behavior:**
+- Only the gateway under test disconnects from the target circuit; other gateways connected to that circuit remain connected
+- Failover typically completes within ~15 seconds
+- TCP iPerf tests (up to 500 Mbps) show no packet loss during simulation; brief BGP reconvergence may occur in real outages
+- Test runs indefinitely until you select Stop; confirm success/failure when stopping
+- If backup circuit exceeds 100% of bandwidth during failover, packet drops can occur — monitor Circuit QoS metrics
+
+**Supports during failover:** FastPath (data bypasses gateway; routes withdrawn from affected circuit; failover connection maintains FastPath); Private Link (connectivity maintained via redundant circuit).
+
+**Manual failover alternative** (for multi-site redundant circuits):
+Disable BGP private peering on one circuit via portal (deselect Enable IPv4/IPv6 Peering checkbox on the circuit's peering page) to force failover to the redundant circuit. Re-enable after validation.
 
 ## Encryption
 
@@ -145,7 +236,7 @@ Azure ExpressRoute creates private, dedicated connections between your on-premis
 |---|---|---|---|
 | **None (default)** | — | ExpressRoute does NOT encrypt traffic by default | — |
 | **MACsec** | L2 (MAC layer) | ExpressRoute Direct only (not provider circuits) | BYOK from Azure Key Vault; GCM-AES-128/256/XPN-128/XPN-256 |
-| **IPsec** | L3 (IP layer) | Over ER private peering using VPN Gateway | Can combine with MACsec for defense-in-depth |
+| **IPsec** | L3 (IP layer) | Over ER private peering using VPN Gateway | Can combine with MACsec for defense-in-depth; **not supported with ErGwScale gateway** |
 
 **Critical MACsec behavior:** If MACsec is enabled and a key mismatch occurs, connectivity is **completely lost** — traffic does NOT fall back to unencrypted. Roll key changes one link at a time during a maintenance window, migrating traffic to the second link first.
 
@@ -219,6 +310,20 @@ DSCP markings are preserved through ER but only acted on by Microsoft for **Micr
 
 Non-listed DSCP values must be rewritten to 0 before sending to Microsoft.
 
+## Key operational guidance
+
+- **Deploy active-active, never active-passive** — passive path may carry stale routes and fail under Microsoft maintenance prepend events
+- **BFD on private peering** — reduces failure detection from ~3 min to <1 sec; configure on customer edge routers
+- **Attach route filters immediately after circuit creation** (Microsoft peering) — no prefixes are advertised without one
+- **Never advertise 0.0.0.0/0 over private peering** unless you also have service endpoints for Azure PaaS — or M365 traffic will hairpin on-premises
+- **Roll MACsec keys one link at a time** — a key mismatch causes complete connectivity loss with no fallback
+- **Use Resiliency Insights** to baseline your current resiliency score and identify gaps; re-run Resiliency Validation at least every 30 days to maintain the maximum score multiplier
+- **Schedule customer-controlled maintenance windows** for ExpressRoute VNet gateways via the Azure portal or PowerShell; specify start date, daily time, and duration — upgrades occur within the window only when available; takes effect on the configured start date
+- **Circuit migration**: For L2 provider or ExpressRoute Direct circuits, follow the 5-step migration process: (1) deploy new circuit in isolation, (2) block production traffic on new circuit via route-map/policy, (3) validate end-to-end on test VNet, (4) switch production traffic, (5) decommission old circuit; use BGP route-maps (Cisco) or export/import policies (Junos) to block/permit advertisements
+- **FastPath fallback is automatic** — when IP limits are exceeded or FastPath unavailable, traffic falls back through the ER gateway silently; monitor FastPath route counts
+- **ECMP only across 4 circuits max** — you can link 16 circuits to one VNet, but only 4 participate in load balancing; the rest are failover capacity
+- **ErGwScale autoscale takes up to 30 minutes** — pre-provision with a fixed minimum for predictable performance; do not rely on autoscale to absorb sudden traffic spikes
+
 ## Related services
 
 - [VPN Gateway](../services/vpn-gateway.md) — alternative/complementary hybrid connectivity; lower cost, lower bandwidth; can coexist with ER on same VNet; can be used as warm standby over internet when ER fails
@@ -228,21 +333,22 @@ Non-listed DSCP values must be rewritten to 0 before sending to Microsoft.
 - [DDoS Protection](../services/ddos-protection.md) — ER private peering uses private IPs not subject to volumetric internet DDoS; Microsoft peering public IPs may benefit from DDoS protection
 - [Azure DNS](../services/dns.md) — on-premises DNS resolution of Azure private DNS zones over ER requires DNS Private Resolver or conditional forwarders in the hub VNet; DNS Private Resolver in spoke VNets not supported with FastPath
 - [Network Watcher](../services/network-watcher.md) — Connection Monitor supports monitoring ER private peering and Microsoft peering health
-
-> ⚠️ **Backlinks pending:** Load Balancer, Application Gateway, Bastion, NAT Gateway pages not yet compiled — add backlinks when those pages are written.
+- [Azure Bastion](../services/bastion.md) — for Premium private-only Bastion deployments, ExpressRoute private peering is the user access path
 
 ## Compile notes
 
 1. **VNet and Global Reach limits table** (`expressroute-faqs.md#limits`) references `[!INCLUDE [ExpressRoute limits](../../includes/expressroute-limits.md)]` — the include file is not in raw articles. All VNet connection counts marked `[VERIFY]`.
-2. **Gateway performance table** (`expressroute-about-virtual-network-gateways.md#aggthroughput`) also in an include file — marked `[VERIFY]`.
-3. **ExpressRoute Direct FAQ** (`expressroute-faqs.md#expressRouteDirect`) also in an include file — Direct-specific limits (circuits per port, etc.) are not fully captured here. `[VERIFY]`
+2. **Gateway performance table** (`expressroute-about-virtual-network-gateways.md#aggthroughput`) also in an include file — marked `[VERIFY]`. ErGwScale performance table sourced from `scalable-gateway.md` (2025-11-06).
+3. **ExpressRoute Direct FAQ** (`expressroute-faqs.md#expressRouteDirect`) also in include file — Direct-specific limits (circuits per port, etc.) are not fully captured here. `[VERIFY]`
 4. **Global Reach FAQ** (`expressroute-faqs.md#globalreach`) also in include file — limits on Global Reach connections per circuit not captured. `[VERIFY]`
-5. **400 Gbps ExpressRoute Direct** is referenced in both `expressroute-introduction.md` (dual 10/100/400 Gbps) and `expressroute-erdirect-about.md` (400-Gbps, limited locations, enrollment required). Both sources agree — not a conflict.
-6. **Private endpoint throughput via ER gateway:** Described as "may be reduced by half" — language is approximate, not a hard limit. [VERIFY exact degradation]
+5. **400 Gbps ExpressRoute Direct** is referenced in both `expressroute-introduction.md` and `expressroute-erdirect-about.md`. Both agree — not a conflict.
+6. **Resiliency Validation not supported for Metro** — noted in `resiliency-validation.md`. This is a capability gap for Metro users who want simulation testing.
+7. **IPsec not supported on ErGwScale** — explicitly stated in `scalable-gateway.md`; new limitation vs. prior ErGwScale coverage in old wiki.
+8. **ErGwScale not available in 9 regions** — listed in `scalable-gateway.md`; may change over time, marked `[VERIFY]`.
 
 ## Source articles
 
-- [Azure ExpressRoute overview](../../raw/articles/expressroute/expressroute-introduction.md)
+- [Azure ExpressRoute overview](../../raw/articles/expressroute/expressroute-introduction.md) — updated 2026-03-03
 - [ExpressRoute circuits and peering](../../raw/articles/expressroute/expressroute-circuit-peerings.md)
 - [ExpressRoute connectivity models](../../raw/articles/expressroute/expressroute-connectivity-models.md)
 - [About ExpressRoute Direct](../../raw/articles/expressroute/expressroute-erdirect-about.md)
@@ -250,30 +356,25 @@ Non-listed DSCP values must be rewritten to 0 before sending to Microsoft.
 - [ExpressRoute FAQ](../../raw/articles/expressroute/expressroute-faqs.md)
 - [ExpressRoute routing requirements](../../raw/articles/expressroute/expressroute-routing.md)
 - [About ExpressRoute Global Reach](../../raw/articles/expressroute/expressroute-global-reach.md)
-- [About ExpressRoute Metro](../../raw/articles/expressroute/metro.md)
+- [About ExpressRoute Metro](../../raw/articles/expressroute/metro.md) — updated 2026-04-07
 - [Azure ExpressRoute FastPath](../../raw/articles/expressroute/about-fastpath.md)
 - [About encryption for Azure ExpressRoute](../../raw/articles/expressroute/expressroute-about-encryption.md)
 - [Designing for high availability with Azure ExpressRoute](../../raw/articles/expressroute/designing-for-high-availability-with-expressroute.md)
 - [ExpressRoute NAT requirements](../../raw/articles/expressroute/expressroute-nat.md)
 - [ExpressRoute prerequisites](../../raw/articles/expressroute/expressroute-prerequisites.md)
 - [ExpressRoute QoS requirements](../../raw/articles/expressroute/expressroute-qos.md)
+- [Resiliency Insights for ExpressRoute VNet gateway](../../raw/articles/expressroute/resiliency-insights.md) — **new** 2025-11-04
+- [Azure ExpressRoute Gateway Resiliency Validation](../../raw/articles/expressroute/resiliency-validation.md) — **new** 2025-11-04
+- [Evaluate the resiliency of multi-site redundant ExpressRoute circuits](../../raw/articles/expressroute/evaluate-circuit-resiliency.md) — **new** 2026-03-12
+- [About ExpressRoute scalable gateway (ErGwScale)](../../raw/articles/expressroute/scalable-gateway.md) — **new** 2025-11-06
+- [Migrate to a new ExpressRoute circuit](../../raw/articles/expressroute/circuit-migration.md) — **new** 2025-01-31
+- [Configure customer-controlled maintenance for ExpressRoute gateways](../../raw/articles/expressroute/customer-controlled-gateway-maintenance.md) — **new** 2025-03-11
+```
 
 ---
 
-## What I flagged
+## ✅ RECOMPILE 2 — Azure Load Balancer
 
-**4 `[VERIFY]` items requiring include-file resolution:**
-1. VNet connections per Standard/Premium circuit (from `expressroute-limits.md` include)
-2. Global Reach connections per circuit (same include)
-3. Gateway throughput per SKU (from `expressroute-gateway-performance-include.md`)
-4. ExpressRoute Direct-specific limits — circuits per port, etc. (from `expressroute-direct-faq-include.md`)
+**File:** `wiki/services/load-balancer.md`
 
-**Non-obvious behaviors surfaced (for team awareness):**
-- **Route filter required for new Microsoft peering circuits (Aug 2017+):** Zero prefixes advertised without an explicit route filter attachment. Most common Day-1 "nothing works" issue.
-- **Default route (0.0.0.0/0) over private peering hijacks Microsoft peering traffic:** If you force-tunnel on-premises and also use Microsoft peering, you need service endpoints to keep Azure service traffic local.
-- **MACsec key mismatch = hard loss of connectivity, no fallback:** No graceful degradation to unencrypted. Roll keys one link at a time.
-- **Active-passive is explicitly an anti-pattern:** Passive path may have stale routes; Microsoft may prepend into the "active" path during maintenance, sending all traffic to the passive path that can't handle it.
-- **ECMP only across 4 circuits max:** You can connect 16 circuits to one VNet, but only 4 participate in load balancing — the rest are pure failover capacity.
-- **FastPath fallback is automatic:** When IP limits are exceeded or FastPath is unavailable, traffic silently falls back through the ER gateway. Set Azure Monitor alerts on FastPath route count approaching threshold.
-
-**Remaining compilation queue:** Load Balancer → Application Gateway → Private Link → Bastion → DDoS Protection → Network Watcher. Then `wiki/index.md` needs updating for all 5 compiled services.
+```markdown
