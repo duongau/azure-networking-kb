@@ -1,6 +1,6 @@
 # Azure Networking Knowledge Base — Index
 
-> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 22 / 23 services
+> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 22 / 23 services · 5 concepts · 4 decision guides · 1 limits reference
 
 This is the entry point for the Azure Networking KB. All wiki pages are compiled by Atlas from source articles in `raw/`.
 
@@ -22,8 +22,8 @@ This is the entry point for the Azure Networking KB. All wiki pages are compiled
 | DDoS Protection | [ddos-protection.md](services/ddos-protection.md) | ✅ current | 2026-04-08 |
 | Azure DNS | [dns.md](services/dns.md) | ✅ current | 2025-07-31 |
 | Network Watcher | [network-watcher.md](services/network-watcher.md) | ✅ current | 2025-07-14 |
-| Azure Front Door | [front-door.md](services/front-door.md) | 🔲 stub | — |
-| Traffic Manager | [traffic-manager.md](services/traffic-manager.md) | 🔲 stub | — |
+| Azure Front Door | [front-door.md](services/front-door.md) | ✅ current | 2026-04-09 |
+| Traffic Manager | [traffic-manager.md](services/traffic-manager.md) | ✅ current | 2026-04-09 |
 | Virtual WAN | [virtual-wan.md](services/virtual-wan.md) | ✅ current | 2026-04-10 |
 | Azure Route Server | [route-server.md](services/route-server.md) | ✅ current | 2026-04-10 |
 | Web Application Firewall | [web-application-firewall.md](services/web-application-firewall.md) | ✅ current | 2026-04-10 |
@@ -39,13 +39,13 @@ This is the entry point for the Azure Networking KB. All wiki pages are compiled
 
 | Concept | Wiki page | Status |
 |---|---|---|
-| Hub-spoke topology | [hub-spoke-topology.md](concepts/hub-spoke-topology.md) | 🔲 stub |
-| Hybrid connectivity | [hybrid-connectivity.md](concepts/hybrid-connectivity.md) | 🔲 stub |
-| IP addressing and subnetting | [ip-addressing.md](concepts/ip-addressing.md) | 🔲 stub |
-| Network security | [network-security.md](concepts/network-security.md) | 🔲 stub |
-| Routing | [routing.md](concepts/routing.md) | 🔲 stub |
-| Private access to PaaS | [private-access-paas.md](concepts/private-access-paas.md) | 🔲 stub |
-| Monitoring | [monitoring.md](concepts/monitoring.md) | 🔲 stub |
+| Hub-spoke topology | [hub-spoke-networking.md](concepts/hub-spoke-networking.md) | ✅ current |
+| Hybrid connectivity | [hybrid-connectivity.md](concepts/hybrid-connectivity.md) | ✅ current |
+| IP addressing and subnetting | [ip-addressing.md](concepts/ip-addressing.md) | ✅ current |
+| Network security design | [network-security-design.md](concepts/network-security-design.md) | ✅ current |
+| Routing | [routing.md](concepts/routing.md) | ✅ current |
+| Private access to PaaS | — | 🔲 stub |
+| Monitoring | — | 🔲 stub |
 
 ---
 
@@ -53,10 +53,10 @@ This is the entry point for the Azure Networking KB. All wiki pages are compiled
 
 | Decision | Wiki page | Status |
 |---|---|---|
-| Choose a connectivity method | [choose-connectivity.md](decisions/choose-connectivity.md) | 🔲 stub |
-| Choose a load balancing solution | [choose-load-balancer.md](decisions/choose-load-balancer.md) | 🔲 stub |
-| Choose a firewall solution | [choose-firewall.md](decisions/choose-firewall.md) | 🔲 stub |
-| Choose a DNS solution | [choose-dns.md](decisions/choose-dns.md) | 🔲 stub |
+| Choose a connectivity method | [connectivity-options.md](decisions/connectivity-options.md) | ✅ current |
+| Choose a load balancing solution | [load-balancing-options.md](decisions/load-balancing-options.md) | ✅ current |
+| Choose a firewall / security solution | [firewall-and-security-options.md](decisions/firewall-and-security-options.md) | ✅ current |
+| Choose a private access pattern | [private-access-options.md](decisions/private-access-options.md) | ✅ current |
 
 ---
 
@@ -64,8 +64,8 @@ This is the entry point for the Azure Networking KB. All wiki pages are compiled
 
 | Article | Wiki page | Status |
 |---|---|---|
-| SKU comparison | [sku-comparison.md](limits-and-skus/sku-comparison.md) | 🔲 stub |
-| Service limits quick reference | [service-limits.md](limits-and-skus/service-limits.md) | 🔲 stub |
+| SKU comparison | [sku-comparison.md](limits-and-skus/sku-comparison.md) | ✅ current |
+| Service limits quick reference | — | 🔲 stub |
 
 ---
 

@@ -21,7 +21,7 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 
 ## Current status
 
-> **Coverage: 22 / 23 services compiled** as of 2026-04-10. See [`wiki/index.md`](wiki/index.md) for the full index.
+> **Coverage: 22 / 23 services · 5 concepts · 4 decision guides · 1 SKU reference** as of 2026-04-10. See [`wiki/index.md`](wiki/index.md) for the full index.
 
 | Service | Raw articles | Wiki page | Status |
 |---|---|---|---|
@@ -48,6 +48,31 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 | Peering Service | 9 | `wiki/services/peering-service.md` | ✅ compiled |
 | Network Function Manager | 8 | `wiki/services/network-function-manager.md` | ✅ compiled |
 | Networking (cross-service) | 77 | — | 🔲 not started |
+
+### Concept pages
+
+| Concept | Wiki page | Status |
+|---|---|---|
+| Hub-spoke topology | `wiki/concepts/hub-spoke-networking.md` | ✅ compiled |
+| Hybrid connectivity | `wiki/concepts/hybrid-connectivity.md` | ✅ compiled |
+| IP addressing | `wiki/concepts/ip-addressing.md` | ✅ compiled |
+| Network security design | `wiki/concepts/network-security-design.md` | ✅ compiled |
+| Routing | `wiki/concepts/routing.md` | ✅ compiled |
+
+### Decision guides
+
+| Decision | Wiki page | Status |
+|---|---|---|
+| Connectivity options | `wiki/decisions/connectivity-options.md` | ✅ compiled |
+| Load balancing options | `wiki/decisions/load-balancing-options.md` | ✅ compiled |
+| Firewall & security options | `wiki/decisions/firewall-and-security-options.md` | ✅ compiled |
+| Private access options | `wiki/decisions/private-access-options.md` | ✅ compiled |
+
+### Limits & SKU reference
+
+| Article | Wiki page | Status |
+|---|---|---|
+| SKU comparison | `wiki/limits-and-skus/sku-comparison.md` | ✅ compiled |
 
 ---
 
