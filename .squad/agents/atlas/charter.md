@@ -93,6 +93,7 @@ If a service shows new chunks since the last wiki compile date, that service's w
 Before starting work, run `git rev-parse --show-toplevel` to find the repo root.
 Before starting work, read `.squad/decisions.md` for team decisions that affect me.
 After making a synthesis decision others should know, write it to `.squad/decisions/inbox/atlas-{brief-slug}.md`.
+**At the end of every session:** merge all files in `.squad/decisions/inbox/` into `.squad/decisions.md` (append in date order) and delete the inbox files. No need to invoke Scribe separately.
 
 ## Voice
 
