@@ -24,103 +24,61 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 
 > **Coverage: 23 / 23 services · 17 concepts · 10 comparisons · 8 patterns · 4 decision guides · 4 limits/tracking references · 23 source summaries** as of 2026-04-10. See [`wiki/index.md`](wiki/index.md) for the full index.
 
-| Service | Raw articles | Wiki page | Status |
-|---|---|---|---|
-| Azure Virtual Network | 128 | `wiki/services/virtual-network.md` | ✅ compiled |
-| ExpressRoute | 92 | `wiki/services/expressroute.md` | ✅ compiled |
-| VPN Gateway | 107 | `wiki/services/vpn-gateway.md` | ✅ compiled |
-| Azure Firewall | 86 | `wiki/services/azure-firewall.md` | ✅ compiled |
-| Application Gateway | 175 | `wiki/services/application-gateway.md` | ✅ compiled |
-| Azure Load Balancer | 94 | `wiki/services/load-balancer.md` | ✅ compiled |
-| NAT Gateway | 27 | `wiki/services/nat-gateway.md` | ✅ compiled |
-| Azure Bastion | 41 | `wiki/services/bastion.md` | ✅ compiled |
-| Private Link | 48 | `wiki/services/private-link.md` | ✅ compiled |
-| DDoS Protection | 32 | `wiki/services/ddos-protection.md` | ✅ compiled |
-| Azure DNS | 69 | `wiki/services/dns.md` | ✅ compiled |
-| Network Watcher | 64 | `wiki/services/network-watcher.md` | ✅ compiled |
-| Azure Front Door | 102 | `wiki/services/front-door.md` | ✅ compiled |
-| Traffic Manager | 45 | `wiki/services/traffic-manager.md` | ✅ compiled |
-| Virtual WAN | 133 | `wiki/services/virtual-wan.md` | ✅ compiled |
-| Azure Route Server | 21 | `wiki/services/route-server.md` | ✅ compiled |
-| Web Application Firewall | 77 | `wiki/services/web-application-firewall.md` | ✅ compiled |
-| Azure Firewall Manager | 27 | `wiki/services/firewall-manager.md` | ✅ compiled |
-| Virtual Network Manager | 52 | `wiki/services/virtual-network-manager.md` | ✅ compiled |
-| Internet Peering | 23 | `wiki/services/internet-peering.md` | ✅ compiled |
-| Peering Service | 9 | `wiki/services/peering-service.md` | ✅ compiled |
-| Network Function Manager | 8 | `wiki/services/network-function-manager.md` | ✅ compiled |
-| Networking (cross-service) | 60 | `wiki/concepts/azure-networking-fundamentals.md` | ✅ compiled |
-
-### Concept pages
-
-| Concept | Wiki page | Status |
+| Category | Count | Location |
 |---|---|---|
-| Azure Networking Fundamentals | `wiki/concepts/azure-networking-fundamentals.md` | ✅ compiled |
-| Hub-spoke topology | `wiki/concepts/hub-spoke-networking.md` | ✅ compiled |
-| Hybrid connectivity | `wiki/concepts/hybrid-connectivity.md` | ✅ compiled |
-| IP addressing | `wiki/concepts/ip-addressing.md` | ✅ compiled |
-| Network security design | `wiki/concepts/network-security-design.md` | ✅ compiled |
-| Routing | `wiki/concepts/routing.md` | ✅ compiled |
-| Private access to PaaS | `wiki/concepts/private-access-to-paas.md` | ✅ compiled |
-| Monitoring | `wiki/concepts/monitoring.md` | ✅ compiled |
-| SNAT in Azure | `wiki/concepts/snat.md` | ✅ compiled |
-| BGP and dynamic routing | `wiki/concepts/bgp-dynamic-routing.md` | ✅ compiled |
-| User-defined routes (UDRs) | `wiki/concepts/user-defined-routes.md` | ✅ compiled |
-| Network Security Groups (NSGs) | `wiki/concepts/network-security-groups.md` | ✅ compiled |
-| VNet peering | `wiki/concepts/vnet-peering.md` | ✅ compiled |
-| DNS zones and records | `wiki/concepts/dns-zones-and-records.md` | ✅ compiled |
-| Flow logs | `wiki/concepts/flow-logs.md` | ✅ compiled |
-| Service endpoints | `wiki/concepts/service-endpoints.md` | ✅ compiled |
-| VNet encryption | `wiki/concepts/vnet-encryption.md` | ✅ compiled |
+| Service pages | 23 | `wiki/services/` |
+| Concept pages | 17 | `wiki/concepts/` |
+| Comparison pages | 10 | `wiki/comparisons/` |
+| Deployment patterns | 8 | `wiki/patterns/` |
+| Decision guides | 4 | `wiki/decisions/` |
+| Limits & tracking references | 4 | `wiki/limits-and-skus/` |
+| Source summaries | 23 | `wiki/sources/` |
 
-### Comparisons
+<details>
+<summary>Services (23/23)</summary>
 
-| Comparison | Wiki page | Status |
+| Service | Raw articles | Wiki page |
 |---|---|---|
-| Load balancing options | `wiki/comparisons/load-balancing-options.md` | ✅ compiled |
-| VPN Gateway vs ExpressRoute | `wiki/comparisons/vpn-gateway-vs-expressroute.md` | ✅ compiled |
-| Azure Firewall vs NSG | `wiki/comparisons/firewall-vs-nsg.md` | ✅ compiled |
-| Azure Firewall SKU comparison | `wiki/comparisons/firewall-sku-comparison.md` | ✅ compiled |
-| Virtual WAN vs hub-spoke | `wiki/comparisons/virtual-wan-vs-hub-spoke.md` | ✅ compiled |
-| Private Endpoint vs Service Endpoint | `wiki/comparisons/private-endpoints-vs-service-endpoints.md` | ✅ compiled |
-| Application Gateway vs Front Door | `wiki/comparisons/app-gateway-vs-front-door.md` | ✅ compiled |
-| Azure Front Door vs Traffic Manager | `wiki/comparisons/front-door-vs-traffic-manager.md` | ✅ compiled |
-| DDoS IP Protection vs Network Protection | `wiki/comparisons/ddos-ip-vs-network-protection.md` | ✅ compiled |
-| Private DNS Resolver vs custom DNS | `wiki/comparisons/private-dns-resolver-vs-custom-dns.md` | ✅ compiled |
+| Azure Virtual Network | 128 | `wiki/services/virtual-network.md` |
+| ExpressRoute | 92 | `wiki/services/expressroute.md` |
+| VPN Gateway | 107 | `wiki/services/vpn-gateway.md` |
+| Azure Firewall | 86 | `wiki/services/azure-firewall.md` |
+| Application Gateway | 175 | `wiki/services/application-gateway.md` |
+| Azure Load Balancer | 94 | `wiki/services/load-balancer.md` |
+| NAT Gateway | 27 | `wiki/services/nat-gateway.md` |
+| Azure Bastion | 41 | `wiki/services/bastion.md` |
+| Private Link | 48 | `wiki/services/private-link.md` |
+| DDoS Protection | 32 | `wiki/services/ddos-protection.md` |
+| Azure DNS | 69 | `wiki/services/dns.md` |
+| Network Watcher | 64 | `wiki/services/network-watcher.md` |
+| Azure Front Door | 102 | `wiki/services/front-door.md` |
+| Traffic Manager | 45 | `wiki/services/traffic-manager.md` |
+| Virtual WAN | 133 | `wiki/services/virtual-wan.md` |
+| Azure Route Server | 21 | `wiki/services/route-server.md` |
+| Web Application Firewall | 77 | `wiki/services/web-application-firewall.md` |
+| Azure Firewall Manager | 27 | `wiki/services/firewall-manager.md` |
+| Virtual Network Manager | 52 | `wiki/services/virtual-network-manager.md` |
+| Internet Peering | 23 | `wiki/services/internet-peering.md` |
+| Peering Service | 9 | `wiki/services/peering-service.md` |
+| Network Function Manager | 8 | `wiki/services/network-function-manager.md` |
+| Networking (cross-service) | 60 | `wiki/concepts/azure-networking-fundamentals.md` |
 
-### Patterns
+</details>
 
-| Pattern | Wiki page | Status |
-|---|---|---|
-| Hub-spoke with Azure Firewall | `wiki/patterns/hub-spoke-with-firewall.md` | ✅ compiled |
-| NAT Gateway in hub-spoke | `wiki/patterns/nat-gateway-hub-spoke.md` | ✅ compiled |
-| Hybrid DNS resolution | `wiki/patterns/dns-hybrid-resolution.md` | ✅ compiled |
-| ExpressRoute resiliency patterns | `wiki/patterns/expressroute-resiliency-patterns.md` | ✅ compiled |
-| Multi-region active-active with Front Door | `wiki/patterns/multi-region-front-door.md` | ✅ compiled |
-| Zero Trust application delivery | `wiki/patterns/zero-trust-app-delivery.md` | ✅ compiled |
-| Enterprise-scale hub-spoke with AVNM | `wiki/patterns/avnm-enterprise-scale.md` | ✅ compiled |
-| Private AKS cluster networking | `wiki/patterns/private-aks-networking.md` | ✅ compiled |
+<details>
+<summary>Concepts (17), Comparisons (10), Patterns (8), Decision guides (4), Limits (4)</summary>
 
-### Decision guides
+**Concepts:** Azure Networking Fundamentals · Hub-spoke topology · Hybrid connectivity · IP addressing · Network security design · Routing · Private access to PaaS · Monitoring · SNAT · BGP and dynamic routing · User-defined routes · Network Security Groups · VNet peering · DNS zones and records · Flow logs · Service endpoints · VNet encryption
 
-| Decision | Wiki page | Status |
-|---|---|---|
-| Connectivity options | `wiki/decisions/connectivity-options.md` | ✅ compiled |
-| Load balancing options | `wiki/decisions/load-balancing-options.md` | ✅ compiled |
-| Firewall & security options | `wiki/decisions/firewall-and-security-options.md` | ✅ compiled |
-| Private access options | `wiki/decisions/private-access-options.md` | ✅ compiled |
+**Comparisons:** Load balancing options · VPN Gateway vs ExpressRoute · Azure Firewall vs NSG · Azure Firewall SKU comparison · Virtual WAN vs hub-spoke · Private Endpoint vs Service Endpoint · App Gateway vs Front Door · Front Door vs Traffic Manager · DDoS IP vs Network Protection · Private DNS Resolver vs custom DNS
 
-### Limits & SKU reference
+**Patterns:** Hub-spoke with Firewall · NAT Gateway in hub-spoke · Hybrid DNS resolution · ExpressRoute resiliency · Multi-region active-active with Front Door · Zero Trust application delivery · Enterprise-scale hub-spoke with AVNM · Private AKS cluster networking
 
-| Article | Wiki page | Status |
-|---|---|---|
-| SKU comparison | `wiki/limits-and-skus/sku-comparison.md` | ✅ compiled |
-| Service limits quick reference | `wiki/limits-and-skus/service-limits-quick-reference.md` | ✅ compiled |
-| Retirement and deprecation tracker | `wiki/limits-and-skus/retirement-tracker.md` | ✅ compiled |
-| [VERIFY] queue | `wiki/limits-and-skus/verify-queue.md` | ✅ compiled |
+**Decision guides:** Connectivity options · Load balancing · Firewall & security · Private access
 
-### Source summaries
+**Limits & tracking:** SKU comparison · Service limits quick reference · Retirement and deprecation tracker · [VERIFY] queue
 
-Per-service summaries of raw source material: article counts, coverage strengths, gaps, and links to compiled wiki pages. Located in `wiki/sources/` — one file per service.
+</details>
 
 ---
 
@@ -171,17 +129,25 @@ azure-networking-kb/
 ├── wiki/
 │   ├── index.md             # Master index — start here
 │   ├── log.md               # Chronological operations log
+│   ├── ingest-tracker.md    # Per-service sync/compile status
 │   ├── health-report.md     # Latest Lore health check output
-│   ├── services/            # 23 per-service compiled summaries
-│   ├── concepts/            # 17 concept pages (SNAT, BGP, UDRs, NSGs, peering, DNS, flow logs, etc.)
-│   ├── comparisons/         # 7 decision matrices (Firewall vs NSG, VWAN vs hub-spoke, etc.)
-│   ├── patterns/            # 4 deployment pattern pages with architecture diagrams
+│   ├── services/            # 23 per-service compiled pages
+│   ├── concepts/            # 17 cross-cutting concept pages
+│   ├── comparisons/         # 10 side-by-side decision matrices
+│   ├── patterns/            # 8 deployment pattern pages with architecture diagrams
 │   ├── decisions/           # 4 decision guides (which service to use when?)
-│   ├── limits-and-skus/     # 2 SKU comparison and service limits reference pages
+│   ├── limits-and-skus/     # 4 reference pages (SKUs, limits, retirements, verify queue)
 │   └── sources/             # 23 per-service source summaries (article counts, coverage gaps)
 ├── scripts/
 │   ├── sync-raw.ps1             # Sync networking articles from azure-docs-pr
 │   └── check-kb-freshness.ps1   # Staleness detection: compare source ms.date vs wiki compiled date
+├── .squad/
+│   ├── team.md              # Squad roster
+│   ├── decisions.md         # Consolidated team decision log (maintained by Scribe)
+│   ├── routing.md           # Agent routing rules
+│   └── agents/              # Per-agent charters (Atlas, Lore, Scribe)
+├── FORGE-HANDOFF.md         # Re-index instructions for the Networking DB team
+└── NEW-KB-PROMPT.md         # Bootstrap prompt for spinning up a new KB squad
 ```
 
 ---
@@ -201,7 +167,10 @@ azure-docs-pr  ──►  raw/articles/  ──►  Atlas  ──►  wiki/servi
 
 ## Contributing
 
-- To add new source articles: run `sync-raw.ps1 -Services @('service-name')`
-- To trigger a wiki recompile: ask Atlas via Copilot CLI
-- To report a wiki issue: open a GitHub issue with label `wiki-gap` or `wiki-stale`
-- To run a health check: `Lore, run a full wiki health check and write findings to wiki/health-report.md`
+| Task | How |
+|---|---|
+| Add new source articles | `.\scripts\sync-raw.ps1 -Services @('service-name')` |
+| Recompile a wiki page | Ask Atlas via Copilot CLI: `"Atlas, recompile {service}"` |
+| Run a health check | `"Lore, run a full wiki health check"` |
+| Merge decision inbox | `"Scribe, merge the decisions inbox"` |
+| Report an issue | Open a GitHub issue with label `wiki-gap` or `wiki-stale` |
