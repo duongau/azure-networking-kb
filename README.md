@@ -21,7 +21,7 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 
 ## Current status
 
-> **Coverage: 22 / 23 services · 5 concepts · 4 decision guides · 1 SKU reference** as of 2026-04-10. See [`wiki/index.md`](wiki/index.md) for the full index.
+> **Coverage: 23 / 23 services · 13 concepts · 7 comparisons · 4 patterns · 4 decision guides · 2 limits references** as of 2026-04-10. See [`wiki/index.md`](wiki/index.md) for the full index.
 
 | Service | Raw articles | Wiki page | Status |
 |---|---|---|---|
@@ -47,17 +47,46 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 | Internet Peering | 23 | `wiki/services/internet-peering.md` | ✅ compiled |
 | Peering Service | 9 | `wiki/services/peering-service.md` | ✅ compiled |
 | Network Function Manager | 8 | `wiki/services/network-function-manager.md` | ✅ compiled |
-| Networking (cross-service) | 77 | used as source for concepts/decisions | ✅ ingested |
+| Networking (cross-service) | 60 | `wiki/concepts/azure-networking-fundamentals.md` | ✅ compiled |
 
 ### Concept pages
 
 | Concept | Wiki page | Status |
 |---|---|---|
+| Azure Networking Fundamentals | `wiki/concepts/azure-networking-fundamentals.md` | ✅ compiled |
 | Hub-spoke topology | `wiki/concepts/hub-spoke-networking.md` | ✅ compiled |
 | Hybrid connectivity | `wiki/concepts/hybrid-connectivity.md` | ✅ compiled |
 | IP addressing | `wiki/concepts/ip-addressing.md` | ✅ compiled |
 | Network security design | `wiki/concepts/network-security-design.md` | ✅ compiled |
 | Routing | `wiki/concepts/routing.md` | ✅ compiled |
+| Private access to PaaS | `wiki/concepts/private-access-to-paas.md` | ✅ compiled |
+| Monitoring | `wiki/concepts/monitoring.md` | ✅ compiled |
+| SNAT in Azure | `wiki/concepts/snat.md` | ✅ compiled |
+| BGP and dynamic routing | `wiki/concepts/bgp-dynamic-routing.md` | ✅ compiled |
+| User-defined routes (UDRs) | `wiki/concepts/user-defined-routes.md` | ✅ compiled |
+| Network Security Groups (NSGs) | `wiki/concepts/network-security-groups.md` | ✅ compiled |
+| VNet peering | `wiki/concepts/vnet-peering.md` | ✅ compiled |
+
+### Comparisons
+
+| Comparison | Wiki page | Status |
+|---|---|---|
+| Load balancing options | `wiki/comparisons/load-balancing-options.md` | ✅ compiled |
+| VPN Gateway vs ExpressRoute | `wiki/comparisons/vpn-gateway-vs-expressroute.md` | ✅ compiled |
+| Azure Firewall vs NSG | `wiki/comparisons/firewall-vs-nsg.md` | ✅ compiled |
+| Azure Firewall SKU comparison | `wiki/comparisons/firewall-sku-comparison.md` | ✅ compiled |
+| Virtual WAN vs hub-spoke | `wiki/comparisons/virtual-wan-vs-hub-spoke.md` | ✅ compiled |
+| Private Endpoint vs Service Endpoint | `wiki/comparisons/private-endpoints-vs-service-endpoints.md` | ✅ compiled |
+| Application Gateway vs Front Door | `wiki/comparisons/app-gateway-vs-front-door.md` | ✅ compiled |
+
+### Patterns
+
+| Pattern | Wiki page | Status |
+|---|---|---|
+| Hub-spoke with Azure Firewall | `wiki/patterns/hub-spoke-with-firewall.md` | ✅ compiled |
+| NAT Gateway in hub-spoke | `wiki/patterns/nat-gateway-hub-spoke.md` | ✅ compiled |
+| Hybrid DNS resolution | `wiki/patterns/dns-hybrid-resolution.md` | ✅ compiled |
+| ExpressRoute resiliency patterns | `wiki/patterns/expressroute-resiliency-patterns.md` | ✅ compiled |
 
 ### Decision guides
 
@@ -73,6 +102,7 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 | Article | Wiki page | Status |
 |---|---|---|
 | SKU comparison | `wiki/limits-and-skus/sku-comparison.md` | ✅ compiled |
+| Service limits quick reference | `wiki/limits-and-skus/service-limits-quick-reference.md` | ✅ compiled |
 
 ---
 
@@ -118,14 +148,18 @@ cd "C:\GitHub\azure-networking-kb"
 ```
 azure-networking-kb/
 ├── raw/
-│   ├── manifest.json        # Tracks ingested articles + last-synced dates
+│   ├── manifest.json        # Tracks 1,554 ingested articles + wiki_page mappings
 │   └── articles/            # Source articles copied from azure-docs-pr (23 services)
 ├── wiki/
 │   ├── index.md             # Master index — start here
-│   ├── services/            # Per-service compiled summaries
-│   ├── concepts/            # Cross-cutting concepts (routing, hybrid, security, etc.)
-│   ├── decisions/           # Decision guides (which service to use when?)
-│   └── limits-and-skus/     # SKU comparisons and service limits reference
+│   ├── log.md               # Chronological operations log
+│   ├── health-report.md     # Latest Lore health check output
+│   ├── services/            # 23 per-service compiled summaries
+│   ├── concepts/            # 13 concept pages (SNAT, BGP, UDRs, NSGs, peering, etc.)
+│   ├── comparisons/         # 7 decision matrices (Firewall vs NSG, VWAN vs hub-spoke, etc.)
+│   ├── patterns/            # 4 deployment pattern pages with architecture diagrams
+│   ├── decisions/           # 4 decision guides (which service to use when?)
+│   └── limits-and-skus/     # 2 SKU comparison and service limits reference pages
 ├── scripts/
 │   ├── sync-raw.ps1             # Sync networking articles from azure-docs-pr
 │   └── check-kb-freshness.ps1   # Staleness detection: compare source ms.date vs wiki compiled date
