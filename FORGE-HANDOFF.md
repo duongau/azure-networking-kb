@@ -15,7 +15,7 @@ The Azure Networking KB had a major build-out session. The wiki went from partia
 
 ```powershell
 cd "C:\GitHub\azure-networking-kb"
-git pull   # pulls from 228a141 → 9464044 (two commits of new content)
+git pull   # current HEAD: 506d4a6
 ```
 
 Then re-embed all new/updated files in `wiki/`. Use the `rag-embeddings` skill for incremental update — it will only re-embed what changed.
