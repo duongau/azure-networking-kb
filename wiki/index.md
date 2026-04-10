@@ -1,6 +1,6 @@
 # Azure Networking Knowledge Base — Index
 
-> **Last compiled:** 2026-04-09 | **Atlas version:** — | **Coverage:** 12 / 23 services
+> **Last compiled:** 2026-04-10 | **Atlas version:** — | **Coverage:** 21 / 23 services
 
 This is the entry point for the Azure Networking KB. All wiki pages are compiled by Atlas from source articles in `raw/`.
 
@@ -24,14 +24,14 @@ This is the entry point for the Azure Networking KB. All wiki pages are compiled
 | Network Watcher | [network-watcher.md](services/network-watcher.md) | ✅ current | 2025-07-14 |
 | Azure Front Door | [front-door.md](services/front-door.md) | 🔲 stub | — |
 | Traffic Manager | [traffic-manager.md](services/traffic-manager.md) | 🔲 stub | — |
-| Virtual WAN | [virtual-wan.md](services/virtual-wan.md) | 🔲 stub | — |
-| Azure Route Server | [route-server.md](services/route-server.md) | 🔲 stub | — |
-| Web Application Firewall | [web-application-firewall.md](services/web-application-firewall.md) | 🔲 stub | — |
-| Azure Firewall Manager | [firewall-manager.md](services/firewall-manager.md) | 🔲 stub | — |
-| Azure Virtual Network Manager | [virtual-network-manager.md](services/virtual-network-manager.md) | 🔲 stub | — |
+| Virtual WAN | [virtual-wan.md](services/virtual-wan.md) | ✅ current | 2026-04-10 |
+| Azure Route Server | [route-server.md](services/route-server.md) | ✅ current | 2026-04-10 |
+| Web Application Firewall | [web-application-firewall.md](services/web-application-firewall.md) | ✅ current | 2026-04-10 |
+| Azure Firewall Manager | [firewall-manager.md](services/firewall-manager.md) | ✅ current | 2026-04-10 |
+| Azure Virtual Network Manager | [virtual-network-manager.md](services/virtual-network-manager.md) | ✅ current | 2026-04-10 |
 | Internet Peering | [internet-peering.md](services/internet-peering.md) | 🔲 stub | — |
-| Peering Service | [peering-service.md](services/peering-service.md) | 🔲 stub | — |
-| Network Function Manager | [network-function-manager.md](services/network-function-manager.md) | 🔲 stub | — |
+| Peering Service | [peering-service.md](services/peering-service.md) | ✅ current | 2026-04-10 |
+| Network Function Manager | [network-function-manager.md](services/network-function-manager.md) | ✅ current | 2026-04-10 |
 
 ---
 
