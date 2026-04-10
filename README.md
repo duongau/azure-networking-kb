@@ -21,7 +21,7 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 
 ## Current status
 
-> **Coverage: 21 / 23 services compiled** as of 2026-04-10. See [`wiki/index.md`](wiki/index.md) for the full index.
+> **Coverage: 22 / 23 services compiled** as of 2026-04-10. See [`wiki/index.md`](wiki/index.md) for the full index.
 
 | Service | Raw articles | Wiki page | Status |
 |---|---|---|---|
@@ -44,7 +44,7 @@ The output (`wiki/`) is plain markdown — readable in any editor, searchable wi
 | Web Application Firewall | 77 | `wiki/services/web-application-firewall.md` | ✅ compiled |
 | Azure Firewall Manager | 27 | `wiki/services/firewall-manager.md` | ✅ compiled |
 | Virtual Network Manager | 52 | `wiki/services/virtual-network-manager.md` | ✅ compiled |
-| Internet Peering | 23 | `wiki/services/internet-peering.md` | 🔄 in progress |
+| Internet Peering | 23 | `wiki/services/internet-peering.md` | ✅ compiled |
 | Peering Service | 9 | `wiki/services/peering-service.md` | ✅ compiled |
 | Network Function Manager | 8 | `wiki/services/network-function-manager.md` | ✅ compiled |
 | Networking (cross-service) | 77 | — | 🔲 not started |
