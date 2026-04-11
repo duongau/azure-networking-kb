@@ -32,7 +32,12 @@
 5. **Check RAG sync log** at `C:\GitHub\Azure Networking DB\vectorstore\sync_log.txt`:
    - Find services with new chunks since the wiki page's compiled date
    - Flag those pages as candidates for recompile (🟡 Warning)
-6. Write findings to `wiki/health-report.md`
+6. **Check KB vectorstore staleness** — compare the KB re-embed date against wiki compiled dates:
+   - Read `C:\GitHub\Azure Networking DB\vectorstore\embeddings_checkpoint.json` to get the last embed timestamp for the `azure_networking_kb` table
+   - Compare against the compiled date on every wiki page
+   - If **any** wiki page was compiled after the last re-embed → flag 🟡 `"KB vectorstore stale — re-embed needed"` in the health report
+   - List the specific pages that are newer than the last embed
+7. Write findings to `wiki/health-report.md`
 
 ### Health report format
 ```markdown
